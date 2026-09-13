@@ -1,0 +1,12 @@
+{
+    "activeScene": "scenes/Ember.json",
+    "name": "Ember",
+    "scenes": [
+        "scenes/Ember.json"
+    ],
+    "settings": {
+        "defaultMainScript": "",
+        "rendererType": "forward"
+    },
+    "version": 1
+}

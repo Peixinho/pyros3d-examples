@@ -10,6 +10,7 @@ the download of the others.
 | Example | What it shows |
 | --- | --- |
 | [Rossio](Rossio) | A wave-defence firefight in a metro station — deferred rendering, skeletal animation, ragdolls, decals, particles, a Lua FPS controller |
+| [Ember](Ember) | A 2D platformer where you play the Pyros logo — 2D lighting with occluder shadows, parallax layers, spritesheet animation, Box2D platforming, particles and a synthesised soundtrack |
 
 ## Adding an example
 

@@ -1,0 +1,6 @@
+{
+    "name": "Ember",
+    "description": "A 2D platformer where you play the Pyros logo. Your flame is your health, your light and your clock at once: it burns down on its own, ember shards feed it, frostlings eat it, and the mid-air flare jump spends it. The level, the lights, the emitters and the HUD are all authored in PyrosBuilder; the scene script only runs the game. Shows 2D lighting with occluder shadows, parallax layers, spritesheet animation, Box2D platforming with moving platforms, particles and a synthesised soundtrack.",
+    "author": "Duarte Peixinho",
+    "tags": ["2D", "platformer", "lighting", "physics", "particles", "lua", "audio"]
+}
