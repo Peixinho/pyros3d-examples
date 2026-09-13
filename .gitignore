@@ -1,0 +1,8 @@
+# The editor's undo-safety folder. Not content - it is whatever the author
+# last deleted, and it is usually bigger than the project.
+.trash/
+
+# Built games (PyrosBuilder > Build). Rebuild them from the project.
+build/
+
+.DS_Store

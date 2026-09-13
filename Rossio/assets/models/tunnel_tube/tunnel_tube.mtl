@@ -1,0 +1,30 @@
+newmtl concrete_dark
+Kd 1.0000 1.0000 1.0000
+Ks 0.1000 0.1000 0.1000
+Ns 12.00
+d 1.000
+map_Kd textures/concrete_dark.png
+map_Bump textures/concrete_dark_n.png
+bump textures/concrete_dark_n.png
+map_Ks textures/concrete_dark_s.png
+
+newmtl tunnel_wall
+Kd 1.0000 1.0000 1.0000
+Ks 0.0600 0.0600 0.0600
+Ns 8.00
+d 1.000
+map_Kd textures/tunnel_wall.png
+map_Bump textures/tunnel_wall_n.png
+bump textures/tunnel_wall_n.png
+map_Ks textures/tunnel_wall_s.png
+
+newmtl rust
+Kd 1.0000 1.0000 1.0000
+Ks 0.3500 0.3400 0.3200
+Ns 40.00
+d 1.000
+map_Kd textures/metal_rust.png
+map_Bump textures/metal_rust_n.png
+bump textures/metal_rust_n.png
+map_Ks textures/metal_rust_s.png
+

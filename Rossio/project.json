@@ -1,0 +1,18 @@
+{
+    "activeScene": "scenes/Rossio.json",
+    "name": "Rossio",
+    "scenes": [
+        "scenes/AltRigTest.json",
+        "scenes/AnimTest.json",
+        "scenes/EnemyTest.json",
+        "scenes/RagdollEnemyTest.json",
+        "scenes/RagdollSkinTest.json",
+        "scenes/RagdollTest.json",
+        "scenes/Rossio.json"
+    ],
+    "settings": {
+        "defaultMainScript": "",
+        "rendererType": "deferred"
+    },
+    "version": 1
+}

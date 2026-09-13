@@ -1,0 +1,38 @@
+newmtl steel
+Kd 1.0000 1.0000 1.0000
+Ks 0.7500 0.7600 0.8000
+Ns 110.00
+d 1.000
+map_Kd textures/metal_brushed.png
+map_Bump textures/metal_brushed_n.png
+bump textures/metal_brushed_n.png
+map_Ks textures/metal_brushed_s.png
+
+newmtl steel_dark
+Kd 1.0000 1.0000 1.0000
+Ks 0.5500 0.5700 0.6200
+Ns 90.00
+d 1.000
+map_Kd textures/metal_dark.png
+map_Bump textures/metal_dark_n.png
+bump textures/metal_dark_n.png
+map_Ks textures/metal_dark_s.png
+
+newmtl glass_clear
+Kd 0.5500 0.6200 0.6600
+Ks 0.8500 0.9000 0.9500
+Ns 140.00
+d 0.420
+
+newmtl rubber
+Kd 0.0500 0.0500 0.0550
+Ks 0.0600 0.0600 0.0600
+Ns 6.00
+d 1.000
+
+newmtl paint_yellow
+Kd 0.7200 0.5600 0.0500
+Ks 0.4000 0.4000 0.4000
+Ns 50.00
+d 1.000
+

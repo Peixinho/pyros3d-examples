@@ -1,0 +1,20 @@
+newmtl concrete
+Kd 1.0000 1.0000 1.0000
+Ks 0.1000 0.1000 0.1000
+Ns 12.00
+d 1.000
+map_Kd textures/concrete.png
+map_Bump textures/concrete_n.png
+bump textures/concrete_n.png
+map_Ks textures/concrete_s.png
+
+newmtl concrete_dark
+Kd 1.0000 1.0000 1.0000
+Ks 0.1000 0.1000 0.1000
+Ns 12.00
+d 1.000
+map_Kd textures/concrete_dark.png
+map_Bump textures/concrete_dark_n.png
+bump textures/concrete_dark_n.png
+map_Ks textures/concrete_dark_s.png
+

@@ -1,0 +1,39 @@
+newmtl granite
+Kd 1.0000 1.0000 1.0000
+Ks 0.3000 0.3000 0.3200
+Ns 48.00
+d 1.000
+map_Kd textures/floor_granite.png
+map_Bump textures/floor_granite_n.png
+bump textures/floor_granite_n.png
+map_Ks textures/floor_granite_s.png
+
+newmtl concrete
+Kd 1.0000 1.0000 1.0000
+Ks 0.1000 0.1000 0.1000
+Ns 12.00
+d 1.000
+map_Kd textures/concrete.png
+map_Bump textures/concrete_n.png
+bump textures/concrete_n.png
+map_Ks textures/concrete_s.png
+
+newmtl concrete_dark
+Kd 1.0000 1.0000 1.0000
+Ks 0.1000 0.1000 0.1000
+Ns 12.00
+d 1.000
+map_Kd textures/concrete_dark.png
+map_Bump textures/concrete_dark_n.png
+bump textures/concrete_dark_n.png
+map_Ks textures/concrete_dark_s.png
+
+newmtl tactile
+Kd 1.0000 1.0000 1.0000
+Ks 0.2000 0.2000 0.1600
+Ns 20.00
+d 1.000
+map_Kd textures/tactile_yellow.png
+map_Bump textures/tactile_yellow_n.png
+bump textures/tactile_yellow_n.png
+

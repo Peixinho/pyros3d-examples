@@ -1,0 +1,24 @@
+newmtl steel_dark
+Kd 1.0000 1.0000 1.0000
+Ks 0.5500 0.5700 0.6200
+Ns 90.00
+d 1.000
+map_Kd textures/metal_dark.png
+map_Bump textures/metal_dark_n.png
+bump textures/metal_dark_n.png
+map_Ks textures/metal_dark_s.png
+
+newmtl plastic_grey
+Kd 0.2200 0.2300 0.2500
+Ks 0.3000 0.3000 0.3200
+Ns 40.00
+d 1.000
+
+newmtl screen_board
+Kd 1.0000 1.0000 1.0000
+Ks 0.1500 0.1500 0.1500
+Ns 24.00
+d 1.000
+Ke 0.3000 0.3000 0.3000
+map_Kd textures/board_departures.png
+

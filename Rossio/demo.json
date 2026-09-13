@@ -1,0 +1,6 @@
+{
+    "name": "Rossio",
+    "description": "A wave-defence firefight in a Lisbon metro station. The level is authored entirely in PyrosBuilder - geometry, deferred lights, particle emitters, the enemy pool and the HUD canvas - and the scene script only runs the game. Shows deferred rendering, skeletal animation, ragdolls, decals and a Lua-driven FPS controller.",
+    "author": "Duarte Peixinho",
+    "tags": ["3D", "deferred", "fps", "lua", "ragdolls", "particles"]
+}

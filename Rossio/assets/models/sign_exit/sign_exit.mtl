@@ -1,0 +1,18 @@
+newmtl steel_dark
+Kd 1.0000 1.0000 1.0000
+Ks 0.5500 0.5700 0.6200
+Ns 90.00
+d 1.000
+map_Kd textures/metal_dark.png
+map_Bump textures/metal_dark_n.png
+bump textures/metal_dark_n.png
+map_Ks textures/metal_dark_s.png
+
+newmtl sign_exit_f
+Kd 1.0000 1.0000 1.0000
+Ks 0.1500 0.1500 0.1500
+Ns 24.00
+d 1.000
+Ke 0.3000 0.3000 0.3000
+map_Kd textures/sign_exit.png
+

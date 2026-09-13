@@ -1,0 +1,12 @@
+{
+  "activeCamera": "Camera",
+  "cameras": {
+    "Camera": {
+      "far": 300.0,
+      "fov": 68.0,
+      "near": 0.05000000074505806,
+      "orthoSize": 10.0,
+      "orthographic": false
+    }
+  }
+}

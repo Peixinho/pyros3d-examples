@@ -1,0 +1,1387 @@
+{
+    "ambientEquator": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224
+    ],
+    "ambientGround": [
+        0.10000000149011612,
+        0.09000000357627869,
+        0.07999999821186066
+    ],
+    "ambientIntensity": 0.44999998807907104,
+    "ambientLight": [
+        0.550000011920929,
+        0.6000000238418579,
+        0.699999988079071
+    ],
+    "ambientMode": 0,
+    "ambientSky": [
+        0.3199999928474426,
+        0.3799999952316284,
+        0.44999998807907104
+    ],
+    "background": [
+        0.10000000149011612,
+        0.10999999940395355,
+        0.12999999523162842
+    ],
+    "mainScript": "scenes/EnemyTest.lua",
+    "materials": [
+        {
+            "alphaCutoff": 0.5,
+            "blendDFactor": 0,
+            "blendEquation": 0,
+            "blendSFactor": 0,
+            "blending": false,
+            "castingShadows": true,
+            "color": [
+                0.5799999833106995,
+                0.5899999737739563,
+                0.6299999952316284,
+                1.0
+            ],
+            "cullFace": 0,
+            "depthBias": false,
+            "depthBiasFactor": 0.0,
+            "depthBiasUnits": 0.0,
+            "depthTest": true,
+            "depthWrite": true,
+            "displacementHeight": 0.05000000074505806,
+            "id": 0,
+            "kind": "generic",
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "options": 23553,
+            "reflectivity": 0.0,
+            "roughness": 0.0,
+            "shininess": 50.0,
+            "specular": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "ssrEnabled": false,
+            "transparent": false,
+            "wireframe": false
+        },
+        {
+            "alphaCutoff": 0.5,
+            "blendDFactor": 0,
+            "blendEquation": 0,
+            "blendSFactor": 0,
+            "blending": false,
+            "castingShadows": true,
+            "color": [
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                1.0
+            ],
+            "colorMap": "assets/models/test_m.png",
+            "cullFace": 0,
+            "depthBias": false,
+            "depthBiasFactor": 0.0,
+            "depthBiasUnits": 0.0,
+            "depthTest": true,
+            "depthWrite": true,
+            "displacementHeight": 0.05000000074505806,
+            "id": 1,
+            "kind": "generic",
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "options": 24099,
+            "reflectivity": 0.0,
+            "roughness": 0.0,
+            "shininess": 50.0,
+            "specular": [
+                0.8999999761581421,
+                0.8999999761581421,
+                0.8999999761581421,
+                1.0
+            ],
+            "ssrEnabled": false,
+            "transparent": false,
+            "wireframe": false
+        },
+        {
+            "alphaCutoff": 0.5,
+            "blendDFactor": 0,
+            "blendEquation": 0,
+            "blendSFactor": 0,
+            "blending": false,
+            "castingShadows": true,
+            "color": [
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                1.0
+            ],
+            "colorMap": "assets/models/test_m.png",
+            "cullFace": 0,
+            "depthBias": false,
+            "depthBiasFactor": 0.0,
+            "depthBiasUnits": 0.0,
+            "depthTest": true,
+            "depthWrite": true,
+            "displacementHeight": 0.05000000074505806,
+            "id": 2,
+            "kind": "generic",
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "options": 24099,
+            "reflectivity": 0.0,
+            "roughness": 0.0,
+            "shininess": 50.0,
+            "specular": [
+                0.8999999761581421,
+                0.8999999761581421,
+                0.8999999761581421,
+                1.0
+            ],
+            "ssrEnabled": false,
+            "transparent": false,
+            "wireframe": false
+        },
+        {
+            "alphaCutoff": 0.5,
+            "blendDFactor": 0,
+            "blendEquation": 0,
+            "blendSFactor": 0,
+            "blending": false,
+            "castingShadows": true,
+            "color": [
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                1.0
+            ],
+            "colorMap": "assets/models/test_m.png",
+            "cullFace": 0,
+            "depthBias": false,
+            "depthBiasFactor": 0.0,
+            "depthBiasUnits": 0.0,
+            "depthTest": true,
+            "depthWrite": true,
+            "displacementHeight": 0.05000000074505806,
+            "id": 3,
+            "kind": "generic",
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "options": 24099,
+            "reflectivity": 0.0,
+            "roughness": 0.0,
+            "shininess": 50.0,
+            "specular": [
+                0.8999999761581421,
+                0.8999999761581421,
+                0.8999999761581421,
+                1.0
+            ],
+            "ssrEnabled": false,
+            "transparent": false,
+            "wireframe": false
+        },
+        {
+            "alphaCutoff": 0.5,
+            "blendDFactor": 0,
+            "blendEquation": 0,
+            "blendSFactor": 0,
+            "blending": false,
+            "castingShadows": true,
+            "color": [
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                1.0
+            ],
+            "colorMap": "assets/models/test_m.png",
+            "cullFace": 0,
+            "depthBias": false,
+            "depthBiasFactor": 0.0,
+            "depthBiasUnits": 0.0,
+            "depthTest": true,
+            "depthWrite": true,
+            "displacementHeight": 0.05000000074505806,
+            "id": 4,
+            "kind": "generic",
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "options": 24099,
+            "reflectivity": 0.0,
+            "roughness": 0.0,
+            "shininess": 50.0,
+            "specular": [
+                0.8999999761581421,
+                0.8999999761581421,
+                0.8999999761581421,
+                1.0
+            ],
+            "ssrEnabled": false,
+            "transparent": false,
+            "wireframe": false
+        },
+        {
+            "alphaCutoff": 0.5,
+            "blendDFactor": 0,
+            "blendEquation": 0,
+            "blendSFactor": 0,
+            "blending": false,
+            "castingShadows": true,
+            "color": [
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                1.0
+            ],
+            "colorMap": "assets/models/test_m.png",
+            "cullFace": 0,
+            "depthBias": false,
+            "depthBiasFactor": 0.0,
+            "depthBiasUnits": 0.0,
+            "depthTest": true,
+            "depthWrite": true,
+            "displacementHeight": 0.05000000074505806,
+            "id": 5,
+            "kind": "generic",
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "options": 24099,
+            "reflectivity": 0.0,
+            "roughness": 0.0,
+            "shininess": 50.0,
+            "specular": [
+                0.8999999761581421,
+                0.8999999761581421,
+                0.8999999761581421,
+                1.0
+            ],
+            "ssrEnabled": false,
+            "transparent": false,
+            "wireframe": false
+        },
+        {
+            "alphaCutoff": 0.5,
+            "blendDFactor": 0,
+            "blendEquation": 0,
+            "blendSFactor": 0,
+            "blending": false,
+            "castingShadows": true,
+            "color": [
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                1.0
+            ],
+            "colorMap": "assets/models/test_m.png",
+            "cullFace": 0,
+            "depthBias": false,
+            "depthBiasFactor": 0.0,
+            "depthBiasUnits": 0.0,
+            "depthTest": true,
+            "depthWrite": true,
+            "displacementHeight": 0.05000000074505806,
+            "id": 6,
+            "kind": "generic",
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "options": 24099,
+            "reflectivity": 0.0,
+            "roughness": 0.0,
+            "shininess": 50.0,
+            "specular": [
+                0.8999999761581421,
+                0.8999999761581421,
+                0.8999999761581421,
+                1.0
+            ],
+            "ssrEnabled": false,
+            "transparent": false,
+            "wireframe": false
+        },
+        {
+            "alphaCutoff": 0.5,
+            "blendDFactor": 0,
+            "blendEquation": 0,
+            "blendSFactor": 0,
+            "blending": false,
+            "castingShadows": true,
+            "color": [
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                1.0
+            ],
+            "colorMap": "assets/models/test_m.png",
+            "cullFace": 0,
+            "depthBias": false,
+            "depthBiasFactor": 0.0,
+            "depthBiasUnits": 0.0,
+            "depthTest": true,
+            "depthWrite": true,
+            "displacementHeight": 0.05000000074505806,
+            "id": 7,
+            "kind": "generic",
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "options": 24099,
+            "reflectivity": 0.0,
+            "roughness": 0.0,
+            "shininess": 50.0,
+            "specular": [
+                0.8999999761581421,
+                0.8999999761581421,
+                0.8999999761581421,
+                1.0
+            ],
+            "ssrEnabled": false,
+            "transparent": false,
+            "wireframe": false
+        },
+        {
+            "alphaCutoff": 0.5,
+            "blendDFactor": 0,
+            "blendEquation": 0,
+            "blendSFactor": 0,
+            "blending": false,
+            "castingShadows": true,
+            "color": [
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                1.0
+            ],
+            "colorMap": "assets/models/test_m.png",
+            "cullFace": 0,
+            "depthBias": false,
+            "depthBiasFactor": 0.0,
+            "depthBiasUnits": 0.0,
+            "depthTest": true,
+            "depthWrite": true,
+            "displacementHeight": 0.05000000074505806,
+            "id": 8,
+            "kind": "generic",
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "options": 24099,
+            "reflectivity": 0.0,
+            "roughness": 0.0,
+            "shininess": 50.0,
+            "specular": [
+                0.8999999761581421,
+                0.8999999761581421,
+                0.8999999761581421,
+                1.0
+            ],
+            "ssrEnabled": false,
+            "transparent": false,
+            "wireframe": false
+        },
+        {
+            "alphaCutoff": 0.5,
+            "blendDFactor": 0,
+            "blendEquation": 0,
+            "blendSFactor": 0,
+            "blending": false,
+            "castingShadows": true,
+            "color": [
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                1.0
+            ],
+            "colorMap": "assets/models/test_m.png",
+            "cullFace": 0,
+            "depthBias": false,
+            "depthBiasFactor": 0.0,
+            "depthBiasUnits": 0.0,
+            "depthTest": true,
+            "depthWrite": true,
+            "displacementHeight": 0.05000000074505806,
+            "id": 9,
+            "kind": "generic",
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "options": 24099,
+            "reflectivity": 0.0,
+            "roughness": 0.0,
+            "shininess": 50.0,
+            "specular": [
+                0.8999999761581421,
+                0.8999999761581421,
+                0.8999999761581421,
+                1.0
+            ],
+            "ssrEnabled": false,
+            "transparent": false,
+            "wireframe": false
+        },
+        {
+            "alphaCutoff": 0.5,
+            "blendDFactor": 0,
+            "blendEquation": 0,
+            "blendSFactor": 0,
+            "blending": false,
+            "castingShadows": true,
+            "color": [
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                1.0
+            ],
+            "colorMap": "assets/models/test_m.png",
+            "cullFace": 0,
+            "depthBias": false,
+            "depthBiasFactor": 0.0,
+            "depthBiasUnits": 0.0,
+            "depthTest": true,
+            "depthWrite": true,
+            "displacementHeight": 0.05000000074505806,
+            "id": 10,
+            "kind": "generic",
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "options": 24099,
+            "reflectivity": 0.0,
+            "roughness": 0.0,
+            "shininess": 50.0,
+            "specular": [
+                0.8999999761581421,
+                0.8999999761581421,
+                0.8999999761581421,
+                1.0
+            ],
+            "ssrEnabled": false,
+            "transparent": false,
+            "wireframe": false
+        },
+        {
+            "alphaCutoff": 0.5,
+            "blendDFactor": 0,
+            "blendEquation": 0,
+            "blendSFactor": 0,
+            "blending": false,
+            "castingShadows": true,
+            "color": [
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                1.0
+            ],
+            "colorMap": "assets/models/test_m.png",
+            "cullFace": 0,
+            "depthBias": false,
+            "depthBiasFactor": 0.0,
+            "depthBiasUnits": 0.0,
+            "depthTest": true,
+            "depthWrite": true,
+            "displacementHeight": 0.05000000074505806,
+            "id": 11,
+            "kind": "generic",
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "options": 24099,
+            "reflectivity": 0.0,
+            "roughness": 0.0,
+            "shininess": 50.0,
+            "specular": [
+                0.8999999761581421,
+                0.8999999761581421,
+                0.8999999761581421,
+                1.0
+            ],
+            "ssrEnabled": false,
+            "transparent": false,
+            "wireframe": false
+        },
+        {
+            "alphaCutoff": 0.5,
+            "blendDFactor": 0,
+            "blendEquation": 0,
+            "blendSFactor": 0,
+            "blending": false,
+            "castingShadows": true,
+            "color": [
+                0.6000000238418579,
+                0.6000000238418579,
+                0.6000000238418579,
+                1.0
+            ],
+            "colorMap": "assets/models/test_m.png",
+            "cullFace": 0,
+            "depthBias": false,
+            "depthBiasFactor": 0.0,
+            "depthBiasUnits": 0.0,
+            "depthTest": true,
+            "depthWrite": true,
+            "displacementHeight": 0.05000000074505806,
+            "id": 12,
+            "kind": "generic",
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "options": 24099,
+            "reflectivity": 0.0,
+            "roughness": 0.0,
+            "shininess": 50.0,
+            "specular": [
+                0.8999999761581421,
+                0.8999999761581421,
+                0.8999999761581421,
+                1.0
+            ],
+            "ssrEnabled": false,
+            "transparent": false,
+            "wireframe": false
+        }
+    ],
+    "roots": [
+        {
+            "children": [],
+            "components": [
+                {
+                    "castingShadows": true,
+                    "cullTest": true,
+                    "material": 0,
+                    "renderable": {
+                        "depth": 4.0,
+                        "flip": false,
+                        "height": 0.10000000149011612,
+                        "kind": "primitive",
+                        "shape": "Cube",
+                        "smooth": false,
+                        "tangentBitangent": false,
+                        "width": 11.0
+                    },
+                    "type": "RenderingComponent"
+                }
+            ],
+            "name": "Ground",
+            "position": [
+                0.0,
+                -0.10000000149011612,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        },
+        {
+            "children": [],
+            "components": [
+                {
+                    "castingShadows": false,
+                    "color": [
+                        1.0,
+                        0.9700000286102295,
+                        0.9200000166893005,
+                        1.0
+                    ],
+                    "direction": [
+                        -0.30000001192092896,
+                        -1.0,
+                        -0.5
+                    ],
+                    "intensity": 1.0,
+                    "type": "DirectionalLight"
+                }
+            ],
+            "name": "Key",
+            "position": [
+                0.0,
+                6.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        },
+        {
+            "children": [],
+            "components": [],
+            "name": "Camera",
+            "position": [
+                0.0,
+                1.2999999523162842,
+                7.599999904632568
+            ],
+            "rotation": [
+                -0.019999999552965164,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": [
+                "PyrosEditor.Camera"
+            ]
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "castingShadows": false,
+                            "cullTest": false,
+                            "material": 1,
+                            "renderable": {
+                                "kind": "model",
+                                "mergeMeshes": true,
+                                "path": "assets/models/human.p3dm"
+                            },
+                            "type": "RenderingComponent"
+                        },
+                        {
+                            "data": {},
+                            "scriptFile": "assets/lua/anim_test.lua",
+                            "type": "LuaComponent"
+                        }
+                    ],
+                    "name": "EnemyT_00_Mesh",
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        0.10000000149011612,
+                        0.10000000149011612,
+                        0.10000000149011612
+                    ],
+                    "static": false,
+                    "tags": []
+                }
+            ],
+            "components": [],
+            "name": "EnemyT_00",
+            "position": [
+                -4.400000095367432,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "castingShadows": false,
+                            "cullTest": false,
+                            "material": 2,
+                            "renderable": {
+                                "kind": "model",
+                                "mergeMeshes": true,
+                                "path": "assets/models/human.p3dm"
+                            },
+                            "type": "RenderingComponent"
+                        },
+                        {
+                            "data": {},
+                            "scriptFile": "assets/lua/anim_test.lua",
+                            "type": "LuaComponent"
+                        }
+                    ],
+                    "name": "EnemyT_01_Mesh",
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        0.10000000149011612,
+                        0.10000000149011612,
+                        0.10000000149011612
+                    ],
+                    "static": false,
+                    "tags": []
+                }
+            ],
+            "components": [],
+            "name": "EnemyT_01",
+            "position": [
+                -3.5999999046325684,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "castingShadows": false,
+                            "cullTest": false,
+                            "material": 3,
+                            "renderable": {
+                                "kind": "model",
+                                "mergeMeshes": true,
+                                "path": "assets/models/human.p3dm"
+                            },
+                            "type": "RenderingComponent"
+                        },
+                        {
+                            "data": {},
+                            "scriptFile": "assets/lua/anim_test.lua",
+                            "type": "LuaComponent"
+                        }
+                    ],
+                    "name": "EnemyT_02_Mesh",
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        0.10000000149011612,
+                        0.10000000149011612,
+                        0.10000000149011612
+                    ],
+                    "static": false,
+                    "tags": []
+                }
+            ],
+            "components": [],
+            "name": "EnemyT_02",
+            "position": [
+                -2.799999952316284,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "castingShadows": false,
+                            "cullTest": false,
+                            "material": 4,
+                            "renderable": {
+                                "kind": "model",
+                                "mergeMeshes": true,
+                                "path": "assets/models/human.p3dm"
+                            },
+                            "type": "RenderingComponent"
+                        },
+                        {
+                            "data": {},
+                            "scriptFile": "assets/lua/anim_test.lua",
+                            "type": "LuaComponent"
+                        }
+                    ],
+                    "name": "EnemyT_03_Mesh",
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        0.10000000149011612,
+                        0.10000000149011612,
+                        0.10000000149011612
+                    ],
+                    "static": false,
+                    "tags": []
+                }
+            ],
+            "components": [],
+            "name": "EnemyT_03",
+            "position": [
+                -2.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "castingShadows": false,
+                            "cullTest": false,
+                            "material": 5,
+                            "renderable": {
+                                "kind": "model",
+                                "mergeMeshes": true,
+                                "path": "assets/models/human.p3dm"
+                            },
+                            "type": "RenderingComponent"
+                        },
+                        {
+                            "data": {},
+                            "scriptFile": "assets/lua/anim_test.lua",
+                            "type": "LuaComponent"
+                        }
+                    ],
+                    "name": "EnemyT_04_Mesh",
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        0.10000000149011612,
+                        0.10000000149011612,
+                        0.10000000149011612
+                    ],
+                    "static": false,
+                    "tags": []
+                }
+            ],
+            "components": [],
+            "name": "EnemyT_04",
+            "position": [
+                -1.2000000476837158,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "castingShadows": false,
+                            "cullTest": false,
+                            "material": 6,
+                            "renderable": {
+                                "kind": "model",
+                                "mergeMeshes": true,
+                                "path": "assets/models/human.p3dm"
+                            },
+                            "type": "RenderingComponent"
+                        },
+                        {
+                            "data": {},
+                            "scriptFile": "assets/lua/anim_test.lua",
+                            "type": "LuaComponent"
+                        }
+                    ],
+                    "name": "EnemyT_05_Mesh",
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        0.10000000149011612,
+                        0.10000000149011612,
+                        0.10000000149011612
+                    ],
+                    "static": false,
+                    "tags": []
+                }
+            ],
+            "components": [],
+            "name": "EnemyT_05",
+            "position": [
+                -0.4000000059604645,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "castingShadows": false,
+                            "cullTest": false,
+                            "material": 7,
+                            "renderable": {
+                                "kind": "model",
+                                "mergeMeshes": true,
+                                "path": "assets/models/human.p3dm"
+                            },
+                            "type": "RenderingComponent"
+                        },
+                        {
+                            "data": {},
+                            "scriptFile": "assets/lua/anim_test.lua",
+                            "type": "LuaComponent"
+                        }
+                    ],
+                    "name": "EnemyT_06_Mesh",
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        0.10000000149011612,
+                        0.10000000149011612,
+                        0.10000000149011612
+                    ],
+                    "static": false,
+                    "tags": []
+                }
+            ],
+            "components": [],
+            "name": "EnemyT_06",
+            "position": [
+                0.4000000059604645,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "castingShadows": false,
+                            "cullTest": false,
+                            "material": 8,
+                            "renderable": {
+                                "kind": "model",
+                                "mergeMeshes": true,
+                                "path": "assets/models/human.p3dm"
+                            },
+                            "type": "RenderingComponent"
+                        },
+                        {
+                            "data": {},
+                            "scriptFile": "assets/lua/anim_test.lua",
+                            "type": "LuaComponent"
+                        }
+                    ],
+                    "name": "EnemyT_07_Mesh",
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        0.10000000149011612,
+                        0.10000000149011612,
+                        0.10000000149011612
+                    ],
+                    "static": false,
+                    "tags": []
+                }
+            ],
+            "components": [],
+            "name": "EnemyT_07",
+            "position": [
+                1.2000000476837158,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "castingShadows": false,
+                            "cullTest": false,
+                            "material": 9,
+                            "renderable": {
+                                "kind": "model",
+                                "mergeMeshes": true,
+                                "path": "assets/models/human.p3dm"
+                            },
+                            "type": "RenderingComponent"
+                        },
+                        {
+                            "data": {},
+                            "scriptFile": "assets/lua/anim_test.lua",
+                            "type": "LuaComponent"
+                        }
+                    ],
+                    "name": "EnemyT_08_Mesh",
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        0.10000000149011612,
+                        0.10000000149011612,
+                        0.10000000149011612
+                    ],
+                    "static": false,
+                    "tags": []
+                }
+            ],
+            "components": [],
+            "name": "EnemyT_08",
+            "position": [
+                2.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "castingShadows": false,
+                            "cullTest": false,
+                            "material": 10,
+                            "renderable": {
+                                "kind": "model",
+                                "mergeMeshes": true,
+                                "path": "assets/models/human.p3dm"
+                            },
+                            "type": "RenderingComponent"
+                        },
+                        {
+                            "data": {},
+                            "scriptFile": "assets/lua/anim_test.lua",
+                            "type": "LuaComponent"
+                        }
+                    ],
+                    "name": "EnemyT_09_Mesh",
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        0.10000000149011612,
+                        0.10000000149011612,
+                        0.10000000149011612
+                    ],
+                    "static": false,
+                    "tags": []
+                }
+            ],
+            "components": [],
+            "name": "EnemyT_09",
+            "position": [
+                2.799999952316284,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "castingShadows": false,
+                            "cullTest": false,
+                            "material": 11,
+                            "renderable": {
+                                "kind": "model",
+                                "mergeMeshes": true,
+                                "path": "assets/models/human.p3dm"
+                            },
+                            "type": "RenderingComponent"
+                        },
+                        {
+                            "data": {},
+                            "scriptFile": "assets/lua/anim_test.lua",
+                            "type": "LuaComponent"
+                        }
+                    ],
+                    "name": "EnemyT_10_Mesh",
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        0.10000000149011612,
+                        0.10000000149011612,
+                        0.10000000149011612
+                    ],
+                    "static": false,
+                    "tags": []
+                }
+            ],
+            "components": [],
+            "name": "EnemyT_10",
+            "position": [
+                3.5999999046325684,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "castingShadows": false,
+                            "cullTest": false,
+                            "material": 12,
+                            "renderable": {
+                                "kind": "model",
+                                "mergeMeshes": true,
+                                "path": "assets/models/human.p3dm"
+                            },
+                            "type": "RenderingComponent"
+                        },
+                        {
+                            "data": {},
+                            "scriptFile": "assets/lua/anim_test.lua",
+                            "type": "LuaComponent"
+                        }
+                    ],
+                    "name": "EnemyT_11_Mesh",
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        0.10000000149011612,
+                        0.10000000149011612,
+                        0.10000000149011612
+                    ],
+                    "static": false,
+                    "tags": []
+                }
+            ],
+            "components": [],
+            "name": "EnemyT_11",
+            "position": [
+                4.400000095367432,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        }
+    ],
+    "version": 1
+}

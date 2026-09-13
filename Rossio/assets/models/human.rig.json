@@ -1,0 +1,55 @@
+{
+	"_comment": "Rig data for the .p3dm beside this file. Keyed by bone name, so models sharing a skeleton can share this file. Joint limit angles are DEGREES.",
+	"boneMasks": [],
+	"ikChains": [
+		{
+			"effector": "Bip01_L_Foot",
+			"name": "LeftLeg",
+			"root": "Bip01_L_Thigh",
+			"usePole": false
+		},
+		{
+			"effector": "Bip01_R_Foot",
+			"name": "RightLeg",
+			"root": "Bip01_R_Thigh",
+			"usePole": false
+		},
+		{
+			"effector": "Bip01_R_Hand",
+			"name": "RightArm",
+			"root": "Bip01_R_UpperArm",
+			"usePole": false
+		}
+	],
+	"jointLimits": [
+		{
+			"bone": "Bip01_L_Calf",
+			"enabled": true,
+			"maxDeg": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"minDeg": [
+				0.0,
+				0.0,
+				-150.0
+			]
+		},
+		{
+			"bone": "Bip01_R_Calf",
+			"enabled": true,
+			"maxDeg": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"minDeg": [
+				0.0,
+				0.0,
+				-150.0
+			]
+		}
+	],
+	"version": 1
+}

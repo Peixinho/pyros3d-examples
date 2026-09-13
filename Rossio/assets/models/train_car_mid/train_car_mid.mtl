@@ -1,0 +1,74 @@
+newmtl steel
+Kd 1.0000 1.0000 1.0000
+Ks 0.7500 0.7600 0.8000
+Ns 110.00
+d 1.000
+map_Kd textures/metal_brushed.png
+map_Bump textures/metal_brushed_n.png
+bump textures/metal_brushed_n.png
+map_Ks textures/metal_brushed_s.png
+
+newmtl steel_dark
+Kd 1.0000 1.0000 1.0000
+Ks 0.5500 0.5700 0.6200
+Ns 90.00
+d 1.000
+map_Kd textures/metal_dark.png
+map_Bump textures/metal_dark_n.png
+bump textures/metal_dark_n.png
+map_Ks textures/metal_dark_s.png
+
+newmtl rust
+Kd 1.0000 1.0000 1.0000
+Ks 0.3500 0.3400 0.3200
+Ns 40.00
+d 1.000
+map_Kd textures/metal_rust.png
+map_Bump textures/metal_rust_n.png
+bump textures/metal_rust_n.png
+map_Ks textures/metal_rust_s.png
+
+newmtl glass_dark
+Kd 0.0600 0.0700 0.0900
+Ks 0.9000 0.9200 0.9500
+Ns 160.00
+d 1.000
+
+newmtl rubber
+Kd 0.0500 0.0500 0.0550
+Ks 0.0600 0.0600 0.0600
+Ns 6.00
+d 1.000
+
+newmtl lamp
+Kd 1.0000 1.0000 1.0000
+Ks 0.2000 0.2000 0.2000
+Ns 4.00
+d 1.000
+Ke 1.6000 1.5200 1.3200
+map_Kd textures/led_white.png
+
+newmtl paint_blue
+Kd 0.1000 0.1600 0.3000
+Ks 0.5000 0.5000 0.5500
+Ns 70.00
+d 1.000
+
+newmtl paint_white
+Kd 0.8000 0.8100 0.8200
+Ks 0.5500 0.5500 0.5800
+Ns 80.00
+d 1.000
+
+newmtl paint_yellow
+Kd 0.7200 0.5600 0.0500
+Ks 0.4000 0.4000 0.4000
+Ns 50.00
+d 1.000
+
+newmtl seat_blue
+Kd 0.0900 0.1300 0.2800
+Ks 0.1200 0.1200 0.1400
+Ns 12.00
+d 1.000
+
