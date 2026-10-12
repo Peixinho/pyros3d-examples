@@ -1,0 +1,6 @@
+{
+    "name": "Topple",
+    "description": "A physics toy with a sling: knock down towers of wood, glass, stone and metal across four levels - by day, in a desert, at night under swinging lamps, and against a windmill. 2D lights and shadows on normal-mapped sprites, joints (ropes, a catapult, a motor, a pulley trap), breakable blocks, particles, parallax, a full interface and sound. Also runs in a browser, phones included.",
+    "author": "Duarte Peixinho",
+    "tags": ["2D", "physics", "lighting", "joints", "particles", "UI", "web"]
+}

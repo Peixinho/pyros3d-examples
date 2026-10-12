@@ -1,0 +1,17 @@
+{
+    "activeScene": "scenes/Title.json",
+    "name": "Topple",
+    "scenes": [
+        "scenes/Dunes.json",
+        "scenes/Grove.json",
+        "scenes/Keep.json",
+        "scenes/Meadow.json",
+        "scenes/Title.json"
+    ],
+    "settings": {
+        "antiAliasing": "fxaa",
+        "defaultMainScript": "",
+        "rendererType": "forward"
+    },
+    "version": 1
+}

@@ -1,0 +1,1370 @@
+{
+	"clips": [],
+	"edgeInset": 0.019999999552965164,
+	"filter": "linear",
+	"frames": [
+		{
+			"name": "alien_beige_round",
+			"rect": [
+				4,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "alien_beige_square",
+			"rect": [
+				78,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "alien_beige_suit",
+			"rect": [
+				152,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "alien_blue_round",
+			"rect": [
+				226,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "alien_blue_square",
+			"rect": [
+				300,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "alien_blue_suit",
+			"rect": [
+				374,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "alien_green_round",
+			"rect": [
+				448,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "alien_green_square",
+			"rect": [
+				522,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "alien_green_suit",
+			"rect": [
+				596,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "alien_pink_round",
+			"rect": [
+				670,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "alien_pink_square",
+			"rect": [
+				744,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "alien_pink_suit",
+			"rect": [
+				818,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "alien_yellow_round",
+			"rect": [
+				892,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "alien_yellow_square",
+			"rect": [
+				966,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "alien_yellow_suit",
+			"rect": [
+				1040,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "bush",
+			"rect": [
+				1114,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "cactus",
+			"rect": [
+				1188,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "coinbronze",
+			"rect": [
+				1262,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "coindiamond",
+			"rect": [
+				1336,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "coingold",
+			"rect": [
+				1410,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "coinsilver",
+			"rect": [
+				1484,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "debris_glass_1",
+			"rect": [
+				537,
+				956,
+				64,
+				56
+			]
+		},
+		{
+			"name": "debris_glass_2",
+			"rect": [
+				360,
+				956,
+				55,
+				61
+			]
+		},
+		{
+			"name": "debris_glass_3",
+			"rect": [
+				871,
+				956,
+				59,
+				52
+			]
+		},
+		{
+			"name": "debris_metal_1",
+			"rect": [
+				300,
+				956,
+				56,
+				61
+			]
+		},
+		{
+			"name": "debris_metal_2",
+			"rect": [
+				605,
+				956,
+				64,
+				56
+			]
+		},
+		{
+			"name": "debris_metal_3",
+			"rect": [
+				809,
+				956,
+				58,
+				53
+			]
+		},
+		{
+			"name": "debris_stone_1",
+			"rect": [
+				673,
+				956,
+				64,
+				56
+			]
+		},
+		{
+			"name": "debris_stone_2",
+			"rect": [
+				419,
+				956,
+				55,
+				61
+			]
+		},
+		{
+			"name": "debris_stone_3",
+			"rect": [
+				934,
+				956,
+				59,
+				52
+			]
+		},
+		{
+			"name": "debris_wood_1",
+			"rect": [
+				741,
+				956,
+				64,
+				56
+			]
+		},
+		{
+			"name": "debris_wood_2",
+			"rect": [
+				478,
+				956,
+				55,
+				61
+			]
+		},
+		{
+			"name": "debris_wood_3",
+			"rect": [
+				997,
+				956,
+				59,
+				52
+			]
+		},
+		{
+			"name": "flagblue",
+			"rect": [
+				1558,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "flaggreen",
+			"rect": [
+				1632,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "flagred",
+			"rect": [
+				1706,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "flagyellow",
+			"rect": [
+				1780,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "frozenbush",
+			"rect": [
+				1854,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "glass_big_0",
+			"rect": [
+				1572,
+				228,
+				140,
+				140
+			]
+		},
+		{
+			"name": "glass_big_1",
+			"rect": [
+				1716,
+				228,
+				140,
+				140
+			]
+		},
+		{
+			"name": "glass_big_2",
+			"rect": [
+				1860,
+				228,
+				140,
+				140
+			]
+		},
+		{
+			"name": "glass_block_0",
+			"rect": [
+				900,
+				660,
+				140,
+				70
+			]
+		},
+		{
+			"name": "glass_block_1",
+			"rect": [
+				1044,
+				660,
+				140,
+				70
+			]
+		},
+		{
+			"name": "glass_block_2",
+			"rect": [
+				1188,
+				660,
+				140,
+				70
+			]
+		},
+		{
+			"name": "glass_pillar_0",
+			"rect": [
+				1300,
+				372,
+				70,
+				140
+			]
+		},
+		{
+			"name": "glass_pillar_1",
+			"rect": [
+				1374,
+				372,
+				70,
+				140
+			]
+		},
+		{
+			"name": "glass_pillar_2",
+			"rect": [
+				1448,
+				372,
+				70,
+				140
+			]
+		},
+		{
+			"name": "glass_plank_0",
+			"rect": [
+				152,
+				516,
+				220,
+				70
+			]
+		},
+		{
+			"name": "glass_plank_1",
+			"rect": [
+				376,
+				516,
+				220,
+				70
+			]
+		},
+		{
+			"name": "glass_plank_2",
+			"rect": [
+				600,
+				516,
+				220,
+				70
+			]
+		},
+		{
+			"name": "glass_post_0",
+			"rect": [
+				4,
+				4,
+				70,
+				220
+			]
+		},
+		{
+			"name": "glass_post_1",
+			"rect": [
+				78,
+				4,
+				70,
+				220
+			]
+		},
+		{
+			"name": "glass_post_2",
+			"rect": [
+				152,
+				4,
+				70,
+				220
+			]
+		},
+		{
+			"name": "glass_slab_0",
+			"rect": [
+				892,
+				4,
+				220,
+				140
+			]
+		},
+		{
+			"name": "glass_slab_1",
+			"rect": [
+				1116,
+				4,
+				220,
+				140
+			]
+		},
+		{
+			"name": "glass_slab_2",
+			"rect": [
+				1340,
+				4,
+				220,
+				140
+			]
+		},
+		{
+			"name": "glass_sq_0",
+			"rect": [
+				1928,
+				808,
+				70,
+				70
+			]
+		},
+		{
+			"name": "glass_sq_1",
+			"rect": [
+				4,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "glass_sq_2",
+			"rect": [
+				78,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "metal_ball_0",
+			"rect": [
+				152,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "metal_ball_1",
+			"rect": [
+				226,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "metal_ball_2",
+			"rect": [
+				300,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "metal_big_0",
+			"rect": [
+				4,
+				372,
+				140,
+				140
+			]
+		},
+		{
+			"name": "metal_big_1",
+			"rect": [
+				148,
+				372,
+				140,
+				140
+			]
+		},
+		{
+			"name": "metal_big_2",
+			"rect": [
+				292,
+				372,
+				140,
+				140
+			]
+		},
+		{
+			"name": "metal_block_0",
+			"rect": [
+				1332,
+				660,
+				140,
+				70
+			]
+		},
+		{
+			"name": "metal_block_1",
+			"rect": [
+				1476,
+				660,
+				140,
+				70
+			]
+		},
+		{
+			"name": "metal_block_2",
+			"rect": [
+				1620,
+				660,
+				140,
+				70
+			]
+		},
+		{
+			"name": "metal_pillar_0",
+			"rect": [
+				1522,
+				372,
+				70,
+				140
+			]
+		},
+		{
+			"name": "metal_pillar_1",
+			"rect": [
+				1596,
+				372,
+				70,
+				140
+			]
+		},
+		{
+			"name": "metal_pillar_2",
+			"rect": [
+				1670,
+				372,
+				70,
+				140
+			]
+		},
+		{
+			"name": "metal_plank_0",
+			"rect": [
+				824,
+				516,
+				220,
+				70
+			]
+		},
+		{
+			"name": "metal_plank_1",
+			"rect": [
+				1048,
+				516,
+				220,
+				70
+			]
+		},
+		{
+			"name": "metal_plank_2",
+			"rect": [
+				1272,
+				516,
+				220,
+				70
+			]
+		},
+		{
+			"name": "metal_post_0",
+			"rect": [
+				226,
+				4,
+				70,
+				220
+			]
+		},
+		{
+			"name": "metal_post_1",
+			"rect": [
+				300,
+				4,
+				70,
+				220
+			]
+		},
+		{
+			"name": "metal_post_2",
+			"rect": [
+				374,
+				4,
+				70,
+				220
+			]
+		},
+		{
+			"name": "metal_slab_0",
+			"rect": [
+				1564,
+				4,
+				220,
+				140
+			]
+		},
+		{
+			"name": "metal_slab_1",
+			"rect": [
+				1788,
+				4,
+				220,
+				140
+			]
+		},
+		{
+			"name": "metal_slab_2",
+			"rect": [
+				4,
+				228,
+				220,
+				140
+			]
+		},
+		{
+			"name": "metal_sq_0",
+			"rect": [
+				374,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "metal_sq_1",
+			"rect": [
+				448,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "metal_sq_2",
+			"rect": [
+				522,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "metal_tri_0",
+			"rect": [
+				1764,
+				660,
+				140,
+				70
+			]
+		},
+		{
+			"name": "metal_tri_1",
+			"rect": [
+				4,
+				734,
+				140,
+				70
+			]
+		},
+		{
+			"name": "metal_tri_2",
+			"rect": [
+				148,
+				734,
+				140,
+				70
+			]
+		},
+		{
+			"name": "rock",
+			"rect": [
+				596,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "starbronze",
+			"rect": [
+				670,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "stardiamond",
+			"rect": [
+				744,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "stargold",
+			"rect": [
+				818,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "starsilver",
+			"rect": [
+				892,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "stone_ball_0",
+			"rect": [
+				966,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "stone_ball_1",
+			"rect": [
+				1040,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "stone_ball_2",
+			"rect": [
+				1114,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "stone_big_0",
+			"rect": [
+				436,
+				372,
+				140,
+				140
+			]
+		},
+		{
+			"name": "stone_big_1",
+			"rect": [
+				580,
+				372,
+				140,
+				140
+			]
+		},
+		{
+			"name": "stone_big_2",
+			"rect": [
+				724,
+				372,
+				140,
+				140
+			]
+		},
+		{
+			"name": "stone_block_0",
+			"rect": [
+				292,
+				734,
+				140,
+				70
+			]
+		},
+		{
+			"name": "stone_block_1",
+			"rect": [
+				436,
+				734,
+				140,
+				70
+			]
+		},
+		{
+			"name": "stone_block_2",
+			"rect": [
+				580,
+				734,
+				140,
+				70
+			]
+		},
+		{
+			"name": "stone_pillar_0",
+			"rect": [
+				1744,
+				372,
+				70,
+				140
+			]
+		},
+		{
+			"name": "stone_pillar_1",
+			"rect": [
+				1818,
+				372,
+				70,
+				140
+			]
+		},
+		{
+			"name": "stone_pillar_2",
+			"rect": [
+				1892,
+				372,
+				70,
+				140
+			]
+		},
+		{
+			"name": "stone_plank_0",
+			"rect": [
+				1496,
+				516,
+				220,
+				70
+			]
+		},
+		{
+			"name": "stone_plank_1",
+			"rect": [
+				1720,
+				516,
+				220,
+				70
+			]
+		},
+		{
+			"name": "stone_plank_2",
+			"rect": [
+				4,
+				660,
+				220,
+				70
+			]
+		},
+		{
+			"name": "stone_post_0",
+			"rect": [
+				448,
+				4,
+				70,
+				220
+			]
+		},
+		{
+			"name": "stone_post_1",
+			"rect": [
+				522,
+				4,
+				70,
+				220
+			]
+		},
+		{
+			"name": "stone_post_2",
+			"rect": [
+				596,
+				4,
+				70,
+				220
+			]
+		},
+		{
+			"name": "stone_slab_0",
+			"rect": [
+				228,
+				228,
+				220,
+				140
+			]
+		},
+		{
+			"name": "stone_slab_1",
+			"rect": [
+				452,
+				228,
+				220,
+				140
+			]
+		},
+		{
+			"name": "stone_slab_2",
+			"rect": [
+				676,
+				228,
+				220,
+				140
+			]
+		},
+		{
+			"name": "stone_sq_0",
+			"rect": [
+				1188,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "stone_sq_1",
+			"rect": [
+				1262,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "stone_sq_2",
+			"rect": [
+				1336,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "stone_tri_0",
+			"rect": [
+				724,
+				734,
+				140,
+				70
+			]
+		},
+		{
+			"name": "stone_tri_1",
+			"rect": [
+				868,
+				734,
+				140,
+				70
+			]
+		},
+		{
+			"name": "stone_tri_2",
+			"rect": [
+				1012,
+				734,
+				140,
+				70
+			]
+		},
+		{
+			"name": "tnt_ball_0",
+			"rect": [
+				1410,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "tnt_ball_1",
+			"rect": [
+				1484,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "tnt_ball_2",
+			"rect": [
+				1558,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "tnt_sq_0",
+			"rect": [
+				1632,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "tnt_sq_1",
+			"rect": [
+				1706,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "tnt_sq_2",
+			"rect": [
+				1780,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "wood_ball_0",
+			"rect": [
+				1854,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "wood_ball_1",
+			"rect": [
+				1928,
+				882,
+				70,
+				70
+			]
+		},
+		{
+			"name": "wood_ball_2",
+			"rect": [
+				4,
+				956,
+				70,
+				70
+			]
+		},
+		{
+			"name": "wood_big_0",
+			"rect": [
+				868,
+				372,
+				140,
+				140
+			]
+		},
+		{
+			"name": "wood_big_1",
+			"rect": [
+				1012,
+				372,
+				140,
+				140
+			]
+		},
+		{
+			"name": "wood_big_2",
+			"rect": [
+				1156,
+				372,
+				140,
+				140
+			]
+		},
+		{
+			"name": "wood_block_0",
+			"rect": [
+				1156,
+				734,
+				140,
+				70
+			]
+		},
+		{
+			"name": "wood_block_1",
+			"rect": [
+				1300,
+				734,
+				140,
+				70
+			]
+		},
+		{
+			"name": "wood_block_2",
+			"rect": [
+				1444,
+				734,
+				140,
+				70
+			]
+		},
+		{
+			"name": "wood_pillar_0",
+			"rect": [
+				1966,
+				372,
+				70,
+				140
+			]
+		},
+		{
+			"name": "wood_pillar_1",
+			"rect": [
+				4,
+				516,
+				70,
+				140
+			]
+		},
+		{
+			"name": "wood_pillar_2",
+			"rect": [
+				78,
+				516,
+				70,
+				140
+			]
+		},
+		{
+			"name": "wood_plank_0",
+			"rect": [
+				228,
+				660,
+				220,
+				70
+			]
+		},
+		{
+			"name": "wood_plank_1",
+			"rect": [
+				452,
+				660,
+				220,
+				70
+			]
+		},
+		{
+			"name": "wood_plank_2",
+			"rect": [
+				676,
+				660,
+				220,
+				70
+			]
+		},
+		{
+			"name": "wood_post_0",
+			"rect": [
+				670,
+				4,
+				70,
+				220
+			]
+		},
+		{
+			"name": "wood_post_1",
+			"rect": [
+				744,
+				4,
+				70,
+				220
+			]
+		},
+		{
+			"name": "wood_post_2",
+			"rect": [
+				818,
+				4,
+				70,
+				220
+			]
+		},
+		{
+			"name": "wood_slab_0",
+			"rect": [
+				900,
+				228,
+				220,
+				140
+			]
+		},
+		{
+			"name": "wood_slab_1",
+			"rect": [
+				1124,
+				228,
+				220,
+				140
+			]
+		},
+		{
+			"name": "wood_slab_2",
+			"rect": [
+				1348,
+				228,
+				220,
+				140
+			]
+		},
+		{
+			"name": "wood_sq_0",
+			"rect": [
+				78,
+				956,
+				70,
+				70
+			]
+		},
+		{
+			"name": "wood_sq_1",
+			"rect": [
+				152,
+				956,
+				70,
+				70
+			]
+		},
+		{
+			"name": "wood_sq_2",
+			"rect": [
+				226,
+				956,
+				70,
+				70
+			]
+		},
+		{
+			"name": "wood_tri_0",
+			"rect": [
+				1588,
+				734,
+				140,
+				70
+			]
+		},
+		{
+			"name": "wood_tri_1",
+			"rect": [
+				1732,
+				734,
+				140,
+				70
+			]
+		},
+		{
+			"name": "wood_tri_2",
+			"rect": [
+				1876,
+				734,
+				140,
+				70
+			]
+		}
+	],
+	"image": "assets/textures/pieces.png",
+	"normalImage": "assets/textures/pieces_n.png",
+	"pixelsPerUnit": 70.0,
+	"version": 1
+}
