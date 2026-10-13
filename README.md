@@ -12,6 +12,7 @@ the download of the others.
 | [Rossio](Rossio) | A wave-defence firefight in a metro station — deferred rendering, skeletal animation, ragdolls, decals, particles, a Lua FPS controller |
 | [Ember](Ember) | A 2D platformer where you play the Pyros logo — 2D lighting with occluder shadows, parallax layers, spritesheet animation, Box2D platforming, particles and a synthesised soundtrack |
 | [Topple](Topple) | A physics toy with a sling: a hundred easy levels in five worlds, two of them at night under swinging lamps. Levels are prefabs dropped into a world's scene; 2D lights and shadows on normal-mapped sprites, joints, breakable blocks, particles, parallax, a full interface, sound and saved progress. [Play it in a browser](https://peixinho.github.io/pyros3d-examples/topple/), phones included |
+| [Hopper](Hopper) | A platformer in fifty easy levels and five worlds, two of them lit by torches. Ground painted by terrain (the tile map picks its own corners), slopes, one-way bridges, ladders, moving logs, a mouse that finds its way to you; words in the world, eased motion, two languages, touch controls, Ogg music and saved progress. [Play it in a browser](https://peixinho.github.io/pyros3d-examples/hopper/), phones included |
 
 ## Adding an example
 

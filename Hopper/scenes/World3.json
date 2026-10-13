@@ -1,0 +1,3120 @@
+{
+    "ambientEquator": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224
+    ],
+    "ambientGround": [
+        0.10000000149011612,
+        0.09000000357627869,
+        0.07999999821186066
+    ],
+    "ambientIntensity": 1.0,
+    "ambientLight": [
+        0.2199999988079071,
+        0.23999999463558197,
+        0.36000001430511475
+    ],
+    "ambientMode": 0,
+    "ambientSky": [
+        0.3199999928474426,
+        0.3799999952316284,
+        0.44999998807907104
+    ],
+    "background": [
+        0.05000000074505806,
+        0.05999999865889549,
+        0.11999999731779099
+    ],
+    "gravity2D": [
+        0.0,
+        -42.0
+    ],
+    "mainScript": "scenes/World3.lua",
+    "materials": [],
+    "roots": [
+        {
+            "children": [
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "color": [
+                                0.1599999964237213,
+                                0.1899999976158142,
+                                0.36000001430511475,
+                                1.0
+                            ],
+                            "drawMode": "tiled",
+                            "frame": 0,
+                            "frameName": "frame0",
+                            "pixelsPerUnit": 64.0,
+                            "size": [
+                                80.0,
+                                46.0
+                            ],
+                            "source": "assets/textures/bg_solid_sky.png",
+                            "type": "Sprite2D"
+                        }
+                    ],
+                    "name": "SkyFill",
+                    "position": [
+                        0.0,
+                        0.0,
+                        -30.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                }
+            ],
+            "components": [
+                {
+                    "automatic": true,
+                    "parallax": [
+                        0.0,
+                        0.0
+                    ],
+                    "type": "Layer2D",
+                    "visible": true
+                }
+            ],
+            "name": "Sky",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "color": [
+                                0.1599999964237213,
+                                0.1899999976158142,
+                                0.36000001430511475,
+                                1.0
+                            ],
+                            "drawMode": "tiled",
+                            "frame": 0,
+                            "frameName": "frame0",
+                            "pixelsPerUnit": 64.0,
+                            "size": [
+                                400.0,
+                                4.0
+                            ],
+                            "source": "assets/textures/bg_clouds.png",
+                            "type": "Sprite2D"
+                        }
+                    ],
+                    "name": "Clouds",
+                    "position": [
+                        0.0,
+                        8.0,
+                        -26.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                }
+            ],
+            "components": [
+                {
+                    "automatic": true,
+                    "parallax": [
+                        0.15000000596046448,
+                        1.0
+                    ],
+                    "type": "Layer2D",
+                    "visible": true
+                }
+            ],
+            "name": "Far",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "color": [
+                                0.1599999964237213,
+                                0.1899999976158142,
+                                0.36000001430511475,
+                                1.0
+                            ],
+                            "drawMode": "tiled",
+                            "frame": 0,
+                            "frameName": "frame0",
+                            "pixelsPerUnit": 64.0,
+                            "size": [
+                                480.0,
+                                4.0
+                            ],
+                            "source": "assets/textures/bg_color_trees.png",
+                            "type": "Sprite2D"
+                        }
+                    ],
+                    "name": "Hills",
+                    "position": [
+                        0.0,
+                        4.0,
+                        -16.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "color": [
+                                0.1599999964237213,
+                                0.1899999976158142,
+                                0.36000001430511475,
+                                1.0
+                            ],
+                            "drawMode": "tiled",
+                            "frame": 0,
+                            "frameName": "frame0",
+                            "pixelsPerUnit": 64.0,
+                            "size": [
+                                480.0,
+                                16.0
+                            ],
+                            "source": "assets/textures/bg_solid_grass.png",
+                            "type": "Sprite2D"
+                        }
+                    ],
+                    "name": "HillsFill",
+                    "position": [
+                        0.0,
+                        -6.0,
+                        -16.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                }
+            ],
+            "components": [
+                {
+                    "automatic": true,
+                    "parallax": [
+                        0.44999998807907104,
+                        1.0
+                    ],
+                    "type": "Layer2D",
+                    "visible": true
+                }
+            ],
+            "name": "Mid",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "castingShadows": false,
+                                    "color": [
+                                        0.75,
+                                        0.8500000238418579,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "intensity": 0.550000011920929,
+                                    "radius": 7.0,
+                                    "type": "PointLight",
+                                    "volumetricAnisotropy": 0.6000000238418579,
+                                    "volumetricScattering": 0.0,
+                                    "volumetricSteps": 32
+                                }
+                            ],
+                            "name": "HeroLight",
+                            "position": [
+                                0.0,
+                                1.0,
+                                1.5
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        }
+                    ],
+                    "components": [
+                        {
+                            "autoPlay": "idle",
+                            "frame": 14,
+                            "frameName": "green_idle",
+                            "lit": true,
+                            "pivot": [
+                                0.5,
+                                0.0
+                            ],
+                            "sortOrder": 6,
+                            "source": "assets/textures/characters.p3ds",
+                            "type": "Sprite2D"
+                        },
+                        {
+                            "bodyType": 2,
+                            "castsShadow": false,
+                            "density": 1.0,
+                            "fixedRotation": true,
+                            "friction": 0.0,
+                            "offset": [
+                                0.0,
+                                0.7400000095367432
+                            ],
+                            "restitution": 0.0,
+                            "shape": 2,
+                            "size": [
+                                0.41999998688697815,
+                                0.7200000286102295
+                            ],
+                            "type": "Physics2D"
+                        }
+                    ],
+                    "name": "Hero",
+                    "position": [
+                        2.0,
+                        3.0,
+                        0.5
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "anchor": [
+                                0.5,
+                                0.5
+                            ],
+                            "color": [
+                                1.0,
+                                0.8999999761581421,
+                                0.30000001192092896,
+                                1.0
+                            ],
+                            "font": "assets/fonts/future_narrow.ttf",
+                            "fontSDF": true,
+                            "fontSize": 64.0,
+                            "size": 0.699999988079071,
+                            "text": "+1",
+                            "type": "Text2D"
+                        }
+                    ],
+                    "name": "Float_1",
+                    "position": [
+                        -40.0,
+                        -40.0,
+                        2.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "anchor": [
+                                0.5,
+                                0.5
+                            ],
+                            "color": [
+                                1.0,
+                                0.8999999761581421,
+                                0.30000001192092896,
+                                1.0
+                            ],
+                            "font": "assets/fonts/future_narrow.ttf",
+                            "fontSDF": true,
+                            "fontSize": 64.0,
+                            "size": 0.699999988079071,
+                            "text": "+1",
+                            "type": "Text2D"
+                        }
+                    ],
+                    "name": "Float_2",
+                    "position": [
+                        -40.0,
+                        -40.0,
+                        2.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "anchor": [
+                                0.5,
+                                0.5
+                            ],
+                            "color": [
+                                1.0,
+                                0.8999999761581421,
+                                0.30000001192092896,
+                                1.0
+                            ],
+                            "font": "assets/fonts/future_narrow.ttf",
+                            "fontSDF": true,
+                            "fontSize": 64.0,
+                            "size": 0.699999988079071,
+                            "text": "+1",
+                            "type": "Text2D"
+                        }
+                    ],
+                    "name": "Float_3",
+                    "position": [
+                        -40.0,
+                        -40.0,
+                        2.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "anchor": [
+                                0.5,
+                                0.5
+                            ],
+                            "color": [
+                                1.0,
+                                0.8999999761581421,
+                                0.30000001192092896,
+                                1.0
+                            ],
+                            "font": "assets/fonts/future_narrow.ttf",
+                            "fontSDF": true,
+                            "fontSize": 64.0,
+                            "size": 0.699999988079071,
+                            "text": "+1",
+                            "type": "Text2D"
+                        }
+                    ],
+                    "name": "Float_4",
+                    "position": [
+                        -40.0,
+                        -40.0,
+                        2.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "anchor": [
+                                0.5,
+                                0.5
+                            ],
+                            "color": [
+                                1.0,
+                                0.8999999761581421,
+                                0.30000001192092896,
+                                1.0
+                            ],
+                            "font": "assets/fonts/future_narrow.ttf",
+                            "fontSDF": true,
+                            "fontSize": 64.0,
+                            "size": 0.699999988079071,
+                            "text": "+1",
+                            "type": "Text2D"
+                        }
+                    ],
+                    "name": "Float_5",
+                    "position": [
+                        -40.0,
+                        -40.0,
+                        2.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "anchor": [
+                                0.5,
+                                0.5
+                            ],
+                            "color": [
+                                1.0,
+                                0.8999999761581421,
+                                0.30000001192092896,
+                                1.0
+                            ],
+                            "font": "assets/fonts/future_narrow.ttf",
+                            "fontSDF": true,
+                            "fontSize": 64.0,
+                            "size": 0.699999988079071,
+                            "text": "+1",
+                            "type": "Text2D"
+                        }
+                    ],
+                    "name": "Float_6",
+                    "position": [
+                        -40.0,
+                        -40.0,
+                        2.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                }
+            ],
+            "components": [
+                {
+                    "parallax": [
+                        1.0,
+                        1.0
+                    ],
+                    "type": "Layer2D",
+                    "visible": true
+                }
+            ],
+            "name": "World",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        },
+        {
+            "children": [],
+            "components": [
+                {
+                    "attenuationModel": 2,
+                    "directionalAttenuation": 1.0,
+                    "dopplerFactor": 1.0,
+                    "file": "assets/music/stage_1.ogg",
+                    "looping": true,
+                    "maxDistance": 100.0,
+                    "minDistance": 1.0,
+                    "pan": 0.0,
+                    "pitch": 1.0,
+                    "playing": false,
+                    "spatialized": true,
+                    "stream": false,
+                    "type": "AudioSource",
+                    "volume": 0.44999998807907104
+                }
+            ],
+            "name": "Music",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "anchorMin": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "offsetMax": [
+                                        58.0,
+                                        56.0
+                                    ],
+                                    "offsetMin": [
+                                        14.0,
+                                        12.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "border": [
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "texture": "assets/textures/ui/hud_heart.png",
+                                    "tint": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "type": "UIImage"
+                                }
+                            ],
+                            "name": "Heart1",
+                            "position": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "anchorMin": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "offsetMax": [
+                                        104.0,
+                                        56.0
+                                    ],
+                                    "offsetMin": [
+                                        60.0,
+                                        12.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "border": [
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "texture": "assets/textures/ui/hud_heart.png",
+                                    "tint": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "type": "UIImage"
+                                }
+                            ],
+                            "name": "Heart2",
+                            "position": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "anchorMin": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "offsetMax": [
+                                        150.0,
+                                        56.0
+                                    ],
+                                    "offsetMin": [
+                                        106.0,
+                                        12.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "border": [
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "texture": "assets/textures/ui/hud_heart.png",
+                                    "tint": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "type": "UIImage"
+                                }
+                            ],
+                            "name": "Heart3",
+                            "position": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "anchorMin": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "offsetMax": [
+                                        206.0,
+                                        54.0
+                                    ],
+                                    "offsetMin": [
+                                        166.0,
+                                        14.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "border": [
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "texture": "assets/textures/ui/hud_coin.png",
+                                    "tint": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "type": "UIImage"
+                                }
+                            ],
+                            "name": "CoinIcon",
+                            "position": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "anchorMin": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "offsetMax": [
+                                        304.0,
+                                        60.0
+                                    ],
+                                    "offsetMin": [
+                                        208.0,
+                                        8.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "align": "Left",
+                                    "color": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "font": "assets/fonts/future_narrow.ttf",
+                                    "fontSDF": true,
+                                    "fontSize": 32.0,
+                                    "size": 34.0,
+                                    "text": "0",
+                                    "type": "UIText",
+                                    "verticalAlign": "Middle"
+                                }
+                            ],
+                            "name": "CoinCount",
+                            "position": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        }
+                    ],
+                    "components": [
+                        {
+                            "anchorMax": [
+                                0.0,
+                                0.0
+                            ],
+                            "anchorMin": [
+                                0.0,
+                                0.0
+                            ],
+                            "offsetMax": [
+                                330.0,
+                                86.0
+                            ],
+                            "offsetMin": [
+                                16.0,
+                                14.0
+                            ],
+                            "pivot": [
+                                0.5,
+                                0.5
+                            ],
+                            "type": "UIRect"
+                        },
+                        {
+                            "border": [
+                                16.0,
+                                16.0,
+                                16.0,
+                                20.0
+                            ],
+                            "texture": "assets/textures/ui/panel.png",
+                            "tint": [
+                                0.10000000149011612,
+                                0.12999999523162842,
+                                0.20000000298023224,
+                                0.550000011920929
+                            ],
+                            "type": "UIImage"
+                        }
+                    ],
+                    "name": "HudPlate",
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "anchorMax": [
+                                0.5,
+                                0.0
+                            ],
+                            "anchorMin": [
+                                0.5,
+                                0.0
+                            ],
+                            "offsetMax": [
+                                260.0,
+                                56.0
+                            ],
+                            "offsetMin": [
+                                -260.0,
+                                14.0
+                            ],
+                            "pivot": [
+                                0.5,
+                                0.5
+                            ],
+                            "type": "UIRect"
+                        },
+                        {
+                            "align": "Center",
+                            "color": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                0.8999999761581421
+                            ],
+                            "font": "assets/fonts/future_narrow.ttf",
+                            "fontSDF": true,
+                            "fontSize": 32.0,
+                            "size": 26.0,
+                            "text": "CAVERN",
+                            "type": "UIText",
+                            "verticalAlign": "Middle"
+                        }
+                    ],
+                    "name": "HudTitle",
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "anchorMax": [
+                                0.5,
+                                0.0
+                            ],
+                            "anchorMin": [
+                                0.5,
+                                0.0
+                            ],
+                            "offsetMax": [
+                                -24.0,
+                                104.0
+                            ],
+                            "offsetMin": [
+                                -72.0,
+                                56.0
+                            ],
+                            "pivot": [
+                                0.5,
+                                0.5
+                            ],
+                            "type": "UIRect"
+                        },
+                        {
+                            "border": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "texture": "assets/textures/ui/gem_blue.png",
+                            "tint": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "type": "UIImage"
+                        }
+                    ],
+                    "name": "Gem1",
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "anchorMax": [
+                                0.5,
+                                0.0
+                            ],
+                            "anchorMin": [
+                                0.5,
+                                0.0
+                            ],
+                            "offsetMax": [
+                                24.0,
+                                104.0
+                            ],
+                            "offsetMin": [
+                                -24.0,
+                                56.0
+                            ],
+                            "pivot": [
+                                0.5,
+                                0.5
+                            ],
+                            "type": "UIRect"
+                        },
+                        {
+                            "border": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "texture": "assets/textures/ui/gem_blue.png",
+                            "tint": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "type": "UIImage"
+                        }
+                    ],
+                    "name": "Gem2",
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "anchorMax": [
+                                0.5,
+                                0.0
+                            ],
+                            "anchorMin": [
+                                0.5,
+                                0.0
+                            ],
+                            "offsetMax": [
+                                72.0,
+                                104.0
+                            ],
+                            "offsetMin": [
+                                24.0,
+                                56.0
+                            ],
+                            "pivot": [
+                                0.5,
+                                0.5
+                            ],
+                            "type": "UIRect"
+                        },
+                        {
+                            "border": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "texture": "assets/textures/ui/gem_blue.png",
+                            "tint": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "type": "UIImage"
+                        }
+                    ],
+                    "name": "Gem3",
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "anchorMin": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "offsetMax": [
+                                        58.0,
+                                        56.0
+                                    ],
+                                    "offsetMin": [
+                                        -2.0,
+                                        -4.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "align": "Center",
+                                    "color": [
+                                        0.25,
+                                        0.2800000011920929,
+                                        0.3499999940395355,
+                                        1.0
+                                    ],
+                                    "font": "assets/fonts/future_narrow.ttf",
+                                    "fontSDF": true,
+                                    "fontSize": 32.0,
+                                    "size": 30.0,
+                                    "text": "<",
+                                    "type": "UIText",
+                                    "verticalAlign": "Middle"
+                                }
+                            ],
+                            "name": "BtnMenu_Icon",
+                            "position": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        }
+                    ],
+                    "components": [
+                        {
+                            "anchorMax": [
+                                1.0,
+                                0.0
+                            ],
+                            "anchorMin": [
+                                1.0,
+                                0.0
+                            ],
+                            "offsetMax": [
+                                -24.0,
+                                76.0
+                            ],
+                            "offsetMin": [
+                                -84.0,
+                                16.0
+                            ],
+                            "pivot": [
+                                0.5,
+                                0.5
+                            ],
+                            "type": "UIRect"
+                        },
+                        {
+                            "border": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "texture": "assets/textures/ui/round_grey.png",
+                            "tint": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "type": "UIImage"
+                        },
+                        {
+                            "interactable": true,
+                            "states": {
+                                "Disabled": {
+                                    "tint": [
+                                        0.14000000059604645,
+                                        0.15000000596046448,
+                                        0.18000000715255737,
+                                        0.6000000238418579
+                                    ]
+                                },
+                                "Hover": {
+                                    "tint": [
+                                        1.0,
+                                        1.0,
+                                        0.8500000238418579,
+                                        1.0
+                                    ]
+                                },
+                                "Pressed": {
+                                    "offset": [
+                                        0.0,
+                                        3.0
+                                    ],
+                                    "tint": [
+                                        0.800000011920929,
+                                        0.800000011920929,
+                                        0.800000011920929,
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "transition": 0.11999999731779099,
+                            "type": "UIButton"
+                        }
+                    ],
+                    "name": "BtnMenu",
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "anchorMin": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "offsetMax": [
+                                        47.0,
+                                        44.0
+                                    ],
+                                    "offsetMin": [
+                                        13.0,
+                                        10.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "border": [
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "texture": "assets/textures/ui/repeat_light.png",
+                                    "tint": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "type": "UIImage"
+                                }
+                            ],
+                            "name": "BtnRetry_Icon",
+                            "position": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        }
+                    ],
+                    "components": [
+                        {
+                            "anchorMax": [
+                                1.0,
+                                0.0
+                            ],
+                            "anchorMin": [
+                                1.0,
+                                0.0
+                            ],
+                            "offsetMax": [
+                                -94.0,
+                                76.0
+                            ],
+                            "offsetMin": [
+                                -154.0,
+                                16.0
+                            ],
+                            "pivot": [
+                                0.5,
+                                0.5
+                            ],
+                            "type": "UIRect"
+                        },
+                        {
+                            "border": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "texture": "assets/textures/ui/round_blue.png",
+                            "tint": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "type": "UIImage"
+                        },
+                        {
+                            "interactable": true,
+                            "states": {
+                                "Disabled": {
+                                    "tint": [
+                                        0.14000000059604645,
+                                        0.15000000596046448,
+                                        0.18000000715255737,
+                                        0.6000000238418579
+                                    ]
+                                },
+                                "Hover": {
+                                    "tint": [
+                                        1.0,
+                                        1.0,
+                                        0.8500000238418579,
+                                        1.0
+                                    ]
+                                },
+                                "Pressed": {
+                                    "offset": [
+                                        0.0,
+                                        3.0
+                                    ],
+                                    "tint": [
+                                        0.800000011920929,
+                                        0.800000011920929,
+                                        0.800000011920929,
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "transition": 0.11999999731779099,
+                            "type": "UIButton"
+                        }
+                    ],
+                    "name": "BtnRetry",
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "anchorMin": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "offsetMax": [
+                                        42.0,
+                                        42.0
+                                    ],
+                                    "offsetMin": [
+                                        -42.0,
+                                        -42.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "border": [
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "texture": "assets/textures/ui/round_blue.png",
+                                    "tint": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        0.800000011920929
+                                    ],
+                                    "type": "UIImage"
+                                }
+                            ],
+                            "name": "StickKnob",
+                            "position": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        }
+                    ],
+                    "components": [
+                        {
+                            "anchorMax": [
+                                0.0,
+                                1.0
+                            ],
+                            "anchorMin": [
+                                0.0,
+                                1.0
+                            ],
+                            "offsetMax": [
+                                214.0,
+                                -34.0
+                            ],
+                            "offsetMin": [
+                                34.0,
+                                -214.0
+                            ],
+                            "pivot": [
+                                0.5,
+                                0.5
+                            ],
+                            "type": "UIRect"
+                        },
+                        {
+                            "border": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "texture": "assets/textures/ui/round_grey.png",
+                            "tint": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                0.3499999940395355
+                            ],
+                            "type": "UIImage"
+                        }
+                    ],
+                    "name": "Stick",
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "anchorMin": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "offsetMax": [
+                                        40.0,
+                                        36.0
+                                    ],
+                                    "offsetMin": [
+                                        -40.0,
+                                        -44.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "border": [
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "texture": "assets/textures/ui/arrow_up_light.png",
+                                    "tint": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        0.949999988079071
+                                    ],
+                                    "type": "UIImage"
+                                }
+                            ],
+                            "name": "PadJump_Icon",
+                            "position": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        }
+                    ],
+                    "components": [
+                        {
+                            "anchorMax": [
+                                1.0,
+                                1.0
+                            ],
+                            "anchorMin": [
+                                1.0,
+                                1.0
+                            ],
+                            "offsetMax": [
+                                -44.0,
+                                -44.0
+                            ],
+                            "offsetMin": [
+                                -204.0,
+                                -204.0
+                            ],
+                            "pivot": [
+                                0.5,
+                                0.5
+                            ],
+                            "type": "UIRect"
+                        },
+                        {
+                            "border": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "texture": "assets/textures/ui/round_green.png",
+                            "tint": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                0.6000000238418579
+                            ],
+                            "type": "UIImage"
+                        }
+                    ],
+                    "name": "PadJump",
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.5,
+                                        0.0
+                                    ],
+                                    "anchorMin": [
+                                        0.5,
+                                        0.0
+                                    ],
+                                    "offsetMax": [
+                                        280.0,
+                                        78.0
+                                    ],
+                                    "offsetMin": [
+                                        -280.0,
+                                        22.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "align": "Center",
+                                    "color": [
+                                        0.2199999988079071,
+                                        0.25999999046325684,
+                                        0.3400000035762787,
+                                        1.0
+                                    ],
+                                    "font": "assets/fonts/future_narrow.ttf",
+                                    "fontSDF": true,
+                                    "fontSize": 32.0,
+                                    "size": 40.0,
+                                    "text": "@level_clear",
+                                    "type": "UIText",
+                                    "verticalAlign": "Middle"
+                                }
+                            ],
+                            "name": "CardTitle",
+                            "position": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.5,
+                                        0.0
+                                    ],
+                                    "anchorMin": [
+                                        0.5,
+                                        0.0
+                                    ],
+                                    "offsetMax": [
+                                        -50.0,
+                                        192.0
+                                    ],
+                                    "offsetMin": [
+                                        -150.0,
+                                        96.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "border": [
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "texture": "assets/textures/ui/star_empty.png",
+                                    "tint": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        0.8999999761581421
+                                    ],
+                                    "type": "UIImage"
+                                }
+                            ],
+                            "name": "CardStarBack1",
+                            "position": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.5,
+                                        0.0
+                                    ],
+                                    "anchorMin": [
+                                        0.5,
+                                        0.0
+                                    ],
+                                    "offsetMax": [
+                                        -62.0,
+                                        180.0
+                                    ],
+                                    "offsetMin": [
+                                        -138.0,
+                                        108.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "border": [
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "texture": "assets/textures/ui/star.png",
+                                    "tint": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "type": "UIImage"
+                                }
+                            ],
+                            "name": "CardStar1",
+                            "position": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.5,
+                                        0.0
+                                    ],
+                                    "anchorMin": [
+                                        0.5,
+                                        0.0
+                                    ],
+                                    "offsetMax": [
+                                        50.0,
+                                        192.0
+                                    ],
+                                    "offsetMin": [
+                                        -50.0,
+                                        96.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "border": [
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "texture": "assets/textures/ui/star_empty.png",
+                                    "tint": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        0.8999999761581421
+                                    ],
+                                    "type": "UIImage"
+                                }
+                            ],
+                            "name": "CardStarBack2",
+                            "position": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.5,
+                                        0.0
+                                    ],
+                                    "anchorMin": [
+                                        0.5,
+                                        0.0
+                                    ],
+                                    "offsetMax": [
+                                        38.0,
+                                        180.0
+                                    ],
+                                    "offsetMin": [
+                                        -38.0,
+                                        108.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "border": [
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "texture": "assets/textures/ui/star.png",
+                                    "tint": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "type": "UIImage"
+                                }
+                            ],
+                            "name": "CardStar2",
+                            "position": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.5,
+                                        0.0
+                                    ],
+                                    "anchorMin": [
+                                        0.5,
+                                        0.0
+                                    ],
+                                    "offsetMax": [
+                                        150.0,
+                                        192.0
+                                    ],
+                                    "offsetMin": [
+                                        50.0,
+                                        96.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "border": [
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "texture": "assets/textures/ui/star_empty.png",
+                                    "tint": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        0.8999999761581421
+                                    ],
+                                    "type": "UIImage"
+                                }
+                            ],
+                            "name": "CardStarBack3",
+                            "position": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.5,
+                                        0.0
+                                    ],
+                                    "anchorMin": [
+                                        0.5,
+                                        0.0
+                                    ],
+                                    "offsetMax": [
+                                        138.0,
+                                        180.0
+                                    ],
+                                    "offsetMin": [
+                                        62.0,
+                                        108.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "border": [
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "texture": "assets/textures/ui/star.png",
+                                    "tint": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "type": "UIImage"
+                                }
+                            ],
+                            "name": "CardStar3",
+                            "position": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.5,
+                                        0.0
+                                    ],
+                                    "anchorMin": [
+                                        0.5,
+                                        0.0
+                                    ],
+                                    "offsetMax": [
+                                        -22.0,
+                                        252.0
+                                    ],
+                                    "offsetMin": [
+                                        -70.0,
+                                        204.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "border": [
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "texture": "assets/textures/ui/hud_coin.png",
+                                    "tint": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "type": "UIImage"
+                                }
+                            ],
+                            "name": "CardCoinIcon",
+                            "position": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.5,
+                                        0.0
+                                    ],
+                                    "anchorMin": [
+                                        0.5,
+                                        0.0
+                                    ],
+                                    "offsetMax": [
+                                        200.0,
+                                        256.0
+                                    ],
+                                    "offsetMin": [
+                                        -16.0,
+                                        200.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "align": "Left",
+                                    "color": [
+                                        0.2199999988079071,
+                                        0.25999999046325684,
+                                        0.3400000035762787,
+                                        1.0
+                                    ],
+                                    "font": "assets/fonts/future_narrow.ttf",
+                                    "fontSDF": true,
+                                    "fontSize": 32.0,
+                                    "size": 34.0,
+                                    "text": "0 / 0",
+                                    "type": "UIText",
+                                    "verticalAlign": "Middle"
+                                }
+                            ],
+                            "name": "CardCoins",
+                            "position": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "components": [
+                                        {
+                                            "anchorMax": [
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "anchorMin": [
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "offsetMax": [
+                                                170.0,
+                                                61.0
+                                            ],
+                                            "offsetMin": [
+                                                0.0,
+                                                -3.0
+                                            ],
+                                            "pivot": [
+                                                0.5,
+                                                0.5
+                                            ],
+                                            "type": "UIRect"
+                                        },
+                                        {
+                                            "align": "Center",
+                                            "color": [
+                                                0.25,
+                                                0.2800000011920929,
+                                                0.3499999940395355,
+                                                1.0
+                                            ],
+                                            "font": "assets/fonts/future_narrow.ttf",
+                                            "fontSDF": true,
+                                            "fontSize": 32.0,
+                                            "size": 22.0,
+                                            "text": "@menu",
+                                            "type": "UIText",
+                                            "verticalAlign": "Middle"
+                                        }
+                                    ],
+                                    "name": "CardMenu_Label",
+                                    "position": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "rotation": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "scale": [
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "static": false,
+                                    "tags": []
+                                }
+                            ],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.5,
+                                        1.0
+                                    ],
+                                    "anchorMin": [
+                                        0.5,
+                                        1.0
+                                    ],
+                                    "offsetMax": [
+                                        -100.0,
+                                        -28.0
+                                    ],
+                                    "offsetMin": [
+                                        -270.0,
+                                        -92.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "border": [
+                                        14.0,
+                                        14.0,
+                                        14.0,
+                                        18.0
+                                    ],
+                                    "texture": "assets/textures/ui/button_grey.png",
+                                    "tint": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "type": "UIImage"
+                                },
+                                {
+                                    "interactable": true,
+                                    "states": {
+                                        "Disabled": {
+                                            "tint": [
+                                                0.14000000059604645,
+                                                0.15000000596046448,
+                                                0.18000000715255737,
+                                                0.6000000238418579
+                                            ]
+                                        },
+                                        "Hover": {
+                                            "tint": [
+                                                1.0,
+                                                1.0,
+                                                0.8500000238418579,
+                                                1.0
+                                            ]
+                                        },
+                                        "Pressed": {
+                                            "offset": [
+                                                0.0,
+                                                3.0
+                                            ],
+                                            "tint": [
+                                                0.800000011920929,
+                                                0.800000011920929,
+                                                0.800000011920929,
+                                                1.0
+                                            ]
+                                        }
+                                    },
+                                    "transition": 0.11999999731779099,
+                                    "type": "UIButton"
+                                }
+                            ],
+                            "name": "CardMenu",
+                            "position": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "components": [
+                                        {
+                                            "anchorMax": [
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "anchorMin": [
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "offsetMax": [
+                                                170.0,
+                                                61.0
+                                            ],
+                                            "offsetMin": [
+                                                0.0,
+                                                -3.0
+                                            ],
+                                            "pivot": [
+                                                0.5,
+                                                0.5
+                                            ],
+                                            "type": "UIRect"
+                                        },
+                                        {
+                                            "align": "Center",
+                                            "color": [
+                                                1.0,
+                                                1.0,
+                                                1.0,
+                                                1.0
+                                            ],
+                                            "font": "assets/fonts/future_narrow.ttf",
+                                            "fontSDF": true,
+                                            "fontSize": 32.0,
+                                            "size": 22.0,
+                                            "text": "@again",
+                                            "type": "UIText",
+                                            "verticalAlign": "Middle"
+                                        }
+                                    ],
+                                    "name": "CardRetry_Label",
+                                    "position": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "rotation": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "scale": [
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "static": false,
+                                    "tags": []
+                                }
+                            ],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.5,
+                                        1.0
+                                    ],
+                                    "anchorMin": [
+                                        0.5,
+                                        1.0
+                                    ],
+                                    "offsetMax": [
+                                        85.0,
+                                        -28.0
+                                    ],
+                                    "offsetMin": [
+                                        -85.0,
+                                        -92.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "border": [
+                                        14.0,
+                                        14.0,
+                                        14.0,
+                                        18.0
+                                    ],
+                                    "texture": "assets/textures/ui/button_blue.png",
+                                    "tint": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "type": "UIImage"
+                                },
+                                {
+                                    "interactable": true,
+                                    "states": {
+                                        "Disabled": {
+                                            "tint": [
+                                                0.14000000059604645,
+                                                0.15000000596046448,
+                                                0.18000000715255737,
+                                                0.6000000238418579
+                                            ]
+                                        },
+                                        "Hover": {
+                                            "tint": [
+                                                1.0,
+                                                1.0,
+                                                0.8500000238418579,
+                                                1.0
+                                            ]
+                                        },
+                                        "Pressed": {
+                                            "offset": [
+                                                0.0,
+                                                3.0
+                                            ],
+                                            "tint": [
+                                                0.800000011920929,
+                                                0.800000011920929,
+                                                0.800000011920929,
+                                                1.0
+                                            ]
+                                        }
+                                    },
+                                    "transition": 0.11999999731779099,
+                                    "type": "UIButton"
+                                }
+                            ],
+                            "name": "CardRetry",
+                            "position": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "components": [
+                                        {
+                                            "anchorMax": [
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "anchorMin": [
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "offsetMax": [
+                                                170.0,
+                                                61.0
+                                            ],
+                                            "offsetMin": [
+                                                0.0,
+                                                -3.0
+                                            ],
+                                            "pivot": [
+                                                0.5,
+                                                0.5
+                                            ],
+                                            "type": "UIRect"
+                                        },
+                                        {
+                                            "align": "Center",
+                                            "color": [
+                                                1.0,
+                                                1.0,
+                                                1.0,
+                                                1.0
+                                            ],
+                                            "font": "assets/fonts/future_narrow.ttf",
+                                            "fontSDF": true,
+                                            "fontSize": 32.0,
+                                            "size": 22.0,
+                                            "text": "@next",
+                                            "type": "UIText",
+                                            "verticalAlign": "Middle"
+                                        }
+                                    ],
+                                    "name": "CardNext_Label",
+                                    "position": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "rotation": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "scale": [
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "static": false,
+                                    "tags": []
+                                }
+                            ],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.5,
+                                        1.0
+                                    ],
+                                    "anchorMin": [
+                                        0.5,
+                                        1.0
+                                    ],
+                                    "offsetMax": [
+                                        270.0,
+                                        -28.0
+                                    ],
+                                    "offsetMin": [
+                                        100.0,
+                                        -92.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "border": [
+                                        14.0,
+                                        14.0,
+                                        14.0,
+                                        18.0
+                                    ],
+                                    "texture": "assets/textures/ui/button_green.png",
+                                    "tint": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "type": "UIImage"
+                                },
+                                {
+                                    "interactable": true,
+                                    "states": {
+                                        "Disabled": {
+                                            "tint": [
+                                                0.14000000059604645,
+                                                0.15000000596046448,
+                                                0.18000000715255737,
+                                                0.6000000238418579
+                                            ]
+                                        },
+                                        "Hover": {
+                                            "tint": [
+                                                1.0,
+                                                1.0,
+                                                0.8500000238418579,
+                                                1.0
+                                            ]
+                                        },
+                                        "Pressed": {
+                                            "offset": [
+                                                0.0,
+                                                3.0
+                                            ],
+                                            "tint": [
+                                                0.800000011920929,
+                                                0.800000011920929,
+                                                0.800000011920929,
+                                                1.0
+                                            ]
+                                        }
+                                    },
+                                    "transition": 0.11999999731779099,
+                                    "type": "UIButton"
+                                }
+                            ],
+                            "name": "CardNext",
+                            "position": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        }
+                    ],
+                    "components": [
+                        {
+                            "anchorMax": [
+                                0.5,
+                                0.5
+                            ],
+                            "anchorMin": [
+                                0.5,
+                                0.5
+                            ],
+                            "offsetMax": [
+                                300.0,
+                                200.0
+                            ],
+                            "offsetMin": [
+                                -300.0,
+                                -200.0
+                            ],
+                            "pivot": [
+                                0.5,
+                                0.5
+                            ],
+                            "type": "UIRect"
+                        },
+                        {
+                            "border": [
+                                16.0,
+                                16.0,
+                                16.0,
+                                20.0
+                            ],
+                            "texture": "assets/textures/ui/panel.png",
+                            "tint": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                0.9700000286102295
+                            ],
+                            "type": "UIImage"
+                        }
+                    ],
+                    "name": "Card",
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "anchorMax": [
+                                1.0,
+                                1.0
+                            ],
+                            "anchorMin": [
+                                0.0,
+                                0.0
+                            ],
+                            "offsetMax": [
+                                40.0,
+                                40.0
+                            ],
+                            "offsetMin": [
+                                -40.0,
+                                -40.0
+                            ],
+                            "pivot": [
+                                0.5,
+                                0.5
+                            ],
+                            "type": "UIRect"
+                        },
+                        {
+                            "border": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "texture": "assets/textures/ui/panel.png",
+                            "tint": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ],
+                            "type": "UIImage"
+                        }
+                    ],
+                    "name": "Fade",
+                    "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                }
+            ],
+            "components": [
+                {
+                    "referenceHeight": 720.0,
+                    "referenceWidth": 1280.0,
+                    "scaleMode": "Fit",
+                    "sortOrder": 0,
+                    "type": "UICanvas"
+                }
+            ],
+            "name": "HUD",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        }
+    ],
+    "twoD": true,
+    "version": 1,
+    "view2D": {
+        "autoParallax": true,
+        "center": [
+            6.0,
+            5.0
+        ],
+        "deadZone": [
+            1.2000000476837158,
+            1.0
+        ],
+        "follow": "Hero",
+        "followLag": 0.11999999731779099,
+        "followOffset": [
+            0.0,
+            2.0
+        ],
+        "halfHeight": 6.0,
+        "lookAhead": [
+            2.0,
+            0.0
+        ],
+        "lookAheadLag": 0.3499999940395355
+    }
+}

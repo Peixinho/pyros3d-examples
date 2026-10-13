@@ -1,0 +1,1302 @@
+{
+    "materials": [],
+    "prefabVersion": 1,
+    "root": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 21,
+                                "frameName": "gem_blue",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Gem_1",
+                        "position": [
+                            29.5,
+                            5.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 21,
+                                "frameName": "gem_blue",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Gem_2",
+                        "position": [
+                            58.5,
+                            5.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "coin_gold",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Coin_1",
+                        "position": [
+                            35.5,
+                            4.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 21,
+                                "frameName": "gem_blue",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Gem_3",
+                        "position": [
+                            37.5,
+                            4.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "coin_gold",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Coin_2",
+                        "position": [
+                            39.5,
+                            4.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "coin_gold",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Coin_3",
+                        "position": [
+                            81.5,
+                            4.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "coin_gold",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Coin_4",
+                        "position": [
+                            82.5,
+                            4.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "coin_gold",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Coin_5",
+                        "position": [
+                            83.5,
+                            4.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "coin_gold",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Coin_6",
+                        "position": [
+                            94.5,
+                            4.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "coin_gold",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Coin_7",
+                        "position": [
+                            95.5,
+                            4.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "coin_gold",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Coin_8",
+                        "position": [
+                            13.5,
+                            3.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "coin_gold",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Coin_9",
+                        "position": [
+                            14.5,
+                            3.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "coin_gold",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Coin_10",
+                        "position": [
+                            69.5,
+                            3.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "coin_gold",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Coin_11",
+                        "position": [
+                            70.5,
+                            3.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "coin_gold",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Coin_12",
+                        "position": [
+                            71.5,
+                            3.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "anchor": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "color": [
+                                            0.2199999988079071,
+                                            0.2800000011920929,
+                                            0.4000000059604645,
+                                            1.0
+                                        ],
+                                        "font": "assets/fonts/future_narrow.ttf",
+                                        "fontSDF": true,
+                                        "fontSize": 64.0,
+                                        "size": 0.41999998688697815,
+                                        "text": "@sign_go",
+                                        "type": "Text2D"
+                                    }
+                                ],
+                                "name": "Sign_1_Words",
+                                "position": [
+                                    0.0,
+                                    1.25,
+                                    0.6000000238418579
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 41,
+                                "frameName": "sign",
+                                "sortOrder": 2,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Sign_1",
+                        "position": [
+                            5.5,
+                            2.5,
+                            0.05000000074505806
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "coin_gold",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Coin_13",
+                        "position": [
+                            21.5,
+                            2.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 18,
+                                "frameName": "flag_off",
+                                "sortOrder": 3,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Check_1",
+                        "position": [
+                            47.5,
+                            2.5,
+                            0.10000000149011612
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "coin_gold",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Coin_14",
+                        "position": [
+                            57.5,
+                            2.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "coin_gold",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Coin_15",
+                        "position": [
+                            60.5,
+                            2.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 16,
+                                "frameName": "flag_green_a",
+                                "sortOrder": 3,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Goal",
+                        "position": [
+                            106.5,
+                            2.5,
+                            0.10000000149011612
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    }
+                ],
+                "components": [],
+                "name": "Things",
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "autoPlay": "fly",
+                                "frame": 6,
+                                "frameName": "fly_a",
+                                "sortOrder": 5,
+                                "source": "assets/textures/enemies.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Fly_1",
+                        "position": [
+                            11.5,
+                            5.599999904632568,
+                            0.30000001192092896
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "autoPlay": "fly",
+                                "frame": 6,
+                                "frameName": "fly_a",
+                                "sortOrder": 5,
+                                "source": "assets/textures/enemies.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Fly_2",
+                        "position": [
+                            16.5,
+                            5.599999904632568,
+                            0.30000001192092896
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    }
+                ],
+                "components": [],
+                "name": "Enemies",
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 4,
+                                "frameName": "bridge_logs",
+                                "sortOrder": 3,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 1,
+                                "castsShadow": false,
+                                "density": 1.0,
+                                "fixedRotation": false,
+                                "friction": 0.0,
+                                "offset": [
+                                    0.0,
+                                    0.2199999988079071
+                                ],
+                                "restitution": 0.0,
+                                "shape": 0,
+                                "size": [
+                                    1.0,
+                                    0.20000000298023224
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "Ferry_1",
+                        "position": [
+                            80.0,
+                            2.75,
+                            0.10000000149011612
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            2.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    }
+                ],
+                "components": [],
+                "name": "Movers",
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            },
+            {
+                "children": [],
+                "components": [
+                    {
+                        "castingShadows": true,
+                        "cullTest": true,
+                        "tileMap2D": true,
+                        "type": "RenderingComponent"
+                    },
+                    {
+                        "chunks": [
+                            {
+                                "cx": 0,
+                                "cy": 0,
+                                "rle": [
+                                    [
+                                        19,
+                                        1
+                                    ],
+                                    [
+                                        27,
+                                        31
+                                    ],
+                                    [
+                                        22,
+                                        1
+                                    ],
+                                    [
+                                        30,
+                                        31
+                                    ],
+                                    [
+                                        -1,
+                                        56
+                                    ],
+                                    [
+                                        18,
+                                        1
+                                    ],
+                                    [
+                                        26,
+                                        1
+                                    ],
+                                    [
+                                        24,
+                                        1
+                                    ],
+                                    [
+                                        -1,
+                                        32
+                                    ],
+                                    [
+                                        18,
+                                        1
+                                    ],
+                                    [
+                                        26,
+                                        1
+                                    ],
+                                    [
+                                        24,
+                                        1
+                                    ],
+                                    [
+                                        -1,
+                                        866
+                                    ]
+                                ]
+                            },
+                            {
+                                "cx": 1,
+                                "cy": 0,
+                                "rle": [
+                                    [
+                                        27,
+                                        32
+                                    ],
+                                    [
+                                        30,
+                                        23
+                                    ],
+                                    [
+                                        31,
+                                        1
+                                    ],
+                                    [
+                                        30,
+                                        2
+                                    ],
+                                    [
+                                        31,
+                                        1
+                                    ],
+                                    [
+                                        30,
+                                        2
+                                    ],
+                                    [
+                                        31,
+                                        1
+                                    ],
+                                    [
+                                        30,
+                                        2
+                                    ],
+                                    [
+                                        -1,
+                                        23
+                                    ],
+                                    [
+                                        21,
+                                        1
+                                    ],
+                                    [
+                                        -1,
+                                        2
+                                    ],
+                                    [
+                                        21,
+                                        1
+                                    ],
+                                    [
+                                        -1,
+                                        2
+                                    ],
+                                    [
+                                        21,
+                                        1
+                                    ],
+                                    [
+                                        -1,
+                                        25
+                                    ],
+                                    [
+                                        20,
+                                        1
+                                    ],
+                                    [
+                                        -1,
+                                        2
+                                    ],
+                                    [
+                                        20,
+                                        1
+                                    ],
+                                    [
+                                        -1,
+                                        2
+                                    ],
+                                    [
+                                        20,
+                                        1
+                                    ],
+                                    [
+                                        -1,
+                                        898
+                                    ]
+                                ]
+                            },
+                            {
+                                "cx": 2,
+                                "cy": 0,
+                                "rle": [
+                                    [
+                                        27,
+                                        14
+                                    ],
+                                    [
+                                        25,
+                                        1
+                                    ],
+                                    [
+                                        103,
+                                        8
+                                    ],
+                                    [
+                                        19,
+                                        1
+                                    ],
+                                    [
+                                        27,
+                                        5
+                                    ],
+                                    [
+                                        25,
+                                        1
+                                    ],
+                                    [
+                                        103,
+                                        2
+                                    ],
+                                    [
+                                        30,
+                                        14
+                                    ],
+                                    [
+                                        28,
+                                        1
+                                    ],
+                                    [
+                                        102,
+                                        8
+                                    ],
+                                    [
+                                        22,
+                                        1
+                                    ],
+                                    [
+                                        30,
+                                        5
+                                    ],
+                                    [
+                                        28,
+                                        1
+                                    ],
+                                    [
+                                        102,
+                                        2
+                                    ],
+                                    [
+                                        -1,
+                                        960
+                                    ]
+                                ]
+                            },
+                            {
+                                "cx": 3,
+                                "cy": 0,
+                                "rle": [
+                                    [
+                                        19,
+                                        1
+                                    ],
+                                    [
+                                        27,
+                                        12
+                                    ],
+                                    [
+                                        25,
+                                        1
+                                    ],
+                                    [
+                                        -1,
+                                        18
+                                    ],
+                                    [
+                                        22,
+                                        1
+                                    ],
+                                    [
+                                        30,
+                                        12
+                                    ],
+                                    [
+                                        28,
+                                        1
+                                    ],
+                                    [
+                                        -1,
+                                        978
+                                    ]
+                                ]
+                            }
+                        ],
+                        "settings": {
+                            "lit": false,
+                            "tileSize": [
+                                1.0,
+                                1.0
+                            ],
+                            "tileset": "assets/textures/tiles.p3dt"
+                        },
+                        "type": "TileMap2D"
+                    },
+                    {
+                        "bodyType": 0,
+                        "castsShadow": false,
+                        "density": 1.0,
+                        "fixedRotation": false,
+                        "friction": 0.0,
+                        "restitution": 0.0,
+                        "shape": 0,
+                        "size": [
+                            0.5,
+                            0.5
+                        ],
+                        "type": "Physics2D"
+                    }
+                ],
+                "name": "Ground",
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            },
+            {
+                "children": [],
+                "components": [
+                    {
+                        "castingShadows": true,
+                        "cullTest": true,
+                        "tileMap2D": true,
+                        "type": "RenderingComponent"
+                    },
+                    {
+                        "chunks": [
+                            {
+                                "cx": 1,
+                                "cy": 0,
+                                "rle": [
+                                    [
+                                        -1,
+                                        99
+                                    ],
+                                    [
+                                        96,
+                                        5
+                                    ],
+                                    [
+                                        -1,
+                                        920
+                                    ]
+                                ]
+                            }
+                        ],
+                        "settings": {
+                            "lit": false,
+                            "tileSize": [
+                                1.0,
+                                1.0
+                            ],
+                            "tileset": "assets/textures/tiles.p3dt"
+                        },
+                        "solidOverrides": [
+                            35,
+                            3,
+                            1,
+                            36,
+                            3,
+                            1,
+                            37,
+                            3,
+                            1,
+                            38,
+                            3,
+                            1,
+                            39,
+                            3,
+                            1
+                        ],
+                        "type": "TileMap2D"
+                    },
+                    {
+                        "bodyType": 0,
+                        "castsShadow": false,
+                        "density": 1.0,
+                        "fixedRotation": false,
+                        "friction": 0.0,
+                        "layer": 2,
+                        "oneWay": true,
+                        "restitution": 0.0,
+                        "shape": 0,
+                        "size": [
+                            0.5,
+                            0.5
+                        ],
+                        "type": "Physics2D"
+                    }
+                ],
+                "name": "Bridges",
+                "position": [
+                    0.0,
+                    0.0,
+                    0.05000000074505806
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            },
+            {
+                "children": [],
+                "components": [],
+                "name": "Start",
+                "position": [
+                    2.5,
+                    2.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            }
+        ],
+        "components": [],
+        "name": "Level",
+        "position": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "rotation": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "scale": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "static": false,
+        "tags": []
+    },
+    "version": 1
+}

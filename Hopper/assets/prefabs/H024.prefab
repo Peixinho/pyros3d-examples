@@ -1,0 +1,2143 @@
+{
+    "materials": [],
+    "prefabVersion": 1,
+    "root": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 21,
+                                "frameName": "gem_blue",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Gem_1",
+                        "position": [
+                            15.5,
+                            7.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 21,
+                                "frameName": "gem_blue",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Gem_2",
+                        "position": [
+                            57.5,
+                            7.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 21,
+                                "frameName": "gem_blue",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Gem_3",
+                        "position": [
+                            82.5,
+                            5.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "coin_gold",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Coin_1",
+                        "position": [
+                            23.5,
+                            4.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "coin_gold",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Coin_2",
+                        "position": [
+                            24.5,
+                            4.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "coin_gold",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Coin_3",
+                        "position": [
+                            28.5,
+                            4.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "coin_gold",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Coin_4",
+                        "position": [
+                            29.5,
+                            4.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "coin_gold",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Coin_5",
+                        "position": [
+                            37.5,
+                            4.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "coin_gold",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Coin_6",
+                        "position": [
+                            39.5,
+                            4.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "coin_gold",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Coin_7",
+                        "position": [
+                            41.5,
+                            4.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "coin_gold",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Coin_8",
+                        "position": [
+                            70.5,
+                            4.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "coin_gold",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Coin_9",
+                        "position": [
+                            71.5,
+                            4.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "anchor": [
+                                            0.5,
+                                            0.5
+                                        ],
+                                        "color": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            1.0
+                                        ],
+                                        "font": "assets/fonts/future_narrow.ttf",
+                                        "fontSDF": true,
+                                        "fontSize": 64.0,
+                                        "size": 0.41999998688697815,
+                                        "text": "@sign_go",
+                                        "type": "Text2D"
+                                    }
+                                ],
+                                "name": "Sign_1_Words",
+                                "position": [
+                                    0.0,
+                                    1.25,
+                                    0.6000000238418579
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 41,
+                                "frameName": "sign",
+                                "lit": true,
+                                "sortOrder": 2,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Sign_1",
+                        "position": [
+                            5.5,
+                            2.5,
+                            0.05000000074505806
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 45,
+                                "frameName": "spring",
+                                "lit": true,
+                                "sortOrder": 3,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Spring_1",
+                        "position": [
+                            11.5,
+                            2.5,
+                            0.10000000149011612
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "castingShadows": false,
+                                        "color": [
+                                            1.0,
+                                            0.699999988079071,
+                                            0.3499999940395355,
+                                            1.0
+                                        ],
+                                        "intensity": 1.0,
+                                        "radius": 9.0,
+                                        "type": "PointLight",
+                                        "volumetricAnisotropy": 0.6000000238418579,
+                                        "volumetricScattering": 0.0,
+                                        "volumetricSteps": 32
+                                    }
+                                ],
+                                "name": "Torch_1_Light",
+                                "position": [
+                                    0.0,
+                                    0.20000000298023224,
+                                    1.399999976158142
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            },
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "blend": "additive",
+                                        "color": [
+                                            1.0,
+                                            0.699999988079071,
+                                            0.30000001192092896,
+                                            0.550000011920929
+                                        ],
+                                        "frame": 0,
+                                        "frameName": "frame0",
+                                        "pixelsPerUnit": 40.0,
+                                        "sortOrder": 3,
+                                        "source": "assets/textures/fx/glow.png",
+                                        "type": "Sprite2D"
+                                    }
+                                ],
+                                "name": "Torch_1_Glow",
+                                "position": [
+                                    0.0,
+                                    0.20000000298023224,
+                                    0.05000000074505806
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 49,
+                                "frameName": "torch_on_a",
+                                "sortOrder": 2,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Torch_1",
+                        "position": [
+                            14.5,
+                            2.5,
+                            -0.10000000149011612
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "castingShadows": false,
+                                        "color": [
+                                            1.0,
+                                            0.699999988079071,
+                                            0.3499999940395355,
+                                            1.0
+                                        ],
+                                        "intensity": 1.0,
+                                        "radius": 9.0,
+                                        "type": "PointLight",
+                                        "volumetricAnisotropy": 0.6000000238418579,
+                                        "volumetricScattering": 0.0,
+                                        "volumetricSteps": 32
+                                    }
+                                ],
+                                "name": "Torch_2_Light",
+                                "position": [
+                                    0.0,
+                                    0.20000000298023224,
+                                    1.399999976158142
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            },
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "blend": "additive",
+                                        "color": [
+                                            1.0,
+                                            0.699999988079071,
+                                            0.30000001192092896,
+                                            0.550000011920929
+                                        ],
+                                        "frame": 0,
+                                        "frameName": "frame0",
+                                        "pixelsPerUnit": 40.0,
+                                        "sortOrder": 3,
+                                        "source": "assets/textures/fx/glow.png",
+                                        "type": "Sprite2D"
+                                    }
+                                ],
+                                "name": "Torch_2_Glow",
+                                "position": [
+                                    0.0,
+                                    0.20000000298023224,
+                                    0.05000000074505806
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 49,
+                                "frameName": "torch_on_a",
+                                "sortOrder": 2,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Torch_2",
+                        "position": [
+                            32.5,
+                            2.5,
+                            -0.10000000149011612
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "castingShadows": false,
+                                        "color": [
+                                            1.0,
+                                            0.699999988079071,
+                                            0.3499999940395355,
+                                            1.0
+                                        ],
+                                        "intensity": 1.0,
+                                        "radius": 9.0,
+                                        "type": "PointLight",
+                                        "volumetricAnisotropy": 0.6000000238418579,
+                                        "volumetricScattering": 0.0,
+                                        "volumetricSteps": 32
+                                    }
+                                ],
+                                "name": "Torch_3_Light",
+                                "position": [
+                                    0.0,
+                                    0.20000000298023224,
+                                    1.399999976158142
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            },
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "blend": "additive",
+                                        "color": [
+                                            1.0,
+                                            0.699999988079071,
+                                            0.30000001192092896,
+                                            0.550000011920929
+                                        ],
+                                        "frame": 0,
+                                        "frameName": "frame0",
+                                        "pixelsPerUnit": 40.0,
+                                        "sortOrder": 3,
+                                        "source": "assets/textures/fx/glow.png",
+                                        "type": "Sprite2D"
+                                    }
+                                ],
+                                "name": "Torch_3_Glow",
+                                "position": [
+                                    0.0,
+                                    0.20000000298023224,
+                                    0.05000000074505806
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 49,
+                                "frameName": "torch_on_a",
+                                "sortOrder": 2,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Torch_3",
+                        "position": [
+                            41.5,
+                            2.5,
+                            -0.10000000149011612
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 18,
+                                "frameName": "flag_off",
+                                "lit": true,
+                                "sortOrder": 3,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Check_1",
+                        "position": [
+                            49.5,
+                            2.5,
+                            0.10000000149011612
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "castingShadows": false,
+                                        "color": [
+                                            1.0,
+                                            0.699999988079071,
+                                            0.3499999940395355,
+                                            1.0
+                                        ],
+                                        "intensity": 1.0,
+                                        "radius": 9.0,
+                                        "type": "PointLight",
+                                        "volumetricAnisotropy": 0.6000000238418579,
+                                        "volumetricScattering": 0.0,
+                                        "volumetricSteps": 32
+                                    }
+                                ],
+                                "name": "Torch_4_Light",
+                                "position": [
+                                    0.0,
+                                    0.20000000298023224,
+                                    1.399999976158142
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            },
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "blend": "additive",
+                                        "color": [
+                                            1.0,
+                                            0.699999988079071,
+                                            0.30000001192092896,
+                                            0.550000011920929
+                                        ],
+                                        "frame": 0,
+                                        "frameName": "frame0",
+                                        "pixelsPerUnit": 40.0,
+                                        "sortOrder": 3,
+                                        "source": "assets/textures/fx/glow.png",
+                                        "type": "Sprite2D"
+                                    }
+                                ],
+                                "name": "Torch_4_Glow",
+                                "position": [
+                                    0.0,
+                                    0.20000000298023224,
+                                    0.05000000074505806
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 49,
+                                "frameName": "torch_on_a",
+                                "sortOrder": 2,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Torch_4",
+                        "position": [
+                            50.5,
+                            2.5,
+                            -0.10000000149011612
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "castingShadows": false,
+                                        "color": [
+                                            1.0,
+                                            0.699999988079071,
+                                            0.3499999940395355,
+                                            1.0
+                                        ],
+                                        "intensity": 1.0,
+                                        "radius": 9.0,
+                                        "type": "PointLight",
+                                        "volumetricAnisotropy": 0.6000000238418579,
+                                        "volumetricScattering": 0.0,
+                                        "volumetricSteps": 32
+                                    }
+                                ],
+                                "name": "Torch_5_Light",
+                                "position": [
+                                    0.0,
+                                    0.20000000298023224,
+                                    1.399999976158142
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            },
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "blend": "additive",
+                                        "color": [
+                                            1.0,
+                                            0.699999988079071,
+                                            0.30000001192092896,
+                                            0.550000011920929
+                                        ],
+                                        "frame": 0,
+                                        "frameName": "frame0",
+                                        "pixelsPerUnit": 40.0,
+                                        "sortOrder": 3,
+                                        "source": "assets/textures/fx/glow.png",
+                                        "type": "Sprite2D"
+                                    }
+                                ],
+                                "name": "Torch_5_Glow",
+                                "position": [
+                                    0.0,
+                                    0.20000000298023224,
+                                    0.05000000074505806
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 49,
+                                "frameName": "torch_on_a",
+                                "sortOrder": 2,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Torch_5",
+                        "position": [
+                            59.5,
+                            2.5,
+                            -0.10000000149011612
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "castingShadows": false,
+                                        "color": [
+                                            1.0,
+                                            0.699999988079071,
+                                            0.3499999940395355,
+                                            1.0
+                                        ],
+                                        "intensity": 1.0,
+                                        "radius": 9.0,
+                                        "type": "PointLight",
+                                        "volumetricAnisotropy": 0.6000000238418579,
+                                        "volumetricScattering": 0.0,
+                                        "volumetricSteps": 32
+                                    }
+                                ],
+                                "name": "Torch_6_Light",
+                                "position": [
+                                    0.0,
+                                    0.20000000298023224,
+                                    1.399999976158142
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            },
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "blend": "additive",
+                                        "color": [
+                                            1.0,
+                                            0.699999988079071,
+                                            0.30000001192092896,
+                                            0.550000011920929
+                                        ],
+                                        "frame": 0,
+                                        "frameName": "frame0",
+                                        "pixelsPerUnit": 40.0,
+                                        "sortOrder": 3,
+                                        "source": "assets/textures/fx/glow.png",
+                                        "type": "Sprite2D"
+                                    }
+                                ],
+                                "name": "Torch_6_Glow",
+                                "position": [
+                                    0.0,
+                                    0.20000000298023224,
+                                    0.05000000074505806
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 49,
+                                "frameName": "torch_on_a",
+                                "sortOrder": 2,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Torch_6",
+                        "position": [
+                            68.5,
+                            2.5,
+                            -0.10000000149011612
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "castingShadows": false,
+                                        "color": [
+                                            1.0,
+                                            0.699999988079071,
+                                            0.3499999940395355,
+                                            1.0
+                                        ],
+                                        "intensity": 1.0,
+                                        "radius": 9.0,
+                                        "type": "PointLight",
+                                        "volumetricAnisotropy": 0.6000000238418579,
+                                        "volumetricScattering": 0.0,
+                                        "volumetricSteps": 32
+                                    }
+                                ],
+                                "name": "Torch_7_Light",
+                                "position": [
+                                    0.0,
+                                    0.20000000298023224,
+                                    1.399999976158142
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            },
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "blend": "additive",
+                                        "color": [
+                                            1.0,
+                                            0.699999988079071,
+                                            0.30000001192092896,
+                                            0.550000011920929
+                                        ],
+                                        "frame": 0,
+                                        "frameName": "frame0",
+                                        "pixelsPerUnit": 40.0,
+                                        "sortOrder": 3,
+                                        "source": "assets/textures/fx/glow.png",
+                                        "type": "Sprite2D"
+                                    }
+                                ],
+                                "name": "Torch_7_Glow",
+                                "position": [
+                                    0.0,
+                                    0.20000000298023224,
+                                    0.05000000074505806
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 49,
+                                "frameName": "torch_on_a",
+                                "sortOrder": 2,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Torch_7",
+                        "position": [
+                            77.5,
+                            2.5,
+                            -0.10000000149011612
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "coin_gold",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Coin_10",
+                        "position": [
+                            81.5,
+                            2.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "coin_gold",
+                                "sortOrder": 4,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Coin_11",
+                        "position": [
+                            84.5,
+                            2.5,
+                            0.20000000298023224
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "castingShadows": false,
+                                        "color": [
+                                            1.0,
+                                            0.699999988079071,
+                                            0.3499999940395355,
+                                            1.0
+                                        ],
+                                        "intensity": 1.0,
+                                        "radius": 9.0,
+                                        "type": "PointLight",
+                                        "volumetricAnisotropy": 0.6000000238418579,
+                                        "volumetricScattering": 0.0,
+                                        "volumetricSteps": 32
+                                    }
+                                ],
+                                "name": "Torch_8_Light",
+                                "position": [
+                                    0.0,
+                                    0.20000000298023224,
+                                    1.399999976158142
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            },
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "blend": "additive",
+                                        "color": [
+                                            1.0,
+                                            0.699999988079071,
+                                            0.30000001192092896,
+                                            0.550000011920929
+                                        ],
+                                        "frame": 0,
+                                        "frameName": "frame0",
+                                        "pixelsPerUnit": 40.0,
+                                        "sortOrder": 3,
+                                        "source": "assets/textures/fx/glow.png",
+                                        "type": "Sprite2D"
+                                    }
+                                ],
+                                "name": "Torch_8_Glow",
+                                "position": [
+                                    0.0,
+                                    0.20000000298023224,
+                                    0.05000000074505806
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 49,
+                                "frameName": "torch_on_a",
+                                "sortOrder": 2,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Torch_8",
+                        "position": [
+                            86.5,
+                            2.5,
+                            -0.10000000149011612
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "castingShadows": false,
+                                        "color": [
+                                            1.0,
+                                            0.699999988079071,
+                                            0.3499999940395355,
+                                            1.0
+                                        ],
+                                        "intensity": 1.0,
+                                        "radius": 9.0,
+                                        "type": "PointLight",
+                                        "volumetricAnisotropy": 0.6000000238418579,
+                                        "volumetricScattering": 0.0,
+                                        "volumetricSteps": 32
+                                    }
+                                ],
+                                "name": "Torch_9_Light",
+                                "position": [
+                                    0.0,
+                                    0.20000000298023224,
+                                    1.399999976158142
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            },
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "blend": "additive",
+                                        "color": [
+                                            1.0,
+                                            0.699999988079071,
+                                            0.30000001192092896,
+                                            0.550000011920929
+                                        ],
+                                        "frame": 0,
+                                        "frameName": "frame0",
+                                        "pixelsPerUnit": 40.0,
+                                        "sortOrder": 3,
+                                        "source": "assets/textures/fx/glow.png",
+                                        "type": "Sprite2D"
+                                    }
+                                ],
+                                "name": "Torch_9_Glow",
+                                "position": [
+                                    0.0,
+                                    0.20000000298023224,
+                                    0.05000000074505806
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 49,
+                                "frameName": "torch_on_a",
+                                "sortOrder": 2,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Torch_9",
+                        "position": [
+                            95.5,
+                            2.5,
+                            -0.10000000149011612
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 16,
+                                "frameName": "flag_green_a",
+                                "lit": true,
+                                "sortOrder": 3,
+                                "source": "assets/textures/things.p3ds",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Goal",
+                        "position": [
+                            96.5,
+                            2.5,
+                            0.10000000149011612
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    }
+                ],
+                "components": [],
+                "name": "Things",
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            },
+            {
+                "children": [],
+                "components": [],
+                "name": "Enemies",
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            },
+            {
+                "children": [],
+                "components": [],
+                "name": "Movers",
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            },
+            {
+                "children": [],
+                "components": [
+                    {
+                        "castingShadows": true,
+                        "cullTest": true,
+                        "tileMap2D": true,
+                        "type": "RenderingComponent"
+                    },
+                    {
+                        "chunks": [
+                            {
+                                "cx": 0,
+                                "cy": 0,
+                                "rle": [
+                                    [
+                                        51,
+                                        1
+                                    ],
+                                    [
+                                        59,
+                                        21
+                                    ],
+                                    [
+                                        57,
+                                        1
+                                    ],
+                                    [
+                                        103,
+                                        2
+                                    ],
+                                    [
+                                        51,
+                                        1
+                                    ],
+                                    [
+                                        59,
+                                        1
+                                    ],
+                                    [
+                                        57,
+                                        1
+                                    ],
+                                    [
+                                        103,
+                                        2
+                                    ],
+                                    [
+                                        51,
+                                        1
+                                    ],
+                                    [
+                                        59,
+                                        1
+                                    ],
+                                    [
+                                        54,
+                                        1
+                                    ],
+                                    [
+                                        62,
+                                        21
+                                    ],
+                                    [
+                                        60,
+                                        1
+                                    ],
+                                    [
+                                        102,
+                                        2
+                                    ],
+                                    [
+                                        54,
+                                        1
+                                    ],
+                                    [
+                                        62,
+                                        1
+                                    ],
+                                    [
+                                        60,
+                                        1
+                                    ],
+                                    [
+                                        102,
+                                        2
+                                    ],
+                                    [
+                                        54,
+                                        1
+                                    ],
+                                    [
+                                        62,
+                                        1
+                                    ],
+                                    [
+                                        -1,
+                                        142
+                                    ],
+                                    [
+                                        50,
+                                        1
+                                    ],
+                                    [
+                                        58,
+                                        1
+                                    ],
+                                    [
+                                        56,
+                                        1
+                                    ],
+                                    [
+                                        -1,
+                                        815
+                                    ]
+                                ]
+                            },
+                            {
+                                "cx": 1,
+                                "cy": 0,
+                                "rle": [
+                                    [
+                                        59,
+                                        32
+                                    ],
+                                    [
+                                        62,
+                                        32
+                                    ],
+                                    [
+                                        -1,
+                                        28
+                                    ],
+                                    [
+                                        101,
+                                        1
+                                    ],
+                                    [
+                                        -1,
+                                        31
+                                    ],
+                                    [
+                                        100,
+                                        1
+                                    ],
+                                    [
+                                        -1,
+                                        31
+                                    ],
+                                    [
+                                        100,
+                                        1
+                                    ],
+                                    [
+                                        -1,
+                                        31
+                                    ],
+                                    [
+                                        100,
+                                        1
+                                    ],
+                                    [
+                                        -1,
+                                        27
+                                    ],
+                                    [
+                                        50,
+                                        1
+                                    ],
+                                    [
+                                        58,
+                                        2
+                                    ],
+                                    [
+                                        56,
+                                        1
+                                    ],
+                                    [
+                                        99,
+                                        1
+                                    ],
+                                    [
+                                        -1,
+                                        803
+                                    ]
+                                ]
+                            },
+                            {
+                                "cx": 2,
+                                "cy": 0,
+                                "rle": [
+                                    [
+                                        59,
+                                        5
+                                    ],
+                                    [
+                                        57,
+                                        1
+                                    ],
+                                    [
+                                        103,
+                                        2
+                                    ],
+                                    [
+                                        51,
+                                        1
+                                    ],
+                                    [
+                                        59,
+                                        23
+                                    ],
+                                    [
+                                        62,
+                                        5
+                                    ],
+                                    [
+                                        60,
+                                        1
+                                    ],
+                                    [
+                                        102,
+                                        2
+                                    ],
+                                    [
+                                        54,
+                                        1
+                                    ],
+                                    [
+                                        62,
+                                        6
+                                    ],
+                                    [
+                                        63,
+                                        1
+                                    ],
+                                    [
+                                        62,
+                                        2
+                                    ],
+                                    [
+                                        63,
+                                        1
+                                    ],
+                                    [
+                                        62,
+                                        2
+                                    ],
+                                    [
+                                        63,
+                                        1
+                                    ],
+                                    [
+                                        62,
+                                        10
+                                    ],
+                                    [
+                                        -1,
+                                        15
+                                    ],
+                                    [
+                                        53,
+                                        1
+                                    ],
+                                    [
+                                        -1,
+                                        2
+                                    ],
+                                    [
+                                        53,
+                                        1
+                                    ],
+                                    [
+                                        -1,
+                                        2
+                                    ],
+                                    [
+                                        53,
+                                        1
+                                    ],
+                                    [
+                                        -1,
+                                        25
+                                    ],
+                                    [
+                                        52,
+                                        1
+                                    ],
+                                    [
+                                        -1,
+                                        2
+                                    ],
+                                    [
+                                        52,
+                                        1
+                                    ],
+                                    [
+                                        -1,
+                                        2
+                                    ],
+                                    [
+                                        52,
+                                        1
+                                    ],
+                                    [
+                                        -1,
+                                        906
+                                    ]
+                                ]
+                            },
+                            {
+                                "cx": 3,
+                                "cy": 0,
+                                "rle": [
+                                    [
+                                        59,
+                                        3
+                                    ],
+                                    [
+                                        57,
+                                        1
+                                    ],
+                                    [
+                                        -1,
+                                        28
+                                    ],
+                                    [
+                                        62,
+                                        3
+                                    ],
+                                    [
+                                        60,
+                                        1
+                                    ],
+                                    [
+                                        -1,
+                                        988
+                                    ]
+                                ]
+                            }
+                        ],
+                        "settings": {
+                            "lit": false,
+                            "tileSize": [
+                                1.0,
+                                1.0
+                            ],
+                            "tileset": "assets/textures/tiles.p3dt"
+                        },
+                        "type": "TileMap2D"
+                    },
+                    {
+                        "bodyType": 0,
+                        "castsShadow": true,
+                        "density": 1.0,
+                        "fixedRotation": false,
+                        "friction": 0.0,
+                        "restitution": 0.0,
+                        "shape": 0,
+                        "size": [
+                            0.5,
+                            0.5
+                        ],
+                        "type": "Physics2D"
+                    }
+                ],
+                "name": "Ground",
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            },
+            {
+                "children": [],
+                "components": [
+                    {
+                        "castingShadows": true,
+                        "cullTest": true,
+                        "tileMap2D": true,
+                        "type": "RenderingComponent"
+                    },
+                    {
+                        "chunks": [
+                            {
+                                "cx": 1,
+                                "cy": 0,
+                                "rle": [
+                                    [
+                                        -1,
+                                        101
+                                    ],
+                                    [
+                                        96,
+                                        5
+                                    ],
+                                    [
+                                        -1,
+                                        918
+                                    ]
+                                ]
+                            }
+                        ],
+                        "settings": {
+                            "lit": false,
+                            "tileSize": [
+                                1.0,
+                                1.0
+                            ],
+                            "tileset": "assets/textures/tiles.p3dt"
+                        },
+                        "solidOverrides": [
+                            37,
+                            3,
+                            1,
+                            38,
+                            3,
+                            1,
+                            39,
+                            3,
+                            1,
+                            40,
+                            3,
+                            1,
+                            41,
+                            3,
+                            1
+                        ],
+                        "type": "TileMap2D"
+                    },
+                    {
+                        "bodyType": 0,
+                        "castsShadow": false,
+                        "density": 1.0,
+                        "fixedRotation": false,
+                        "friction": 0.0,
+                        "layer": 2,
+                        "oneWay": true,
+                        "restitution": 0.0,
+                        "shape": 0,
+                        "size": [
+                            0.5,
+                            0.5
+                        ],
+                        "type": "Physics2D"
+                    }
+                ],
+                "name": "Bridges",
+                "position": [
+                    0.0,
+                    0.0,
+                    0.05000000074505806
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            },
+            {
+                "children": [],
+                "components": [],
+                "name": "Start",
+                "position": [
+                    2.5,
+                    2.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            }
+        ],
+        "components": [],
+        "name": "Level",
+        "position": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "rotation": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "scale": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "static": false,
+        "tags": []
+    },
+    "version": 1
+}

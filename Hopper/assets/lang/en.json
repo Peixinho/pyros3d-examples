@@ -1,0 +1,6 @@
+{
+    "play": "PLAY", "back": "BACK", "menu": "MENU", "again": "AGAIN", "next": "NEXT",
+    "level_clear": "LEVEL CLEAR", "world_1": "MEADOW", "world_2": "DUNES", "world_3": "CAVERN", "world_4": "FROST", "world_5": "GLOOM",
+    "sign_1": "RUN, AND JUMP", "sign_2": "JUMP ON THEIR HEADS", "sign_3": "FIND THREE GEMS", "sign_go": "THIS WAY",
+    "level": "{1}  {2}"
+}

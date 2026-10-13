@@ -1,0 +1,487 @@
+{
+	"clips": [],
+	"edgeInset": 0.019999999552965164,
+	"filter": "linear",
+	"frames": [
+		{
+			"name": "block_coin",
+			"rect": [
+				4,
+				4,
+				64,
+				64
+			]
+		},
+		{
+			"name": "block_empty",
+			"rect": [
+				72,
+				4,
+				64,
+				64
+			]
+		},
+		{
+			"name": "block_plank",
+			"rect": [
+				140,
+				4,
+				64,
+				64
+			]
+		},
+		{
+			"name": "bomb",
+			"rect": [
+				208,
+				4,
+				64,
+				64
+			]
+		},
+		{
+			"name": "bridge_logs",
+			"rect": [
+				276,
+				4,
+				64,
+				64
+			]
+		},
+		{
+			"name": "bush",
+			"rect": [
+				344,
+				4,
+				64,
+				64
+			]
+		},
+		{
+			"name": "cactus",
+			"rect": [
+				412,
+				4,
+				64,
+				64
+			]
+		},
+		{
+			"name": "chain",
+			"rect": [
+				480,
+				4,
+				64,
+				64
+			]
+		},
+		{
+			"name": "coin_gold",
+			"rect": [
+				548,
+				4,
+				64,
+				64
+			]
+		},
+		{
+			"name": "coin_gold_side",
+			"rect": [
+				616,
+				4,
+				64,
+				64
+			]
+		},
+		{
+			"name": "door_closed",
+			"rect": [
+				684,
+				4,
+				64,
+				64
+			]
+		},
+		{
+			"name": "door_closed_top",
+			"rect": [
+				752,
+				4,
+				64,
+				64
+			]
+		},
+		{
+			"name": "door_open",
+			"rect": [
+				820,
+				4,
+				64,
+				64
+			]
+		},
+		{
+			"name": "door_open_top",
+			"rect": [
+				888,
+				4,
+				64,
+				64
+			]
+		},
+		{
+			"name": "fence",
+			"rect": [
+				956,
+				4,
+				64,
+				64
+			]
+		},
+		{
+			"name": "fireball",
+			"rect": [
+				4,
+				72,
+				64,
+				64
+			]
+		},
+		{
+			"name": "flag_green_a",
+			"rect": [
+				72,
+				72,
+				64,
+				64
+			]
+		},
+		{
+			"name": "flag_green_b",
+			"rect": [
+				140,
+				72,
+				64,
+				64
+			]
+		},
+		{
+			"name": "flag_off",
+			"rect": [
+				208,
+				72,
+				64,
+				64
+			]
+		},
+		{
+			"name": "flag_yellow_a",
+			"rect": [
+				276,
+				72,
+				64,
+				64
+			]
+		},
+		{
+			"name": "flag_yellow_b",
+			"rect": [
+				344,
+				72,
+				64,
+				64
+			]
+		},
+		{
+			"name": "gem_blue",
+			"rect": [
+				412,
+				72,
+				64,
+				64
+			]
+		},
+		{
+			"name": "gem_green",
+			"rect": [
+				480,
+				72,
+				64,
+				64
+			]
+		},
+		{
+			"name": "gem_red",
+			"rect": [
+				548,
+				72,
+				64,
+				64
+			]
+		},
+		{
+			"name": "gem_yellow",
+			"rect": [
+				616,
+				72,
+				64,
+				64
+			]
+		},
+		{
+			"name": "grass",
+			"rect": [
+				684,
+				72,
+				64,
+				64
+			]
+		},
+		{
+			"name": "grass_purple",
+			"rect": [
+				752,
+				72,
+				64,
+				64
+			]
+		},
+		{
+			"name": "heart",
+			"rect": [
+				820,
+				72,
+				64,
+				64
+			]
+		},
+		{
+			"name": "hill",
+			"rect": [
+				888,
+				72,
+				64,
+				64
+			]
+		},
+		{
+			"name": "hill_top",
+			"rect": [
+				956,
+				72,
+				64,
+				64
+			]
+		},
+		{
+			"name": "hill_top_smile",
+			"rect": [
+				4,
+				140,
+				64,
+				64
+			]
+		},
+		{
+			"name": "hud_coin",
+			"rect": [
+				72,
+				140,
+				64,
+				64
+			]
+		},
+		{
+			"name": "hud_heart",
+			"rect": [
+				140,
+				140,
+				64,
+				64
+			]
+		},
+		{
+			"name": "hud_heart_empty",
+			"rect": [
+				208,
+				140,
+				64,
+				64
+			]
+		},
+		{
+			"name": "hud_key_yellow",
+			"rect": [
+				276,
+				140,
+				64,
+				64
+			]
+		},
+		{
+			"name": "hud_player_green",
+			"rect": [
+				344,
+				140,
+				64,
+				64
+			]
+		},
+		{
+			"name": "key_yellow",
+			"rect": [
+				412,
+				140,
+				64,
+				64
+			]
+		},
+		{
+			"name": "lock_yellow",
+			"rect": [
+				480,
+				140,
+				64,
+				64
+			]
+		},
+		{
+			"name": "mushroom_brown",
+			"rect": [
+				548,
+				140,
+				64,
+				64
+			]
+		},
+		{
+			"name": "mushroom_red",
+			"rect": [
+				616,
+				140,
+				64,
+				64
+			]
+		},
+		{
+			"name": "rock",
+			"rect": [
+				684,
+				140,
+				64,
+				64
+			]
+		},
+		{
+			"name": "sign",
+			"rect": [
+				752,
+				140,
+				64,
+				64
+			]
+		},
+		{
+			"name": "sign_exit",
+			"rect": [
+				820,
+				140,
+				64,
+				64
+			]
+		},
+		{
+			"name": "sign_right",
+			"rect": [
+				888,
+				140,
+				64,
+				64
+			]
+		},
+		{
+			"name": "snow",
+			"rect": [
+				956,
+				140,
+				64,
+				64
+			]
+		},
+		{
+			"name": "spring",
+			"rect": [
+				4,
+				208,
+				64,
+				64
+			]
+		},
+		{
+			"name": "spring_out",
+			"rect": [
+				72,
+				208,
+				64,
+				64
+			]
+		},
+		{
+			"name": "star",
+			"rect": [
+				140,
+				208,
+				64,
+				64
+			]
+		},
+		{
+			"name": "torch_off",
+			"rect": [
+				208,
+				208,
+				64,
+				64
+			]
+		},
+		{
+			"name": "torch_on_a",
+			"rect": [
+				276,
+				208,
+				64,
+				64
+			]
+		},
+		{
+			"name": "torch_on_b",
+			"rect": [
+				344,
+				208,
+				64,
+				64
+			]
+		},
+		{
+			"name": "weight",
+			"rect": [
+				412,
+				208,
+				64,
+				64
+			]
+		},
+		{
+			"name": "window",
+			"rect": [
+				480,
+				208,
+				64,
+				64
+			]
+		}
+	],
+	"image": "assets/textures/things.png",
+	"pixelsPerUnit": 64.0,
+	"version": 1
+}

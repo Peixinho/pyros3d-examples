@@ -1,0 +1,18 @@
+{
+    "activeScene": "scenes/Title.json",
+    "name": "Hopper",
+    "scenes": [
+        "scenes/Title.json",
+        "scenes/World1.json",
+        "scenes/World2.json",
+        "scenes/World3.json",
+        "scenes/World4.json",
+        "scenes/World5.json"
+    ],
+    "settings": {
+        "antiAliasing": "fxaa",
+        "defaultMainScript": "",
+        "rendererType": "forward"
+    },
+    "version": 1
+}

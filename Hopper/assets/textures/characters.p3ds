@@ -1,0 +1,474 @@
+{
+	"clips": [
+		{
+			"fps": 1.0,
+			"frames": [
+				14
+			],
+			"loop": true,
+			"name": "idle"
+		},
+		{
+			"fps": 9.0,
+			"frames": [
+				16,
+				17
+			],
+			"loop": true,
+			"name": "walk"
+		},
+		{
+			"fps": 1.0,
+			"frames": [
+				15
+			],
+			"loop": true,
+			"name": "jump"
+		},
+		{
+			"fps": 1.0,
+			"frames": [
+				13
+			],
+			"loop": true,
+			"name": "hit"
+		},
+		{
+			"fps": 1.0,
+			"frames": [
+				11
+			],
+			"loop": true,
+			"name": "duck"
+		},
+		{
+			"fps": 6.0,
+			"frames": [
+				9,
+				10
+			],
+			"loop": true,
+			"name": "climb"
+		},
+		{
+			"fps": 1.0,
+			"frames": [
+				12
+			],
+			"loop": true,
+			"name": "front"
+		}
+	],
+	"edgeInset": 0.019999999552965164,
+	"filter": "linear",
+	"frames": [
+		{
+			"name": "beige_climb_a",
+			"rect": [
+				4,
+				4,
+				128,
+				128
+			]
+		},
+		{
+			"name": "beige_climb_b",
+			"rect": [
+				136,
+				4,
+				128,
+				128
+			]
+		},
+		{
+			"name": "beige_duck",
+			"rect": [
+				268,
+				4,
+				128,
+				128
+			]
+		},
+		{
+			"name": "beige_front",
+			"rect": [
+				400,
+				4,
+				128,
+				128
+			]
+		},
+		{
+			"name": "beige_hit",
+			"rect": [
+				532,
+				4,
+				128,
+				128
+			]
+		},
+		{
+			"name": "beige_idle",
+			"rect": [
+				664,
+				4,
+				128,
+				128
+			]
+		},
+		{
+			"name": "beige_jump",
+			"rect": [
+				796,
+				4,
+				128,
+				128
+			]
+		},
+		{
+			"name": "beige_walk_a",
+			"rect": [
+				4,
+				136,
+				128,
+				128
+			]
+		},
+		{
+			"name": "beige_walk_b",
+			"rect": [
+				136,
+				136,
+				128,
+				128
+			]
+		},
+		{
+			"name": "green_climb_a",
+			"rect": [
+				268,
+				136,
+				128,
+				128
+			]
+		},
+		{
+			"name": "green_climb_b",
+			"rect": [
+				400,
+				136,
+				128,
+				128
+			]
+		},
+		{
+			"name": "green_duck",
+			"rect": [
+				532,
+				136,
+				128,
+				128
+			]
+		},
+		{
+			"name": "green_front",
+			"rect": [
+				664,
+				136,
+				128,
+				128
+			]
+		},
+		{
+			"name": "green_hit",
+			"rect": [
+				796,
+				136,
+				128,
+				128
+			]
+		},
+		{
+			"name": "green_idle",
+			"rect": [
+				4,
+				268,
+				128,
+				128
+			]
+		},
+		{
+			"name": "green_jump",
+			"rect": [
+				136,
+				268,
+				128,
+				128
+			]
+		},
+		{
+			"name": "green_walk_a",
+			"rect": [
+				268,
+				268,
+				128,
+				128
+			]
+		},
+		{
+			"name": "green_walk_b",
+			"rect": [
+				400,
+				268,
+				128,
+				128
+			]
+		},
+		{
+			"name": "pink_climb_a",
+			"rect": [
+				532,
+				268,
+				128,
+				128
+			]
+		},
+		{
+			"name": "pink_climb_b",
+			"rect": [
+				664,
+				268,
+				128,
+				128
+			]
+		},
+		{
+			"name": "pink_duck",
+			"rect": [
+				796,
+				268,
+				128,
+				128
+			]
+		},
+		{
+			"name": "pink_front",
+			"rect": [
+				4,
+				400,
+				128,
+				128
+			]
+		},
+		{
+			"name": "pink_hit",
+			"rect": [
+				136,
+				400,
+				128,
+				128
+			]
+		},
+		{
+			"name": "pink_idle",
+			"rect": [
+				268,
+				400,
+				128,
+				128
+			]
+		},
+		{
+			"name": "pink_jump",
+			"rect": [
+				400,
+				400,
+				128,
+				128
+			]
+		},
+		{
+			"name": "pink_walk_a",
+			"rect": [
+				532,
+				400,
+				128,
+				128
+			]
+		},
+		{
+			"name": "pink_walk_b",
+			"rect": [
+				664,
+				400,
+				128,
+				128
+			]
+		},
+		{
+			"name": "purple_climb_a",
+			"rect": [
+				796,
+				400,
+				128,
+				128
+			]
+		},
+		{
+			"name": "purple_climb_b",
+			"rect": [
+				4,
+				532,
+				128,
+				128
+			]
+		},
+		{
+			"name": "purple_duck",
+			"rect": [
+				136,
+				532,
+				128,
+				128
+			]
+		},
+		{
+			"name": "purple_front",
+			"rect": [
+				268,
+				532,
+				128,
+				128
+			]
+		},
+		{
+			"name": "purple_hit",
+			"rect": [
+				400,
+				532,
+				128,
+				128
+			]
+		},
+		{
+			"name": "purple_idle",
+			"rect": [
+				532,
+				532,
+				128,
+				128
+			]
+		},
+		{
+			"name": "purple_jump",
+			"rect": [
+				664,
+				532,
+				128,
+				128
+			]
+		},
+		{
+			"name": "purple_walk_a",
+			"rect": [
+				796,
+				532,
+				128,
+				128
+			]
+		},
+		{
+			"name": "purple_walk_b",
+			"rect": [
+				4,
+				664,
+				128,
+				128
+			]
+		},
+		{
+			"name": "yellow_climb_a",
+			"rect": [
+				136,
+				664,
+				128,
+				128
+			]
+		},
+		{
+			"name": "yellow_climb_b",
+			"rect": [
+				268,
+				664,
+				128,
+				128
+			]
+		},
+		{
+			"name": "yellow_duck",
+			"rect": [
+				400,
+				664,
+				128,
+				128
+			]
+		},
+		{
+			"name": "yellow_front",
+			"rect": [
+				532,
+				664,
+				128,
+				128
+			]
+		},
+		{
+			"name": "yellow_hit",
+			"rect": [
+				664,
+				664,
+				128,
+				128
+			]
+		},
+		{
+			"name": "yellow_idle",
+			"rect": [
+				796,
+				664,
+				128,
+				128
+			]
+		},
+		{
+			"name": "yellow_jump",
+			"rect": [
+				4,
+				796,
+				128,
+				128
+			]
+		},
+		{
+			"name": "yellow_walk_a",
+			"rect": [
+				136,
+				796,
+				128,
+				128
+			]
+		},
+		{
+			"name": "yellow_walk_b",
+			"rect": [
+				268,
+				796,
+				128,
+				128
+			]
+		}
+	],
+	"image": "assets/textures/characters.png",
+	"pixelsPerUnit": 64.0,
+	"version": 1
+}

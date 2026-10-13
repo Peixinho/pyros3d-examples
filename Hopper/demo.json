@@ -1,0 +1,15 @@
+{
+    "name": "Hopper",
+    "description": "A platformer in fifty easy levels and five worlds, two of them lit by torches. Ground painted by terrain (the tile map picks its own corners), slopes, one-way bridges, ladders, moving logs, planks that give way, a mouse that finds its way to you; words in the world, eased motion, English and Portuguese, a thumb stick and jump button on phones, Ogg music, and progress saved between visits. Levels are prefabs dropped into a world's scene. Also runs in a browser.",
+    "author": "Duarte Peixinho",
+    "tags": [
+        "2D",
+        "platformer",
+        "tile maps",
+        "pathfinding",
+        "lighting",
+        "touch",
+        "localisation",
+        "web"
+    ]
+}

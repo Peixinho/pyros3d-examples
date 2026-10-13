@@ -1,0 +1,371 @@
+{
+	"clips": [
+		{
+			"fps": 6.0,
+			"frames": [
+				25,
+				26
+			],
+			"loop": true,
+			"name": "slime"
+		},
+		{
+			"fps": 6.0,
+			"frames": [
+				21,
+				22
+			],
+			"loop": true,
+			"name": "fire"
+		},
+		{
+			"fps": 6.0,
+			"frames": [
+				28,
+				29
+			],
+			"loop": true,
+			"name": "snail"
+		},
+		{
+			"fps": 6.0,
+			"frames": [
+				16,
+				17
+			],
+			"loop": true,
+			"name": "mouse"
+		},
+		{
+			"fps": 6.0,
+			"frames": [
+				0,
+				1
+			],
+			"loop": true,
+			"name": "bee"
+		},
+		{
+			"fps": 6.0,
+			"frames": [
+				6,
+				7
+			],
+			"loop": true,
+			"name": "fly"
+		},
+		{
+			"fps": 6.0,
+			"frames": [
+				13,
+				14
+			],
+			"loop": true,
+			"name": "ladybug"
+		},
+		{
+			"fps": 6.0,
+			"frames": [
+				18,
+				19
+			],
+			"loop": true,
+			"name": "saw"
+		}
+	],
+	"edgeInset": 0.019999999552965164,
+	"filter": "linear",
+	"frames": [
+		{
+			"name": "bee_a",
+			"rect": [
+				4,
+				4,
+				64,
+				64
+			]
+		},
+		{
+			"name": "bee_b",
+			"rect": [
+				72,
+				4,
+				64,
+				64
+			]
+		},
+		{
+			"name": "bee_rest",
+			"rect": [
+				140,
+				4,
+				64,
+				64
+			]
+		},
+		{
+			"name": "block_fall",
+			"rect": [
+				208,
+				4,
+				64,
+				64
+			]
+		},
+		{
+			"name": "block_idle",
+			"rect": [
+				276,
+				4,
+				64,
+				64
+			]
+		},
+		{
+			"name": "block_rest",
+			"rect": [
+				344,
+				4,
+				64,
+				64
+			]
+		},
+		{
+			"name": "fly_a",
+			"rect": [
+				412,
+				4,
+				64,
+				64
+			]
+		},
+		{
+			"name": "fly_b",
+			"rect": [
+				4,
+				72,
+				64,
+				64
+			]
+		},
+		{
+			"name": "fly_rest",
+			"rect": [
+				72,
+				72,
+				64,
+				64
+			]
+		},
+		{
+			"name": "frog_idle",
+			"rect": [
+				140,
+				72,
+				64,
+				64
+			]
+		},
+		{
+			"name": "frog_jump",
+			"rect": [
+				208,
+				72,
+				64,
+				64
+			]
+		},
+		{
+			"name": "frog_rest",
+			"rect": [
+				276,
+				72,
+				64,
+				64
+			]
+		},
+		{
+			"name": "ladybug_rest",
+			"rect": [
+				344,
+				72,
+				64,
+				64
+			]
+		},
+		{
+			"name": "ladybug_walk_a",
+			"rect": [
+				412,
+				72,
+				64,
+				64
+			]
+		},
+		{
+			"name": "ladybug_walk_b",
+			"rect": [
+				4,
+				140,
+				64,
+				64
+			]
+		},
+		{
+			"name": "mouse_rest",
+			"rect": [
+				72,
+				140,
+				64,
+				64
+			]
+		},
+		{
+			"name": "mouse_walk_a",
+			"rect": [
+				140,
+				140,
+				64,
+				64
+			]
+		},
+		{
+			"name": "mouse_walk_b",
+			"rect": [
+				208,
+				140,
+				64,
+				64
+			]
+		},
+		{
+			"name": "saw_a",
+			"rect": [
+				276,
+				140,
+				64,
+				64
+			]
+		},
+		{
+			"name": "saw_b",
+			"rect": [
+				344,
+				140,
+				64,
+				64
+			]
+		},
+		{
+			"name": "slime_fire_flat",
+			"rect": [
+				412,
+				140,
+				64,
+				64
+			]
+		},
+		{
+			"name": "slime_fire_walk_a",
+			"rect": [
+				4,
+				208,
+				64,
+				64
+			]
+		},
+		{
+			"name": "slime_fire_walk_b",
+			"rect": [
+				72,
+				208,
+				64,
+				64
+			]
+		},
+		{
+			"name": "slime_normal_flat",
+			"rect": [
+				140,
+				208,
+				64,
+				64
+			]
+		},
+		{
+			"name": "slime_normal_rest",
+			"rect": [
+				208,
+				208,
+				64,
+				64
+			]
+		},
+		{
+			"name": "slime_normal_walk_a",
+			"rect": [
+				276,
+				208,
+				64,
+				64
+			]
+		},
+		{
+			"name": "slime_normal_walk_b",
+			"rect": [
+				344,
+				208,
+				64,
+				64
+			]
+		},
+		{
+			"name": "snail_shell",
+			"rect": [
+				412,
+				208,
+				64,
+				64
+			]
+		},
+		{
+			"name": "snail_walk_a",
+			"rect": [
+				4,
+				276,
+				64,
+				64
+			]
+		},
+		{
+			"name": "snail_walk_b",
+			"rect": [
+				72,
+				276,
+				64,
+				64
+			]
+		},
+		{
+			"name": "worm_normal_move_a",
+			"rect": [
+				140,
+				276,
+				64,
+				64
+			]
+		},
+		{
+			"name": "worm_normal_move_b",
+			"rect": [
+				208,
+				276,
+				64,
+				64
+			]
+		}
+	],
+	"image": "assets/textures/enemies.png",
+	"pixelsPerUnit": 64.0,
+	"version": 1
+}

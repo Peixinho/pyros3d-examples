@@ -1,0 +1,6 @@
+{
+    "play": "JOGAR", "back": "VOLTAR", "menu": "MENU", "again": "OUTRA VEZ", "next": "SEGUINTE",
+    "level_clear": "NÍVEL CONCLUÍDO", "world_1": "PRADO", "world_2": "DUNAS", "world_3": "CAVERNA", "world_4": "GELO", "world_5": "PENUMBRA",
+    "sign_1": "CORRE E SALTA", "sign_2": "SALTA EM CIMA DELES", "sign_3": "PROCURA TRÊS GEMAS", "sign_go": "POR AQUI",
+    "level": "{1}  {2}"
+}
