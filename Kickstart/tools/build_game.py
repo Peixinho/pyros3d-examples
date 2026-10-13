@@ -163,7 +163,7 @@ def hud(track_name):
                                            ("CardNext", "button_green.png", 100, "@next", (1, 1, 1, 1))):
         button(name, "Card", texture, [0.5, 1], [x, -92], [x + 170, -28])
         text(name + "_Label", name, key, [0, 0], [0, -3], [170, 61], 22, "center", colour)
-    image("Fade", "HUD", "panel.png", [0, 0], [-40, -40], [40, 40], (0, 0, 0, 1), None, [1, 1])
+    image("Fade", "HUD", "panel.png", [0, 0], [-40, -40], [40, 40], (0, 0, 0, 0), None, [1, 1])
 
 
 def bike(index, lane_z, start_x, ground_y):
@@ -242,7 +242,7 @@ def title():
         text(name + "_Best", name, "@nobest", [0, 0], [0, 82], [300, 126], 24, "center", INK if i == 1 else (1, 1, 1, 0.95), "future")
     button("Language", "Menu", "button_grey.png", [1, 0], [-150, 16], [-24, 66])
     text("Language_Label", "Language", "EN", [0, 0], [0, -3], [126, 47], 22, "center", INK)
-    image("Fade", "Menu", "panel.png", [0, 0], [-40, -40], [40, 40], (0, 0, 0, 1), None, [1, 1])
+    image("Fade", "Menu", "panel.png", [0, 0], [-40, -40], [40, 40], (0, 0, 0, 0), None, [1, 1])
     open(os.path.join(PROJECT, "scenes", "Title.lua"), "w").write(
         "-- The title: the same script, told it is the menu.\n"
         "return assert(loadfile(ASSETS_PATH .. \"lua/kickstart/game.lua\"))()({ menu = true })\n")
@@ -267,8 +267,9 @@ def track(number):
     call("add_object", name="Track", position=[0, 0, 0])
     call("add_physics2d", name="Track", bodyType="static", shape="chain", polygon=[[0, 0], [1, 0]], loop=False, friction=1.0, layer=0,
          castsShadow=False)
-    call("add_extrusion2d", object="Track", points=pts, smooth=3, depth=t["depth"], floor=t["base"], tile=3.0,
-         skin="assets/textures/dirt_top.jpg", face="assets/textures/dirt_side.jpg", skinColor=[1, 1, 1, 1], faceColor=[1, 1, 1, 1])
+    # (its riding surface is one image across the whole width, with the lanes chalked on it)
+    call("add_extrusion2d", object="Track", points=pts, smooth=3, depth=t["depth"], floor=t["base"], tile=3.0, skinAcross=True,
+         skin="assets/textures/track_top.jpg", face="assets/textures/dirt_side.jpg", skinColor=[1, 1, 1, 1], faceColor=[1, 1, 1, 1])
     # Where the race starts and ends: two objects, each with its board. Move one and the race moves with it.
     half = t["depth"] / 2.0
     for name, x, board in (("Start", 0.0, "BoardStart"), ("Finish", float(t["length"]), "BoardFinish")):

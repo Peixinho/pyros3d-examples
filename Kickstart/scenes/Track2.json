@@ -4952,7 +4952,8 @@
                         540.0,
                         0.0
                     ],
-                    "skin": "assets/textures/dirt_top.jpg",
+                    "skin": "assets/textures/track_top.jpg",
+                    "skinAcross": true,
                     "skinColor": [
                         1.0,
                         1.0,
@@ -13101,7 +13102,7 @@
                                 0.0,
                                 0.0,
                                 0.0,
-                                1.0
+                                0.0
                             ],
                             "type": "UIImage"
                         }

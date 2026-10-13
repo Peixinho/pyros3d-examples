@@ -213,7 +213,7 @@ def hud(world):
         text(name + "_Label", name, key, [0, 0], [0, -3], [170, 61], 22, "center", colour)
     # Over everything: black, clear when the level is showing. The script
     # eases its tint - a fade out of one level and into the next.
-    image("Fade", "HUD", "panel.png", [0, 0], [-40, -40], [40, 40], (0, 0, 0, 1), None, [1, 1])
+    image("Fade", "HUD", "panel.png", [0, 0], [-40, -40], [40, 40], (0, 0, 0, 0), None, [1, 1])
 
 
 def backdrop(world):
@@ -311,7 +311,7 @@ def title():
             sx = 46 + k * 38
             image(name + "_StarBack%d" % (k + 1), name, "star_empty.png", [0, 0], [sx, 58], [sx + 32, 90], (1, 1, 1, 0.5))
             image(name + "_Star%d" % (k + 1), name, "star.png", [0, 0], [sx + 2, 60], [sx + 30, 88])
-    image("Fade", "Menu", "panel.png", [0, 0], [-40, -40], [40, 40], (0, 0, 0, 1), None, [1, 1])
+    image("Fade", "Menu", "panel.png", [0, 0], [-40, -40], [40, 40], (0, 0, 0, 0), None, [1, 1])
     call("set_game_view_2d", center=[0, 5.6], zoom=6.0, gravity=[0, -42], autoParallax=True)
     call("set_scene_main_script", path="scenes/Title.lua")
     call("save_scene_as", path="scenes/Title.json")

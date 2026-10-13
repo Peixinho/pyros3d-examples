@@ -1,5 +1,5 @@
 {
-    "activeScene": "scenes/Title.json",
+    "activeScene": "scenes/World1.json",
     "name": "Hopper",
     "scenes": [
         "scenes/Title.json",

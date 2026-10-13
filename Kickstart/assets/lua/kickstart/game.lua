@@ -126,6 +126,8 @@ function Game:init(owner)
     end
     lang.apply(scene)
     if not cfg.menu then self:refreshBest() end
+    -- (the scene keeps its Fade clear, so that it can be seen in the editor: black is put up here, and eased away)
+    if self.ui.Fade then ui.setTint(self.ui.Fade, Vec4.new(0, 0, 0, 1)) end
     if self.ui.Fade then tween.tint(self.ui.Fade, 0, 0, 0, 0, 0.5, "out") end
 end
 

@@ -117,6 +117,7 @@
                 1.0,
                 1.0
             ],
+            "colorMap": "assets/models/Stadium1/textures/embedded_05b1a73ee87cf591.jpg",
             "cullFace": 2,
             "depthBias": false,
             "depthBiasFactor": 0.0,
@@ -4399,7 +4400,8 @@
                         460.0,
                         0.0
                     ],
-                    "skin": "assets/textures/dirt_top.jpg",
+                    "skin": "assets/textures/track_top.jpg",
+                    "skinAcross": true,
                     "skinColor": [
                         1.0,
                         1.0,
@@ -12292,7 +12294,7 @@
                                 0.0,
                                 0.0,
                                 0.0,
-                                1.0
+                                0.0
                             ],
                             "type": "UIImage"
                         }

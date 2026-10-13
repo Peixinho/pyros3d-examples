@@ -26,6 +26,31 @@ def board(name, words, back, ink, size=(512, 128)):
     im.save(os.path.join(OUT, name + ".png"))
 
 
+def track_top(depth=7.0, tile=3.0, lanes=4):
+    """The dirt's riding surface with its lanes chalked on: one image for the whole
+    width of the track (the scene's Extrusion2D lays it once across and repeats it
+    along), so the lines stay in their place however the track is reshaped."""
+    import random
+    mud = Image.open(os.path.join(OUT, "brown_mud_dry_diff.jpg")).convert("RGB")
+    w = mud.size[0]
+    h = int(round(w * depth / tile))                     # the mud at the scale it has along
+    im = Image.new("RGB", (w, h))
+    for y in range(0, h, mud.size[1]): im.paste(mud, (0, y))
+    chalk = Image.new("L", (w, h), 0)
+    d = ImageDraw.Draw(chalk)
+    rnd = random.Random(7)
+    line = max(6, int(h * 0.09 / depth))                 # nine centimetres of chalk
+    for k in range(lanes + 1):
+        y = int(h * (0.04 + 0.92 * k / lanes))
+        for x in range(0, w, 8):                         # worn: ragged, and thin in places
+            strength = 150 + rnd.randint(-60, 40)
+            d.rectangle([x, y - line // 2 + rnd.randint(-1, 1), x + 8, y + line // 2 + rnd.randint(-1, 1)], fill=strength)
+    im = Image.composite(Image.new("RGB", (w, h), (236, 230, 214)), im, chalk)
+    im = im.resize((1024, 2048), Image.LANCZOS)
+    im.save(os.path.join(OUT, "track_top.jpg"), quality=88)
+    im.save(os.path.join(HERE, "assets", "textures", "track_top.jpg"), quality=88)
+
+
 def chequer(name, words=None):
     im = Image.new("RGB", (1024, 128), (255, 255, 255))
     d = ImageDraw.Draw(im)
@@ -52,3 +77,4 @@ if __name__ == "__main__":
     chequer("finish", "FINISH")
     chequer("start", "START")
     print("textures written to", OUT)
+track_top()
