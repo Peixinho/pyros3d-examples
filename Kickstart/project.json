@@ -1,0 +1,16 @@
+{
+    "activeScene": "scenes/Track3.json",
+    "name": "Kickstart",
+    "scenes": [
+        "scenes/Title.json",
+        "scenes/Track1.json",
+        "scenes/Track2.json",
+        "scenes/Track3.json"
+    ],
+    "settings": {
+        "antiAliasing": "fxaa",
+        "defaultMainScript": "",
+        "rendererType": "forward"
+    },
+    "version": 1
+}

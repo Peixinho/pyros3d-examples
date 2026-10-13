@@ -13,6 +13,7 @@ the download of the others.
 | [Ember](Ember) | A 2D platformer where you play the Pyros logo — 2D lighting with occluder shadows, parallax layers, spritesheet animation, Box2D platforming, particles and a synthesised soundtrack |
 | [Topple](Topple) | A physics toy with a sling: a hundred easy levels in five worlds, two of them at night under swinging lamps. Levels are prefabs dropped into a world's scene; 2D lights and shadows on normal-mapped sprites, joints, breakable blocks, particles, parallax, a full interface, sound and saved progress. [Play it in a browser](https://peixinho.github.io/pyros3d-examples/topple/), phones included |
 | [Hopper](Hopper) | A platformer in fifty easy levels and five worlds, two of them lit by torches. Ground painted by terrain (the tile map picks its own corners), slopes, one-way bridges, ladders, moving logs, a mouse that finds its way to you; words in the world, eased motion, two languages, touch controls, Ogg music and saved progress. [Play it in a browser](https://peixinho.github.io/pyros3d-examples/hopper/), phones included |
+| [Kickstart](Kickstart) | Side-on motocross in 3D: bikes are 2D physics bodies on sprung wheel joints with 3D models hung on them. Big jumps, flips and tricks, three rivals, a floodlit stadium; collision layers, torque-driven wheels, riders posed by two-bone reaches, colliding particles, a pitched engine loop, touch pedals. [Play it in a browser](https://peixinho.github.io/pyros3d-examples/kickstart/), phones included |
 
 ## Adding an example
 

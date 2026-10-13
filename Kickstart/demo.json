@@ -1,0 +1,6 @@
+{
+    "name": "Kickstart",
+    "description": "Side-on motocross in 3D: bikes as 2D physics bodies on sprung wheel joints with 3D models hung on them, big jumps, flips and tricks, three rivals, a floodlit stadium. Collision layers, torque-driven wheels, riders posed by two-bone reaches, colliding particles, a pitched engine loop, touch pedals. Also runs in a browser.",
+    "author": "Duarte Peixinho",
+    "tags": ["2.5D", "physics", "joints", "racing", "3D", "touch", "web"]
+}

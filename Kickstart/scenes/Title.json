@@ -1,0 +1,2542 @@
+{
+    "ambientEquator": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.20000000298023224
+    ],
+    "ambientGround": [
+        0.10000000149011612,
+        0.09000000357627869,
+        0.07999999821186066
+    ],
+    "ambientIntensity": 1.0,
+    "ambientLight": [
+        0.41999998688697815,
+        0.46000000834465027,
+        0.6000000238418579
+    ],
+    "ambientMode": 0,
+    "ambientSky": [
+        0.3199999928474426,
+        0.3799999952316284,
+        0.44999998807907104
+    ],
+    "background": [
+        0.05000000074505806,
+        0.07000000029802322,
+        0.1599999964237213
+    ],
+    "mainScript": "scenes/Title.lua",
+    "materials": [
+        {
+            "alphaCutoff": 0.5,
+            "blendDFactor": 7,
+            "blendEquation": 0,
+            "blendSFactor": 6,
+            "blending": false,
+            "castingShadows": true,
+            "color": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "colorMap": "assets/models/Track1/textures/embedded_5e9c86cefb84bda2.jpg",
+            "cullFace": 2,
+            "depthBias": false,
+            "depthBiasFactor": 0.0,
+            "depthBiasUnits": 0.0,
+            "depthTest": true,
+            "depthWrite": true,
+            "displacementHeight": 0.05000000074505806,
+            "id": 0,
+            "kind": "generic",
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "options": 23555,
+            "reflectivity": 0.0,
+            "roughness": 0.0,
+            "shininess": 50.0,
+            "specular": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "ssrEnabled": false,
+            "transparent": false,
+            "wireframe": false
+        },
+        {
+            "alphaCutoff": 0.5,
+            "blendDFactor": 7,
+            "blendEquation": 0,
+            "blendSFactor": 6,
+            "blending": false,
+            "castingShadows": true,
+            "color": [
+                0.9200000166893005,
+                0.8999999761581421,
+                0.8399999737739563,
+                1.0
+            ],
+            "cullFace": 2,
+            "depthBias": false,
+            "depthBiasFactor": 0.0,
+            "depthBiasUnits": 0.0,
+            "depthTest": true,
+            "depthWrite": true,
+            "displacementHeight": 0.05000000074505806,
+            "id": 1,
+            "kind": "generic",
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "options": 23553,
+            "reflectivity": 0.0,
+            "roughness": 0.0,
+            "shininess": 50.0,
+            "specular": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "ssrEnabled": false,
+            "transparent": false,
+            "wireframe": false
+        },
+        {
+            "alphaCutoff": 0.5,
+            "blendDFactor": 7,
+            "blendEquation": 0,
+            "blendSFactor": 6,
+            "blending": false,
+            "castingShadows": true,
+            "color": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "colorMap": "assets/models/Stadium1/textures/embedded_05b1a73ee87cf591.jpg",
+            "cullFace": 2,
+            "depthBias": false,
+            "depthBiasFactor": 0.0,
+            "depthBiasUnits": 0.0,
+            "depthTest": true,
+            "depthWrite": true,
+            "displacementHeight": 0.05000000074505806,
+            "id": 2,
+            "kind": "generic",
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "options": 23555,
+            "reflectivity": 0.0,
+            "roughness": 0.0,
+            "shininess": 50.0,
+            "specular": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "ssrEnabled": false,
+            "transparent": false,
+            "wireframe": false
+        },
+        {
+            "alphaCutoff": 0.5,
+            "blendDFactor": 7,
+            "blendEquation": 0,
+            "blendSFactor": 6,
+            "blending": false,
+            "castingShadows": true,
+            "color": [
+                0.10000000149011612,
+                0.10000000149011612,
+                0.11999999731779099,
+                1.0
+            ],
+            "cullFace": 2,
+            "depthBias": false,
+            "depthBiasFactor": 0.0,
+            "depthBiasUnits": 0.0,
+            "depthTest": true,
+            "depthWrite": true,
+            "displacementHeight": 0.05000000074505806,
+            "id": 3,
+            "kind": "generic",
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "options": 23553,
+            "reflectivity": 0.0,
+            "roughness": 0.0,
+            "shininess": 50.0,
+            "specular": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "ssrEnabled": false,
+            "transparent": false,
+            "wireframe": false
+        },
+        {
+            "alphaCutoff": 0.5,
+            "blendDFactor": 7,
+            "blendEquation": 0,
+            "blendSFactor": 6,
+            "blending": false,
+            "castingShadows": true,
+            "color": [
+                0.9200000166893005,
+                0.9200000166893005,
+                0.8999999761581421,
+                1.0
+            ],
+            "cullFace": 2,
+            "depthBias": false,
+            "depthBiasFactor": 0.0,
+            "depthBiasUnits": 0.0,
+            "depthTest": true,
+            "depthWrite": true,
+            "displacementHeight": 0.05000000074505806,
+            "id": 4,
+            "kind": "generic",
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "options": 23553,
+            "reflectivity": 0.0,
+            "roughness": 0.0,
+            "shininess": 50.0,
+            "specular": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "ssrEnabled": false,
+            "transparent": false,
+            "wireframe": false
+        },
+        {
+            "alphaCutoff": 0.5,
+            "blendDFactor": 7,
+            "blendEquation": 0,
+            "blendSFactor": 6,
+            "blending": false,
+            "castingShadows": true,
+            "color": [
+                0.15000000596046448,
+                0.550000011920929,
+                0.25,
+                1.0
+            ],
+            "cullFace": 2,
+            "depthBias": false,
+            "depthBiasFactor": 0.0,
+            "depthBiasUnits": 0.0,
+            "depthTest": true,
+            "depthWrite": true,
+            "displacementHeight": 0.05000000074505806,
+            "id": 5,
+            "kind": "generic",
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "options": 23553,
+            "reflectivity": 0.0,
+            "roughness": 0.0,
+            "shininess": 50.0,
+            "specular": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "ssrEnabled": false,
+            "transparent": false,
+            "wireframe": false
+        },
+        {
+            "alphaCutoff": 0.5,
+            "blendDFactor": 7,
+            "blendEquation": 0,
+            "blendSFactor": 6,
+            "blending": false,
+            "castingShadows": true,
+            "color": [
+                0.10000000149011612,
+                0.10000000149011612,
+                0.11999999731779099,
+                1.0
+            ],
+            "cullFace": 2,
+            "depthBias": false,
+            "depthBiasFactor": 0.0,
+            "depthBiasUnits": 0.0,
+            "depthTest": true,
+            "depthWrite": true,
+            "displacementHeight": 0.05000000074505806,
+            "id": 6,
+            "kind": "generic",
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "options": 23553,
+            "reflectivity": 0.0,
+            "roughness": 0.0,
+            "shininess": 50.0,
+            "specular": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "ssrEnabled": false,
+            "transparent": false,
+            "wireframe": false
+        },
+        {
+            "alphaCutoff": 0.5,
+            "blendDFactor": 7,
+            "blendEquation": 0,
+            "blendSFactor": 6,
+            "blending": false,
+            "castingShadows": true,
+            "color": [
+                0.9200000166893005,
+                0.9200000166893005,
+                0.8999999761581421,
+                1.0
+            ],
+            "cullFace": 2,
+            "depthBias": false,
+            "depthBiasFactor": 0.0,
+            "depthBiasUnits": 0.0,
+            "depthTest": true,
+            "depthWrite": true,
+            "displacementHeight": 0.05000000074505806,
+            "id": 7,
+            "kind": "generic",
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "options": 23553,
+            "reflectivity": 0.0,
+            "roughness": 0.0,
+            "shininess": 50.0,
+            "specular": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "ssrEnabled": false,
+            "transparent": false,
+            "wireframe": false
+        },
+        {
+            "alphaCutoff": 0.5,
+            "blendDFactor": 7,
+            "blendEquation": 0,
+            "blendSFactor": 6,
+            "blending": false,
+            "castingShadows": true,
+            "color": [
+                0.15000000596046448,
+                0.550000011920929,
+                0.25,
+                1.0
+            ],
+            "cullFace": 2,
+            "depthBias": false,
+            "depthBiasFactor": 0.0,
+            "depthBiasUnits": 0.0,
+            "depthTest": true,
+            "depthWrite": true,
+            "displacementHeight": 0.05000000074505806,
+            "id": 8,
+            "kind": "generic",
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "options": 23553,
+            "reflectivity": 0.0,
+            "roughness": 0.0,
+            "shininess": 50.0,
+            "specular": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "ssrEnabled": false,
+            "transparent": false,
+            "wireframe": false
+        },
+        {
+            "alphaCutoff": 0.5,
+            "blendDFactor": 7,
+            "blendEquation": 0,
+            "blendSFactor": 6,
+            "blending": false,
+            "castingShadows": true,
+            "color": [
+                0.10000000149011612,
+                0.10000000149011612,
+                0.11999999731779099,
+                1.0
+            ],
+            "cullFace": 2,
+            "depthBias": false,
+            "depthBiasFactor": 0.0,
+            "depthBiasUnits": 0.0,
+            "depthTest": true,
+            "depthWrite": true,
+            "displacementHeight": 0.05000000074505806,
+            "id": 9,
+            "kind": "generic",
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "options": 23553,
+            "reflectivity": 0.0,
+            "roughness": 0.0,
+            "shininess": 50.0,
+            "specular": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "ssrEnabled": false,
+            "transparent": false,
+            "wireframe": false
+        },
+        {
+            "alphaCutoff": 0.5,
+            "blendDFactor": 7,
+            "blendEquation": 0,
+            "blendSFactor": 6,
+            "blending": false,
+            "castingShadows": true,
+            "color": [
+                0.9200000166893005,
+                0.9200000166893005,
+                0.8999999761581421,
+                1.0
+            ],
+            "cullFace": 2,
+            "depthBias": false,
+            "depthBiasFactor": 0.0,
+            "depthBiasUnits": 0.0,
+            "depthTest": true,
+            "depthWrite": true,
+            "displacementHeight": 0.05000000074505806,
+            "id": 10,
+            "kind": "generic",
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "options": 23553,
+            "reflectivity": 0.0,
+            "roughness": 0.0,
+            "shininess": 50.0,
+            "specular": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "ssrEnabled": false,
+            "transparent": false,
+            "wireframe": false
+        },
+        {
+            "alphaCutoff": 0.5,
+            "blendDFactor": 7,
+            "blendEquation": 0,
+            "blendSFactor": 6,
+            "blending": false,
+            "castingShadows": true,
+            "color": [
+                0.15000000596046448,
+                0.550000011920929,
+                0.25,
+                1.0
+            ],
+            "cullFace": 2,
+            "depthBias": false,
+            "depthBiasFactor": 0.0,
+            "depthBiasUnits": 0.0,
+            "depthTest": true,
+            "depthWrite": true,
+            "displacementHeight": 0.05000000074505806,
+            "id": 11,
+            "kind": "generic",
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "options": 23553,
+            "reflectivity": 0.0,
+            "roughness": 0.0,
+            "shininess": 50.0,
+            "specular": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "ssrEnabled": false,
+            "transparent": false,
+            "wireframe": false
+        },
+        {
+            "alphaCutoff": 0.5,
+            "blendDFactor": 7,
+            "blendEquation": 0,
+            "blendSFactor": 6,
+            "blending": false,
+            "castingShadows": true,
+            "color": [
+                0.10000000149011612,
+                0.10000000149011612,
+                0.11999999731779099,
+                1.0
+            ],
+            "cullFace": 2,
+            "depthBias": false,
+            "depthBiasFactor": 0.0,
+            "depthBiasUnits": 0.0,
+            "depthTest": true,
+            "depthWrite": true,
+            "displacementHeight": 0.05000000074505806,
+            "id": 12,
+            "kind": "generic",
+            "metallic": 0.0,
+            "opacity": 1.0,
+            "options": 23553,
+            "reflectivity": 0.0,
+            "roughness": 0.0,
+            "shininess": 50.0,
+            "specular": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "ssrEnabled": false,
+            "transparent": false,
+            "wireframe": false
+        }
+    ],
+    "roots": [
+        {
+            "children": [],
+            "components": [
+                {
+                    "aspect": 1.7777777910232544,
+                    "cascades": 4,
+                    "castingShadows": true,
+                    "color": [
+                        1.0,
+                        0.9700000286102295,
+                        0.8999999761581421,
+                        1.0
+                    ],
+                    "direction": [
+                        -0.30000001192092896,
+                        -1.0,
+                        -0.6200000047683716
+                    ],
+                    "fov": 60.00000076293945,
+                    "intensity": 1.0499999523162842,
+                    "shadowBiasFactor": 2.0,
+                    "shadowBiasUnits": 1.0,
+                    "shadowFar": 60.0,
+                    "shadowHeight": 2048,
+                    "shadowNear": 0.10000000149011612,
+                    "shadowNormalBias": 1.5,
+                    "shadowSoftness": 1.0,
+                    "shadowWidth": 2048,
+                    "type": "DirectionalLight"
+                }
+            ],
+            "name": "Floods",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        },
+        {
+            "children": [],
+            "components": [],
+            "name": "Cam",
+            "position": [
+                66.0,
+                4.0,
+                15.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": [
+                "PyrosEditor.Camera"
+            ]
+        },
+        {
+            "children": [],
+            "components": [
+                {
+                    "castingShadows": true,
+                    "cullTest": true,
+                    "lods": [
+                        {
+                            "distance": 2940.887939453125,
+                            "ownMaterials": true,
+                            "renderable": {
+                                "kind": "simplified",
+                                "path": "assets/models/Track1.p3dm",
+                                "ratio": 0.5
+                            }
+                        },
+                        {
+                            "distance": 6862.07177734375,
+                            "ownMaterials": true,
+                            "renderable": {
+                                "kind": "simplified",
+                                "path": "assets/models/Track1.p3dm",
+                                "ratio": 0.25
+                            }
+                        },
+                        {
+                            "distance": 14704.439453125,
+                            "ownMaterials": true,
+                            "renderable": {
+                                "kind": "simplified",
+                                "path": "assets/models/Track1.p3dm",
+                                "ratio": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "material": 0,
+                    "renderable": {
+                        "kind": "model",
+                        "mergeMeshes": true,
+                        "path": "assets/models/Track1.p3dm"
+                    },
+                    "shadowDetail": 0.25,
+                    "type": "RenderingComponent"
+                }
+            ],
+            "name": "Track",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        },
+        {
+            "children": [],
+            "components": [
+                {
+                    "castingShadows": true,
+                    "cullTest": true,
+                    "lods": [
+                        {
+                            "distance": 2522.252685546875,
+                            "ownMaterials": true,
+                            "renderable": {
+                                "kind": "simplified",
+                                "path": "assets/models/Lines1.p3dm",
+                                "ratio": 0.5
+                            }
+                        },
+                        {
+                            "distance": 5885.25634765625,
+                            "ownMaterials": true,
+                            "renderable": {
+                                "kind": "simplified",
+                                "path": "assets/models/Lines1.p3dm",
+                                "ratio": 0.25
+                            }
+                        },
+                        {
+                            "distance": 12611.263671875,
+                            "ownMaterials": true,
+                            "renderable": {
+                                "kind": "simplified",
+                                "path": "assets/models/Lines1.p3dm",
+                                "ratio": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "material": 1,
+                    "renderable": {
+                        "kind": "model",
+                        "mergeMeshes": true,
+                        "path": "assets/models/Lines1.p3dm"
+                    },
+                    "shadowDetail": 0.25,
+                    "type": "RenderingComponent"
+                }
+            ],
+            "name": "Lines",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        },
+        {
+            "children": [],
+            "components": [
+                {
+                    "castingShadows": true,
+                    "cullTest": true,
+                    "lods": [
+                        {
+                            "distance": 2983.296142578125,
+                            "ownMaterials": true,
+                            "renderable": {
+                                "kind": "simplified",
+                                "path": "assets/models/Stadium1.p3dm",
+                                "ratio": 0.5
+                            }
+                        },
+                        {
+                            "distance": 6961.0244140625,
+                            "ownMaterials": true,
+                            "renderable": {
+                                "kind": "simplified",
+                                "path": "assets/models/Stadium1.p3dm",
+                                "ratio": 0.25
+                            }
+                        },
+                        {
+                            "distance": 14916.4814453125,
+                            "ownMaterials": true,
+                            "renderable": {
+                                "kind": "simplified",
+                                "path": "assets/models/Stadium1.p3dm",
+                                "ratio": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "material": 2,
+                    "renderable": {
+                        "kind": "model",
+                        "mergeMeshes": true,
+                        "path": "assets/models/Stadium1.p3dm"
+                    },
+                    "shadowDetail": 0.25,
+                    "type": "RenderingComponent"
+                }
+            ],
+            "name": "Stadium",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "castingShadows": true,
+                            "cullTest": true,
+                            "lods": [
+                                {
+                                    "distance": 158.9987335205078,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay0.p3dm",
+                                        "ratio": 0.5
+                                    }
+                                },
+                                {
+                                    "distance": 370.9970397949219,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay0.p3dm",
+                                        "ratio": 0.25
+                                    }
+                                },
+                                {
+                                    "distance": 794.99365234375,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay0.p3dm",
+                                        "ratio": 0.10000000149011612
+                                    }
+                                }
+                            ],
+                            "material": 3,
+                            "renderable": {
+                                "kind": "model",
+                                "mergeMeshes": true,
+                                "path": "assets/models/CrowdBay0.p3dm"
+                            },
+                            "shadowDetail": 0.25,
+                            "type": "RenderingComponent"
+                        }
+                    ],
+                    "name": "Crowd_0",
+                    "position": [
+                        -30.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "castingShadows": true,
+                            "cullTest": true,
+                            "lods": [
+                                {
+                                    "distance": 159.2196044921875,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay1.p3dm",
+                                        "ratio": 0.5
+                                    }
+                                },
+                                {
+                                    "distance": 371.51239013671875,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay1.p3dm",
+                                        "ratio": 0.25
+                                    }
+                                },
+                                {
+                                    "distance": 796.0980224609375,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay1.p3dm",
+                                        "ratio": 0.10000000149011612
+                                    }
+                                }
+                            ],
+                            "material": 4,
+                            "renderable": {
+                                "kind": "model",
+                                "mergeMeshes": true,
+                                "path": "assets/models/CrowdBay1.p3dm"
+                            },
+                            "shadowDetail": 0.25,
+                            "type": "RenderingComponent"
+                        }
+                    ],
+                    "name": "Crowd_1",
+                    "position": [
+                        -11.399999618530273,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "castingShadows": true,
+                            "cullTest": true,
+                            "lods": [
+                                {
+                                    "distance": 159.12265014648438,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay2.p3dm",
+                                        "ratio": 0.5
+                                    }
+                                },
+                                {
+                                    "distance": 371.2861633300781,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay2.p3dm",
+                                        "ratio": 0.25
+                                    }
+                                },
+                                {
+                                    "distance": 795.6132202148438,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay2.p3dm",
+                                        "ratio": 0.10000000149011612
+                                    }
+                                }
+                            ],
+                            "material": 5,
+                            "renderable": {
+                                "kind": "model",
+                                "mergeMeshes": true,
+                                "path": "assets/models/CrowdBay2.p3dm"
+                            },
+                            "shadowDetail": 0.25,
+                            "type": "RenderingComponent"
+                        }
+                    ],
+                    "name": "Crowd_2",
+                    "position": [
+                        7.199999809265137,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "castingShadows": true,
+                            "cullTest": true,
+                            "lods": [
+                                {
+                                    "distance": 158.9987335205078,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay0.p3dm",
+                                        "ratio": 0.5
+                                    }
+                                },
+                                {
+                                    "distance": 370.9970397949219,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay0.p3dm",
+                                        "ratio": 0.25
+                                    }
+                                },
+                                {
+                                    "distance": 794.99365234375,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay0.p3dm",
+                                        "ratio": 0.10000000149011612
+                                    }
+                                }
+                            ],
+                            "material": 6,
+                            "renderable": {
+                                "kind": "model",
+                                "mergeMeshes": true,
+                                "path": "assets/models/CrowdBay0.p3dm"
+                            },
+                            "shadowDetail": 0.25,
+                            "type": "RenderingComponent"
+                        }
+                    ],
+                    "name": "Crowd_3",
+                    "position": [
+                        25.799999237060547,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "castingShadows": true,
+                            "cullTest": true,
+                            "lods": [
+                                {
+                                    "distance": 159.2196044921875,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay1.p3dm",
+                                        "ratio": 0.5
+                                    }
+                                },
+                                {
+                                    "distance": 371.51239013671875,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay1.p3dm",
+                                        "ratio": 0.25
+                                    }
+                                },
+                                {
+                                    "distance": 796.0980224609375,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay1.p3dm",
+                                        "ratio": 0.10000000149011612
+                                    }
+                                }
+                            ],
+                            "material": 7,
+                            "renderable": {
+                                "kind": "model",
+                                "mergeMeshes": true,
+                                "path": "assets/models/CrowdBay1.p3dm"
+                            },
+                            "shadowDetail": 0.25,
+                            "type": "RenderingComponent"
+                        }
+                    ],
+                    "name": "Crowd_4",
+                    "position": [
+                        44.400001525878906,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "castingShadows": true,
+                            "cullTest": true,
+                            "lods": [
+                                {
+                                    "distance": 159.12265014648438,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay2.p3dm",
+                                        "ratio": 0.5
+                                    }
+                                },
+                                {
+                                    "distance": 371.2861633300781,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay2.p3dm",
+                                        "ratio": 0.25
+                                    }
+                                },
+                                {
+                                    "distance": 795.6132202148438,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay2.p3dm",
+                                        "ratio": 0.10000000149011612
+                                    }
+                                }
+                            ],
+                            "material": 8,
+                            "renderable": {
+                                "kind": "model",
+                                "mergeMeshes": true,
+                                "path": "assets/models/CrowdBay2.p3dm"
+                            },
+                            "shadowDetail": 0.25,
+                            "type": "RenderingComponent"
+                        }
+                    ],
+                    "name": "Crowd_5",
+                    "position": [
+                        63.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "castingShadows": true,
+                            "cullTest": true,
+                            "lods": [
+                                {
+                                    "distance": 158.9987335205078,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay0.p3dm",
+                                        "ratio": 0.5
+                                    }
+                                },
+                                {
+                                    "distance": 370.9970397949219,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay0.p3dm",
+                                        "ratio": 0.25
+                                    }
+                                },
+                                {
+                                    "distance": 794.99365234375,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay0.p3dm",
+                                        "ratio": 0.10000000149011612
+                                    }
+                                }
+                            ],
+                            "material": 9,
+                            "renderable": {
+                                "kind": "model",
+                                "mergeMeshes": true,
+                                "path": "assets/models/CrowdBay0.p3dm"
+                            },
+                            "shadowDetail": 0.25,
+                            "type": "RenderingComponent"
+                        }
+                    ],
+                    "name": "Crowd_6",
+                    "position": [
+                        81.5999984741211,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "castingShadows": true,
+                            "cullTest": true,
+                            "lods": [
+                                {
+                                    "distance": 159.2196044921875,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay1.p3dm",
+                                        "ratio": 0.5
+                                    }
+                                },
+                                {
+                                    "distance": 371.51239013671875,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay1.p3dm",
+                                        "ratio": 0.25
+                                    }
+                                },
+                                {
+                                    "distance": 796.0980224609375,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay1.p3dm",
+                                        "ratio": 0.10000000149011612
+                                    }
+                                }
+                            ],
+                            "material": 10,
+                            "renderable": {
+                                "kind": "model",
+                                "mergeMeshes": true,
+                                "path": "assets/models/CrowdBay1.p3dm"
+                            },
+                            "shadowDetail": 0.25,
+                            "type": "RenderingComponent"
+                        }
+                    ],
+                    "name": "Crowd_7",
+                    "position": [
+                        100.19999694824219,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "castingShadows": true,
+                            "cullTest": true,
+                            "lods": [
+                                {
+                                    "distance": 159.12265014648438,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay2.p3dm",
+                                        "ratio": 0.5
+                                    }
+                                },
+                                {
+                                    "distance": 371.2861633300781,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay2.p3dm",
+                                        "ratio": 0.25
+                                    }
+                                },
+                                {
+                                    "distance": 795.6132202148438,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay2.p3dm",
+                                        "ratio": 0.10000000149011612
+                                    }
+                                }
+                            ],
+                            "material": 11,
+                            "renderable": {
+                                "kind": "model",
+                                "mergeMeshes": true,
+                                "path": "assets/models/CrowdBay2.p3dm"
+                            },
+                            "shadowDetail": 0.25,
+                            "type": "RenderingComponent"
+                        }
+                    ],
+                    "name": "Crowd_8",
+                    "position": [
+                        118.80000305175781,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "castingShadows": true,
+                            "cullTest": true,
+                            "lods": [
+                                {
+                                    "distance": 158.9987335205078,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay0.p3dm",
+                                        "ratio": 0.5
+                                    }
+                                },
+                                {
+                                    "distance": 370.9970397949219,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay0.p3dm",
+                                        "ratio": 0.25
+                                    }
+                                },
+                                {
+                                    "distance": 794.99365234375,
+                                    "ownMaterials": true,
+                                    "renderable": {
+                                        "kind": "simplified",
+                                        "path": "assets/models/CrowdBay0.p3dm",
+                                        "ratio": 0.10000000149011612
+                                    }
+                                }
+                            ],
+                            "material": 12,
+                            "renderable": {
+                                "kind": "model",
+                                "mergeMeshes": true,
+                                "path": "assets/models/CrowdBay0.p3dm"
+                            },
+                            "shadowDetail": 0.25,
+                            "type": "RenderingComponent"
+                        }
+                    ],
+                    "name": "Crowd_9",
+                    "position": [
+                        137.39999389648438,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                }
+            ],
+            "components": [],
+            "name": "Crowd",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        },
+        {
+            "children": [],
+            "components": [
+                {
+                    "attenuationModel": 2,
+                    "directionalAttenuation": 1.0,
+                    "dopplerFactor": 1.0,
+                    "file": "assets/sounds/crowd.wav",
+                    "looping": true,
+                    "maxDistance": 100.0,
+                    "minDistance": 1.0,
+                    "pan": 0.0,
+                    "pitch": 1.0,
+                    "playing": false,
+                    "spatialized": true,
+                    "stream": false,
+                    "type": "AudioSource",
+                    "volume": 0.25
+                }
+            ],
+            "name": "CrowdAmb",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "anchorMax": [
+                                0.5,
+                                0.0
+                            ],
+                            "anchorMin": [
+                                0.5,
+                                0.0
+                            ],
+                            "offsetMax": [
+                                600.0,
+                                166.0
+                            ],
+                            "offsetMin": [
+                                -600.0,
+                                36.0
+                            ],
+                            "pivot": [
+                                0.5,
+                                0.5
+                            ],
+                            "type": "UIRect"
+                        },
+                        {
+                            "align": "Center",
+                            "color": [
+                                0.029999999329447746,
+                                0.03999999910593033,
+                                0.07999999821186066,
+                                0.699999988079071
+                            ],
+                            "font": "assets/fonts/future.ttf",
+                            "fontSDF": true,
+                            "fontSize": 32.0,
+                            "size": 120.0,
+                            "text": "KICKSTART",
+                            "type": "UIText",
+                            "verticalAlign": "Middle"
+                        }
+                    ],
+                    "name": "LogoShade",
+                    "position": [
+                        640.0,
+                        -101.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "anchorMax": [
+                                0.5,
+                                0.0
+                            ],
+                            "anchorMin": [
+                                0.5,
+                                0.0
+                            ],
+                            "offsetMax": [
+                                600.0,
+                                158.0
+                            ],
+                            "offsetMin": [
+                                -600.0,
+                                28.0
+                            ],
+                            "pivot": [
+                                0.5,
+                                0.5
+                            ],
+                            "type": "UIRect"
+                        },
+                        {
+                            "align": "Center",
+                            "color": [
+                                1.0,
+                                0.7200000286102295,
+                                0.10000000149011612,
+                                1.0
+                            ],
+                            "font": "assets/fonts/future.ttf",
+                            "fontSDF": true,
+                            "fontSize": 32.0,
+                            "size": 120.0,
+                            "text": "KICKSTART",
+                            "type": "UIText",
+                            "verticalAlign": "Middle"
+                        }
+                    ],
+                    "name": "Logo",
+                    "position": [
+                        640.0,
+                        -93.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "anchorMin": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "offsetMax": [
+                                        300.0,
+                                        70.0
+                                    ],
+                                    "offsetMin": [
+                                        0.0,
+                                        14.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "align": "Center",
+                                    "color": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "font": "assets/fonts/future_narrow.ttf",
+                                    "fontSDF": true,
+                                    "fontSize": 32.0,
+                                    "size": 26.0,
+                                    "text": "@track_1",
+                                    "type": "UIText",
+                                    "verticalAlign": "Middle"
+                                }
+                            ],
+                            "name": "Track1_Name",
+                            "position": [
+                                0.0,
+                                38.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "anchorMin": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "offsetMax": [
+                                        300.0,
+                                        126.0
+                                    ],
+                                    "offsetMin": [
+                                        0.0,
+                                        82.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "align": "Center",
+                                    "color": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        0.949999988079071
+                                    ],
+                                    "font": "assets/fonts/future.ttf",
+                                    "fontSDF": true,
+                                    "fontSize": 32.0,
+                                    "size": 24.0,
+                                    "text": "@nobest",
+                                    "type": "UIText",
+                                    "verticalAlign": "Middle"
+                                }
+                            ],
+                            "name": "Track1_Best",
+                            "position": [
+                                0.0,
+                                -24.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        }
+                    ],
+                    "components": [
+                        {
+                            "anchorMax": [
+                                0.5,
+                                1.0
+                            ],
+                            "anchorMin": [
+                                0.5,
+                                1.0
+                            ],
+                            "offsetMax": [
+                                -170.0,
+                                -70.0
+                            ],
+                            "offsetMin": [
+                                -470.0,
+                                -230.0
+                            ],
+                            "pivot": [
+                                0.5,
+                                0.5
+                            ],
+                            "type": "UIRect"
+                        },
+                        {
+                            "border": [
+                                14.0,
+                                14.0,
+                                14.0,
+                                18.0
+                            ],
+                            "texture": "assets/textures/ui/button_green.png",
+                            "tint": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "type": "UIImage"
+                        },
+                        {
+                            "interactable": true,
+                            "states": {
+                                "Disabled": {
+                                    "tint": [
+                                        0.14000000059604645,
+                                        0.15000000596046448,
+                                        0.18000000715255737,
+                                        0.6000000238418579
+                                    ]
+                                },
+                                "Hover": {
+                                    "tint": [
+                                        1.0,
+                                        1.0,
+                                        0.8500000238418579,
+                                        1.0
+                                    ]
+                                },
+                                "Pressed": {
+                                    "offset": [
+                                        0.0,
+                                        3.0
+                                    ],
+                                    "tint": [
+                                        0.800000011920929,
+                                        0.800000011920929,
+                                        0.800000011920929,
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "transition": 0.11999999731779099,
+                            "type": "UIButton"
+                        }
+                    ],
+                    "name": "Track1",
+                    "position": [
+                        320.0,
+                        -710.3508911132813,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "anchorMin": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "offsetMax": [
+                                        300.0,
+                                        70.0
+                                    ],
+                                    "offsetMin": [
+                                        0.0,
+                                        14.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "align": "Center",
+                                    "color": [
+                                        0.20000000298023224,
+                                        0.23999999463558197,
+                                        0.3199999928474426,
+                                        1.0
+                                    ],
+                                    "font": "assets/fonts/future_narrow.ttf",
+                                    "fontSDF": true,
+                                    "fontSize": 32.0,
+                                    "size": 26.0,
+                                    "text": "@track_2",
+                                    "type": "UIText",
+                                    "verticalAlign": "Middle"
+                                }
+                            ],
+                            "name": "Track2_Name",
+                            "position": [
+                                0.0,
+                                38.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "anchorMin": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "offsetMax": [
+                                        300.0,
+                                        126.0
+                                    ],
+                                    "offsetMin": [
+                                        0.0,
+                                        82.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "align": "Center",
+                                    "color": [
+                                        0.20000000298023224,
+                                        0.23999999463558197,
+                                        0.3199999928474426,
+                                        1.0
+                                    ],
+                                    "font": "assets/fonts/future.ttf",
+                                    "fontSDF": true,
+                                    "fontSize": 32.0,
+                                    "size": 24.0,
+                                    "text": "@nobest",
+                                    "type": "UIText",
+                                    "verticalAlign": "Middle"
+                                }
+                            ],
+                            "name": "Track2_Best",
+                            "position": [
+                                0.0,
+                                -24.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        }
+                    ],
+                    "components": [
+                        {
+                            "anchorMax": [
+                                0.5,
+                                1.0
+                            ],
+                            "anchorMin": [
+                                0.5,
+                                1.0
+                            ],
+                            "offsetMax": [
+                                150.0,
+                                -70.0
+                            ],
+                            "offsetMin": [
+                                -150.0,
+                                -230.0
+                            ],
+                            "pivot": [
+                                0.5,
+                                0.5
+                            ],
+                            "type": "UIRect"
+                        },
+                        {
+                            "border": [
+                                14.0,
+                                14.0,
+                                14.0,
+                                18.0
+                            ],
+                            "texture": "assets/textures/ui/button_yellow.png",
+                            "tint": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "type": "UIImage"
+                        },
+                        {
+                            "interactable": true,
+                            "states": {
+                                "Disabled": {
+                                    "tint": [
+                                        0.14000000059604645,
+                                        0.15000000596046448,
+                                        0.18000000715255737,
+                                        0.6000000238418579
+                                    ]
+                                },
+                                "Hover": {
+                                    "tint": [
+                                        1.0,
+                                        1.0,
+                                        0.8500000238418579,
+                                        1.0
+                                    ]
+                                },
+                                "Pressed": {
+                                    "offset": [
+                                        0.0,
+                                        3.0
+                                    ],
+                                    "tint": [
+                                        0.800000011920929,
+                                        0.800000011920929,
+                                        0.800000011920929,
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "transition": 0.11999999731779099,
+                            "type": "UIButton"
+                        }
+                    ],
+                    "name": "Track2",
+                    "position": [
+                        640.0,
+                        -710.3508911132813,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "anchorMin": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "offsetMax": [
+                                        300.0,
+                                        70.0
+                                    ],
+                                    "offsetMin": [
+                                        0.0,
+                                        14.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "align": "Center",
+                                    "color": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "font": "assets/fonts/future_narrow.ttf",
+                                    "fontSDF": true,
+                                    "fontSize": 32.0,
+                                    "size": 26.0,
+                                    "text": "@track_3",
+                                    "type": "UIText",
+                                    "verticalAlign": "Middle"
+                                }
+                            ],
+                            "name": "Track3_Name",
+                            "position": [
+                                0.0,
+                                38.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "anchorMin": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "offsetMax": [
+                                        300.0,
+                                        126.0
+                                    ],
+                                    "offsetMin": [
+                                        0.0,
+                                        82.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "align": "Center",
+                                    "color": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        0.949999988079071
+                                    ],
+                                    "font": "assets/fonts/future.ttf",
+                                    "fontSDF": true,
+                                    "fontSize": 32.0,
+                                    "size": 24.0,
+                                    "text": "@nobest",
+                                    "type": "UIText",
+                                    "verticalAlign": "Middle"
+                                }
+                            ],
+                            "name": "Track3_Best",
+                            "position": [
+                                0.0,
+                                -24.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        }
+                    ],
+                    "components": [
+                        {
+                            "anchorMax": [
+                                0.5,
+                                1.0
+                            ],
+                            "anchorMin": [
+                                0.5,
+                                1.0
+                            ],
+                            "offsetMax": [
+                                470.0,
+                                -70.0
+                            ],
+                            "offsetMin": [
+                                170.0,
+                                -230.0
+                            ],
+                            "pivot": [
+                                0.5,
+                                0.5
+                            ],
+                            "type": "UIRect"
+                        },
+                        {
+                            "border": [
+                                14.0,
+                                14.0,
+                                14.0,
+                                18.0
+                            ],
+                            "texture": "assets/textures/ui/button_red.png",
+                            "tint": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "type": "UIImage"
+                        },
+                        {
+                            "interactable": true,
+                            "states": {
+                                "Disabled": {
+                                    "tint": [
+                                        0.14000000059604645,
+                                        0.15000000596046448,
+                                        0.18000000715255737,
+                                        0.6000000238418579
+                                    ]
+                                },
+                                "Hover": {
+                                    "tint": [
+                                        1.0,
+                                        1.0,
+                                        0.8500000238418579,
+                                        1.0
+                                    ]
+                                },
+                                "Pressed": {
+                                    "offset": [
+                                        0.0,
+                                        3.0
+                                    ],
+                                    "tint": [
+                                        0.800000011920929,
+                                        0.800000011920929,
+                                        0.800000011920929,
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "transition": 0.11999999731779099,
+                            "type": "UIButton"
+                        }
+                    ],
+                    "name": "Track3",
+                    "position": [
+                        960.0,
+                        -710.3508911132813,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "anchorMax": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "anchorMin": [
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "offsetMax": [
+                                        126.0,
+                                        47.0
+                                    ],
+                                    "offsetMin": [
+                                        0.0,
+                                        -3.0
+                                    ],
+                                    "pivot": [
+                                        0.5,
+                                        0.5
+                                    ],
+                                    "type": "UIRect"
+                                },
+                                {
+                                    "align": "Center",
+                                    "color": [
+                                        0.20000000298023224,
+                                        0.23999999463558197,
+                                        0.3199999928474426,
+                                        1.0
+                                    ],
+                                    "font": "assets/fonts/future_narrow.ttf",
+                                    "fontSDF": true,
+                                    "fontSize": 32.0,
+                                    "size": 22.0,
+                                    "text": "EN",
+                                    "type": "UIText",
+                                    "verticalAlign": "Middle"
+                                }
+                            ],
+                            "name": "Language_Label",
+                            "position": [
+                                0.0,
+                                3.0,
+                                0.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        }
+                    ],
+                    "components": [
+                        {
+                            "anchorMax": [
+                                1.0,
+                                0.0
+                            ],
+                            "anchorMin": [
+                                1.0,
+                                0.0
+                            ],
+                            "offsetMax": [
+                                -24.0,
+                                66.0
+                            ],
+                            "offsetMin": [
+                                -150.0,
+                                16.0
+                            ],
+                            "pivot": [
+                                0.5,
+                                0.5
+                            ],
+                            "type": "UIRect"
+                        },
+                        {
+                            "border": [
+                                14.0,
+                                14.0,
+                                14.0,
+                                18.0
+                            ],
+                            "texture": "assets/textures/ui/button_grey.png",
+                            "tint": [
+                                1.0,
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "type": "UIImage"
+                        },
+                        {
+                            "interactable": true,
+                            "states": {
+                                "Disabled": {
+                                    "tint": [
+                                        0.14000000059604645,
+                                        0.15000000596046448,
+                                        0.18000000715255737,
+                                        0.6000000238418579
+                                    ]
+                                },
+                                "Hover": {
+                                    "tint": [
+                                        1.0,
+                                        1.0,
+                                        0.8500000238418579,
+                                        1.0
+                                    ]
+                                },
+                                "Pressed": {
+                                    "offset": [
+                                        0.0,
+                                        3.0
+                                    ],
+                                    "tint": [
+                                        0.800000011920929,
+                                        0.800000011920929,
+                                        0.800000011920929,
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "transition": 0.11999999731779099,
+                            "type": "UIButton"
+                        }
+                    ],
+                    "name": "Language",
+                    "position": [
+                        1193.0,
+                        -41.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "anchorMax": [
+                                1.0,
+                                1.0
+                            ],
+                            "anchorMin": [
+                                0.0,
+                                0.0
+                            ],
+                            "offsetMax": [
+                                40.0,
+                                40.0
+                            ],
+                            "offsetMin": [
+                                -40.0,
+                                -40.0
+                            ],
+                            "pivot": [
+                                0.5,
+                                0.5
+                            ],
+                            "type": "UIRect"
+                        },
+                        {
+                            "border": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "texture": "assets/textures/ui/panel.png",
+                            "tint": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ],
+                            "type": "UIImage"
+                        }
+                    ],
+                    "name": "Fade",
+                    "position": [
+                        640.0,
+                        -430.1754455566406,
+                        0.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                }
+            ],
+            "components": [
+                {
+                    "referenceHeight": 720.0,
+                    "referenceWidth": 1280.0,
+                    "scaleMode": "Fit",
+                    "sortOrder": 0,
+                    "type": "UICanvas"
+                }
+            ],
+            "name": "Menu",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "static": false,
+            "tags": []
+        }
+    ],
+    "version": 1
+}
