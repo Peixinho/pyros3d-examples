@@ -20,19 +20,18 @@ local GRAVITY = -22.0
 local PULL_MAX = 3.3           -- how far the pouch stretches
 local POWER = 8.0              -- launch speed per unit of stretch
 local GRAB = 1.5               -- how near the pouch a press has to be
-local DOTS = 16
 
 -- What it takes to hurt each material, and how much it can take: a hit
 -- softer than `tough` does nothing, and `hp` is for a 1 x 1 piece.
 local MATERIAL = {
-    wood  = { hp = 10, tough = 3.2, score = 100, colour = { 0.72, 0.47, 0.25 }, hit = { "wood_1", "wood_2", "wood_3" }, crack = "wood_break" },
-    glass = { hp = 4.5, tough = 2.0, score = 80,  colour = { 0.82, 0.93, 1.00 }, hit = { "glass_1", "glass_2" }, crack = "glass_break" },
-    stone = { hp = 24, tough = 4.6, score = 160, colour = { 0.66, 0.70, 0.70 }, hit = { "stone_1", "stone_2" }, crack = "stone_break" },
-    metal = { hp = 48, tough = 6.5, score = 220, colour = { 0.75, 0.82, 0.86 }, hit = { "metal_1", "metal_2", "metal_3" }, crack = "metal_break" },
+    wood  = { hp = 5, tough = 2.6, score = 100, colour = { 0.72, 0.47, 0.25 }, hit = { "wood_1", "wood_2", "wood_3" }, crack = "wood_break" },
+    glass = { hp = 2.4, tough = 1.6, score = 80,  colour = { 0.82, 0.93, 1.00 }, hit = { "glass_1", "glass_2" }, crack = "glass_break" },
+    stone = { hp = 11, tough = 3.6, score = 160, colour = { 0.66, 0.70, 0.70 }, hit = { "stone_1", "stone_2" }, crack = "stone_break" },
+    metal = { hp = 40, tough = 6.5, score = 220, colour = { 0.75, 0.82, 0.86 }, hit = { "metal_1", "metal_2", "metal_3" }, crack = "metal_break" },
     tnt   = { hp = 5,  tough = 3.0, score = 150, colour = { 1.00, 0.80, 0.10 }, hit = { "metal_1" }, crack = "boom_1" },
 }
 local AREA = { sq = 1, block = 2, plank = 3.1, big = 4, slab = 6.3, post = 3.1, pillar = 2, ball = 0.8, tri = 1 }
-local TARGET = { hp = 5, tough = 2.6, score = 1000 }
+local TARGET = { hp = 2.0, tough = 1.5, score = 1000 }
 local SHOT_BONUS = 1500
 -- what a second press does, said once when such a shot is first loaded
 local HINT = { yellow = "TAP WHILE IT FLIES:  A BURST OF SPEED", blue = "TAP WHILE IT FLIES:  ONE BECOMES THREE",
@@ -40,12 +39,38 @@ local HINT = { yellow = "TAP WHILE IT FLIES:  A BURST OF SPEED", blue = "TAP WHI
 local TRAIL = { green = { 0.55, 0.95, 0.75 }, yellow = { 1.0, 0.9, 0.3 }, blue = { 0.55, 0.75, 1.0 },
                 pink = { 1.0, 0.6, 0.75 }, beige = { 0.95, 0.9, 0.75 } }
 
+local WORLDS = { "MEADOW", "DUNES", "GROVE", "KEEP", "MOONLIT" }
+local PER_WORLD = 20
+local LEVELS = #WORLDS * PER_WORLD
+
 local function clamp(v, lo, hi) return math.max(lo, math.min(hi, v)) end
+
+-- What is kept between one visit and the next: for every level won, its
+-- stars and its best score. One line of text in the game's own store - a
+-- file on a desktop, the browser's local storage on the web.
+local function loadProgress()
+    local p = { stars = {}, best = {} }
+    local text = store and store.read("progress")
+    if type(text) == "string" then
+        for n, stars, best in text:gmatch("(%d+):(%d+):(%d+)") do
+            p.stars[tonumber(n)], p.best[tonumber(n)] = tonumber(stars), tonumber(best)
+        end
+    end
+    return p
+end
+local function saveProgress(p)
+    local parts = {}
+    for n = 1, LEVELS do
+        if p.stars[n] then parts[#parts + 1] = n .. ":" .. p.stars[n] .. ":" .. math.floor(p.best[n] or 0) end
+    end
+    if store then store.write("progress", table.concat(parts, ",")) end
+end
+local function sceneOf(level) return "scenes/World" .. (math.floor((level - 1) / PER_WORLD) + 1) .. ".json" end
 local function lerp(a, b, t) return a + (b - a) * t end
 
 return function(cfg)
 
-local Game = class('ToppleLevel')
+local Game = class(cfg.menu and 'ToppleTitle' or ('ToppleWorld' .. tostring(cfg.world)))
 
 function Game:initialize()
     self.clock = 0
@@ -56,14 +81,169 @@ end
 -- ----- reading the scene -----------------------------------------------------
 
 function Game:init(owner)
-    TOPPLE = TOPPLE or { best = {}, stars = {} }
+    TOPPLE = TOPPLE or {}
+    if not TOPPLE.progress then TOPPLE.progress = loadProgress() end
     physics2d:setGravity(0, GRAVITY)
+
     self.sounds = Sounds.new()
     self.fx = FX.new(scene)
 
-    self.blocks, self.targets, self.shots, self.debris, self.dots = {}, {}, {}, {}, {}
-    self.spares, self.all = {}, {}
-    self.dead = {}
+    local function children(name)
+        local parent = scene:find(name)
+        return parent and parent:getChildren() or {}
+    end
+    self.debris, self.dots = {}, {}
+    self.blocks, self.targets, self.shots, self.spares, self.all, self.ropes, self.dead = {}, {}, {}, {}, {}, {}, {}
+    for _, go in ipairs(children("Debris")) do
+        self.debris[#self.debris + 1] = { go = go, body = go:getComponent("Physics2D"), sprite = go:getComponent("Sprite2D"),
+                                          park = go:getPosition(), life = 0 }
+    end
+    for _, go in ipairs(children("Dots")) do
+        local sp = go:getComponent("Sprite2D")
+        sp:setVisible(false)
+        self.dots[#self.dots + 1] = { go = go, sprite = sp }
+    end
+
+    local pouch = scene:find("Pouch")
+    local p = pouch:getPosition()
+    self.rest = { x = p.x, y = p.y }
+    self.bands = {}
+    for _, name in ipairs({ "BandFar", "BandNear" }) do
+        local go = scene:find(name)
+        if go then self.bands[#self.bands + 1] = go:getComponent("Line2D") end
+    end
+    self.shock = scene:find("Shock")
+    self.shockSprite = self.shock and self.shock:getComponent("Sprite2D")
+    if self.shockSprite then self.shockSprite:setVisible(false) end
+    self.flash = scene:find("Flash")
+    self.flashLight = self.flash and self.flash:getComponent("PointLight")
+    if self.flashLight then self.flashLight:setLightIntensity(0) end
+    self.flashT, self.shockT = 0, 0
+
+    self.clouds = children("Clouds")
+
+    self.fireflies = {}
+    for i, go in ipairs(children("Fireflies")) do
+        local p = go:getPosition()
+        self.fireflies[i] = { go = go, sprite = go:getComponent("Sprite2D"), x = p.x, y = p.y, z = p.z, seed = i * 1.7 }
+    end
+
+    -- the interface
+    self.ui = {}
+    for _, name in ipairs({ "HudScore", "HudHint", "HudHintPlate", "HudTitle", "BtnRetry", "BtnMenu", "Card", "CardTitle", "CardScore", "CardBest",
+                            "CardStar1", "CardStar2", "CardStar3", "CardMenu", "CardRetry", "CardNext" }) do
+        self.ui[name] = ui.find(scene, name)
+    end
+    if self.ui.Card then ui.setVisible(self.ui.Card, false) end
+
+    -- The title screen is a level nobody is playing: the same scene
+    -- objects and the same rules, with the sling firing by itself and the
+    -- level buttons on top.
+    if cfg.menu then
+        self.drops = {}
+        for i = 1, 3 do
+            local go = scene:find("Drop_" .. i)
+            if go then
+                local s = { go = go, body = go:getComponent("Physics2D"), sprite = go:getComponent("Sprite2D"), colour = "green" }
+                s.body.onContact = function(other, point, normal, speed) self:shotHit(s, other, point, speed) end
+                self.drops[#self.drops + 1] = s
+                self.all[#self.all + 1] = s
+            end
+        end
+        self.mascot = scene:find("Mascot")
+        self.dropT, self.dropN = 2.0, 0
+        local U = self.ui
+        for _, name in ipairs({ "Home", "Grid", "Play", "StarsTotal", "GridTitle", "GridBack" }) do U[name] = ui.find(scene, name) end
+        local total = 0
+        for w = 1, #WORLDS do
+            U["World" .. w] = ui.find(scene, "World" .. w)
+            local got = 0
+            for n = (w - 1) * PER_WORLD + 1, w * PER_WORLD do got = got + (TOPPLE.progress.stars[n] or 0) end
+            total = total + got
+            local label = ui.find(scene, "World" .. w .. "_Stars")
+            if label then ui.setText(label, got .. " / " .. PER_WORLD * 3) end
+        end
+        if U.StarsTotal then ui.setText(U.StarsTotal, total .. " / " .. LEVELS * 3) end
+        for i = 1, PER_WORLD do
+            U["Cell" .. i] = ui.find(scene, "Cell" .. i)
+            U["CellNumber" .. i] = ui.find(scene, "Cell" .. i .. "_Number")
+            for k = 1, 3 do U["CellStar" .. i .. "_" .. k] = ui.find(scene, "Cell" .. i .. "_Star" .. k) end
+        end
+        self:showGrid(TOPPLE.grid)
+        self.state = "menu"
+    end
+
+    self.cam = { x = 3.0, y = 6.2, zoom = 8.0 }
+    self.wasDown = false
+    if cfg.menu then
+        self:readLevel()            -- the title's own tower, placed in its scene
+        self.next, self.settle = 1, 0
+    else
+        local first = (cfg.world - 1) * PER_WORLD + 1
+        local level = TOPPLE.level
+        if not level or level < first or level >= first + PER_WORLD then level = first end
+        self:startLevel(level)
+    end
+    view.setCenter(self.cam.x, self.cam.y)
+    view.setZoom(self.cam.zoom)
+end
+
+-- A world's scene holds no level. The level is a prefab - made in the
+-- editor like the scene - and is put into it here; the one before it is
+-- taken out. Starting a level again, or the next of the same world, is
+-- this and not a scene load: nothing else in the scene changes.
+function Game:startLevel(level)
+    if self.root then scene:remove(self.root) self.root = nil end
+    for _, d in ipairs(self.debris) do
+        d.life = 0
+        d.sprite:setVisible(false)
+        d.body:setBodyType(BodyType2D.Kinematic)
+        d.body:setLinearVelocity(0, 0)
+        d.go:setPosition(d.park)
+    end
+    self:showDots(0, 0, 0, 0, false)
+    TOPPLE.level, self.level = level, level
+    self.root = Prefab.instantiate(string.format("assets/prefabs/L%03d.prefab", level))
+    if self.root then
+        scene:add(self.root)
+        -- Where everything in it is, worked out now and not at the scene's
+        -- next update: the bodies are made from where their objects are,
+        -- and made before that update they were all made in one place.
+        local function settle(go)
+            go:refreshTransformation()
+            for _, child in ipairs(go:getChildren()) do settle(child) end
+        end
+        settle(self.root)
+    end
+    self:readLevel()
+
+    self.score, self.shown, self.scoreText = 0, 0, nil
+    self.state, self.introT, self.settle, self.clock = "intro", TOPPLE.bot and 0.7 or 2.0, 0, 0
+    self.next, self.current, self.flight, self.dragging, self.snap = 1, nil, nil, false, nil
+    self.won, self.cardUp, self.overT, self.bonusLeft, self.earned, self.starsShown = nil, nil, nil, nil, nil, 0
+    self.botLeft, self.botTry, self.hintT, self.fired = nil, 0, nil, 0
+    self.shockT, self.flashT = 0, 0
+    if self.shockSprite then self.shockSprite:setVisible(false) end
+    if self.flashLight then self.flashLight:setLightIntensity(0) end
+    self:setPouch(self.rest.x, self.rest.y)
+    local U = self.ui
+    if U.Card then ui.setVisible(U.Card, false) end
+    if U.HudTitle then ui.setText(U.HudTitle, WORLDS[cfg.world] .. "  " .. level) end
+    if U.HudHint then
+        ui.setText(U.HudHint, "DRAG THE ALIEN BACK AND LET GO")
+        ui.setVisible(U.HudHintPlate or U.HudHint, level <= 3)
+    end
+    self.cam.x, self.cam.zoom = self:targetsCentre(), 6.0
+    self.sounds:play("start", 0.5)
+end
+
+-- Reads what is in the scene now: the blocks, targets, shots and ropes.
+function Game:readLevel()
+    local function children(name)
+        local parent = scene:find(name)
+        return parent and parent:getChildren() or {}
+    end
+    self.blocks, self.targets, self.shots, self.spares, self.all, self.dead = {}, {}, {}, {}, {}, {}
     local function children(name)
         local parent = scene:find(name)
         return parent and parent:getChildren() or {}
@@ -115,34 +295,6 @@ function Game:init(owner)
         self.spares[#self.spares + 1] = s
         self.all[#self.all + 1] = s
     end
-    for _, go in ipairs(children("Debris")) do
-        self.debris[#self.debris + 1] = { go = go, body = go:getComponent("Physics2D"), sprite = go:getComponent("Sprite2D"),
-                                          park = go:getPosition(), life = 0 }
-    end
-    for _, go in ipairs(children("Dots")) do
-        local sp = go:getComponent("Sprite2D")
-        sp:setVisible(false)
-        self.dots[#self.dots + 1] = { go = go, sprite = sp }
-    end
-
-    local pouch = scene:find("Pouch")
-    local p = pouch:getPosition()
-    self.rest = { x = p.x, y = p.y }
-    self.bands = {}
-    for _, name in ipairs({ "BandFar", "BandNear" }) do
-        local go = scene:find(name)
-        if go then self.bands[#self.bands + 1] = go:getComponent("Line2D") end
-    end
-    self.shock = scene:find("Shock")
-    self.shockSprite = self.shock and self.shock:getComponent("Sprite2D")
-    if self.shockSprite then self.shockSprite:setVisible(false) end
-    self.flash = scene:find("Flash")
-    self.flashLight = self.flash and self.flash:getComponent("PointLight")
-    if self.flashLight then self.flashLight:setLightIntensity(0) end
-    self.flashT, self.shockT = 0, 0
-
-    self.clouds = children("Clouds")
-
     -- Ropes: lines whose ends are tied to things. R_<Object> ties its last
     -- point; RR_<A>__<B> its first to A and its last to B. Where on the
     -- object is read from how the line was drawn.
@@ -164,57 +316,7 @@ function Game:init(owner)
         r.ties[#r.ties + 1] = tie(b, #pts)
         if line and #r.ties > 0 then self.ropes[#self.ropes + 1] = r end
     end
-    self.fireflies = {}
-    for i, go in ipairs(children("Fireflies")) do
-        local p = go:getPosition()
-        self.fireflies[i] = { go = go, sprite = go:getComponent("Sprite2D"), x = p.x, y = p.y, z = p.z, seed = i * 1.7 }
-    end
-
-    -- the interface
-    self.ui = {}
-    for _, name in ipairs({ "HudScore", "HudHint", "HudHintPlate", "HudTitle", "BtnRetry", "BtnMenu", "Card", "CardTitle", "CardScore", "CardBest",
-                            "CardStar1", "CardStar2", "CardStar3", "CardMenu", "CardRetry", "CardNext" }) do
-        self.ui[name] = ui.find(scene, name)
-    end
-    if self.ui.Card then ui.setVisible(self.ui.Card, false) end
-
-    -- The title screen is a level nobody is playing: the same scene
-    -- objects and the same rules, with the sling firing by itself and the
-    -- level buttons on top.
-    if cfg.menu then
-        self.drops = {}
-        for i = 1, 3 do
-            local go = scene:find("Drop_" .. i)
-            if go then
-                local s = { go = go, body = go:getComponent("Physics2D"), sprite = go:getComponent("Sprite2D"), colour = "green" }
-                s.body.onContact = function(other, point, normal, speed) self:shotHit(s, other, point, speed) end
-                self.drops[#self.drops + 1] = s
-                self.all[#self.all + 1] = s
-            end
-        end
-        self.mascot = scene:find("Mascot")
-        self.dropT, self.dropN = 2.0, 0
-        for level = 1, 4 do
-            for k = 1, 3 do
-                local star = ui.find(scene, "Level" .. level .. "_Star" .. k)
-                if star then ui.setVisible(star, (TOPPLE.stars[level] or 0) >= k) end
-            end
-            self.ui["Level" .. level] = ui.find(scene, "Level" .. level)
-        end
-        self.state = "menu"
-    end
-
-    -- the first shot hops into the pouch; the view starts on the targets and
-    -- travels back to the sling
-    self.next = 1
-    self.current = nil
-    self.cam = { x = cfg.menu and 3.0 or self:targetsCentre(), y = 6.2, zoom = cfg.menu and 8.0 or 6.0 }
-    view.setCenter(self.cam.x, self.cam.y)
-    view.setZoom(self.cam.zoom)
-    self.introT = 2.4
-    self.settle = 0
-    self.wasDown = false
-    if not cfg.menu then self.sounds:play("start", 0.5) end
+    for _, d in ipairs(self.drops or {}) do self.all[#self.all + 1] = d end
 end
 
 function Game:targetsCentre()
@@ -522,6 +624,14 @@ end
 function Game:update(dt)
     if dt <= 0 or not self.dead then return end
     dt = math.min(dt, 0.05)
+    -- (a level asked for is started here, between frames' work, and not
+    -- from inside whatever asked)
+    if self.pendingLevel then
+        local level = self.pendingLevel
+        self.pendingLevel = nil
+        self:startLevel(level)
+        return
+    end
     self.clock = self.clock + dt
     self.sounds.now = self.clock
 
@@ -540,7 +650,7 @@ function Game:update(dt)
             self:loadNext()
         end
     elseif self.state == "aim" then
-        self:aim(dt, mx, my, down, pressed)
+        if TOPPLE.bot then self:botAim(dt) else self:aim(dt, mx, my, down, pressed) end
     elseif self.state == "flight" then
         self:flying(dt, pressed)
     elseif self.state == "settle" then
@@ -601,13 +711,16 @@ function Game:flying(dt, pressed)
             local speed = math.sqrt(v.x * v.x + v.y * v.y)
             shot.slow = (speed < 0.6) and (shot.slow + dt) or 0
             if shot.touched then shot.touchT = (shot.touchT or 0) + dt end
-            if p.x < -30 or p.x > 38 or p.y < -6 or shot.slow > 0.9 or shot.age > 11 or (shot.touchT or 0) > 5 then
+            -- (the game playing itself does not wait to watch a shot roll to a stop)
+            local patience = TOPPLE.bot and 2.2 or 5
+            if p.x < -30 or p.x > 38 or p.y < -6 or shot.slow > 0.9 or shot.age > 11 or (shot.touchT or 0) > patience then
                 self:retire(shot)
             else
                 busy = true
             end
         end
     end
+    if TOPPLE.bot and s and s.flying and not s.touched and not s.used and s.age > 0.45 and s.colour ~= "pink" then pressed = true end
     if pressed and s and s.flying and not s.touched then self:ability(s) end
     -- a bomb goes off by itself a moment after it lands
     if s and s.flying and s.colour == "pink" and not s.used and (s.touchT or 0) > 0.9 then self:ability(s) end
@@ -655,12 +768,112 @@ function Game:menu(dt)
         self.mascot:setPosition(Vec3.new(self.rest.x - pull * 2.2, self.rest.y - pull * 1.2, 0.3))
         if not self.snap then self:setPouch(self.rest.x - pull * 2.2, self.rest.y - pull * 1.2) end
     end
-    for level = 1, 4 do
-        local b = self.ui["Level" .. level]
-        if b and ui.wasClicked(b) and not self.leaving then
-            self.leaving = true
-            self.sounds:play("confirm", 0.7)
-            loadScene(cfg.levels[level])
+    local U = self.ui
+    local function clicked(name) return U[name] and ui.wasClicked(U[name]) end
+    local function go(level)
+        if self.leaving then return end
+        self.leaving = true
+        self.sounds:play("confirm", 0.7)
+        TOPPLE.level = level
+        loadScene(sceneOf(level))
+    end
+    if not self.gridWorld then
+        if clicked("Play") then
+            -- on from where they are: the first level not yet won
+            local level = 1
+            while level < LEVELS and TOPPLE.progress.stars[level] do level = level + 1 end
+            go(level)
+        end
+        for w = 1, #WORLDS do
+            if clicked("World" .. w) then self.sounds:play("click", 0.7) self:showGrid(w) end
+        end
+    else
+        if clicked("GridBack") then self.sounds:play("back", 0.7) self:showGrid(nil) end
+        for i = 1, PER_WORLD do
+            if clicked("Cell" .. i) then go((self.gridWorld - 1) * PER_WORLD + i) end
+        end
+    end
+    -- F9, or B held for a second: the game plays itself, every level in turn, and writes down how it
+    -- went (store "bot"). How the levels were checked to be winnable.
+    self.botHold = isKeyDown(Key.B) and ((self.botHold or 0) + dt) or 0
+    if (isKeyDown(Key.F9) or self.botHold > 1.0) and not self.leaving then
+        -- (store "botlist", if there is one: only those levels, e.g. "9,16,70")
+        TOPPLE.bot = { results = {}, list = {} }
+        local only = store and store.read("botlist")
+        if type(only) == "string" then
+            for n in only:gmatch("%d+") do TOPPLE.bot.list[#TOPPLE.bot.list + 1] = tonumber(n) end
+        end
+        go(table.remove(TOPPLE.bot.list, 1) or 1)
+    end
+end
+
+-- The game playing itself (F9 on the title). It aims the way a child
+-- would: at the nearest target still standing, straight first and then
+-- over the top. Each level's outcome is written to the store as it ends.
+function Game:botAim(dt)
+    local s = self.current
+    if not s then return end
+    local rx, ry = self.rest.x, self.rest.y
+    if s.hop then
+        s.hop = math.min(1, s.hop + dt * 6)
+        if s.hop >= 1 then s.hop = nil end
+        return
+    end
+    local best, bx
+    for _, t in ipairs(self.targets) do
+        if not t.gone then
+            local p = t.go:getPosition()
+            if not bx or p.x < bx then best, bx = p, p.x end
+        end
+    end
+    if not best then return end
+    self.botTry = (self.botTry or 0) + 1
+    local v = POWER * PULL_MAX * (0.94 + 0.06 * math.random())
+    -- at it, then at what is over it, then dropped on it from above
+    local kind = self.botTry % 3
+    local x, y, g = best.x - rx + (math.random() - 0.5) * 0.4, best.y - ry + (kind == 2 and 1.6 or 0), -GRAVITY
+    local d = v ^ 4 - g * (g * x * x + 2 * y * v * v)
+    local lob = (kind == 0)
+    local a = math.atan(v * v + (lob and 1 or -1) * math.sqrt(math.max(d, 0)), g * x)
+    self:fly(s, rx, ry, math.cos(a) * v, math.sin(a) * v)
+    self.flight, self.current, self.state = s, nil, "flight"
+end
+
+function Game:botDone()
+    local B = TOPPLE.bot
+    local line = string.format("%d %s %d/%d %d", self.level, self.won and "won" or "LOST", self.usedShots or 0, #self.shots, self.score)
+    B.results[#B.results + 1] = line
+    if store then store.write("bot", table.concat(B.results, "\n")) end
+    echo("[bot] " .. line)
+    local nextLevel = self.level + 1
+    if B.only or #B.list > 0 then B.only = true nextLevel = table.remove(B.list, 1) or (LEVELS + 1) end
+    if nextLevel <= LEVELS then
+        self:goTo(nextLevel)
+    else
+        TOPPLE.bot = nil
+        loadScene("scenes/Title.json")
+    end
+end
+
+function Game:goTo(level)
+    if sceneOf(level) == cfg.scene then self.pendingLevel = level
+    else TOPPLE.level = level loadScene(sceneOf(level)) end
+end
+
+-- The menu's two pages: the worlds, or one world's twenty levels.
+function Game:showGrid(world)
+    local U = self.ui
+    self.gridWorld, TOPPLE.grid = world, world
+    if U.Home then ui.setVisible(U.Home, world == nil) end
+    if U.Grid then ui.setVisible(U.Grid, world ~= nil) end
+    if not world then return end
+    if U.GridTitle then ui.setText(U.GridTitle, WORLDS[world]) end
+    for i = 1, PER_WORLD do
+        local n = (world - 1) * PER_WORLD + i
+        if U["CellNumber" .. i] then ui.setText(U["CellNumber" .. i], tostring(n)) end
+        for k = 1, 3 do
+            local star = U["CellStar" .. i .. "_" .. k]
+            if star then ui.setVisible(star, (TOPPLE.progress.stars[n] or 0) >= k) end
         end
     end
 end
@@ -670,7 +883,7 @@ end
 function Game:settling(dt)
     self.settle = self.settle + dt
     local moving = false
-    if self.settle < 6 then
+    if self.settle < (TOPPLE.bot and 4 or 6) then
         for _, b in ipairs(self.blocks) do
             if not b.gone then
                 local v = b.body:getLinearVelocity()
@@ -780,8 +993,12 @@ function Game:finish(won)
     self.state = "over"
     self.won = won
     self.overT = 0
-    local stars = 0
+    self.usedShots = #self.shots - self:shotsLeft()
     if won then
+        -- Stars are for shots not needed: half of them left is three, any
+        -- left is two, and winning at all is one.
+        local left, all = self:shotsLeft(), #self.shots
+        self.earned = (left * 2 >= all - 1) and 3 or ((left >= 1) and 2 or 1)
         self.bonus = self:shotsLeft() * SHOT_BONUS
         self.bonusLeft = self:shotsLeft()
         self.bonusT = 0.5
@@ -791,13 +1008,16 @@ function Game:finish(won)
     for i = 1, 3 do
         if self.ui["CardStar" .. i] then ui.setVisible(self.ui["CardStar" .. i], false) end
     end
-    if self.ui.CardNext then ui.setVisible(self.ui.CardNext, won and cfg.next ~= nil) end
+    if not won then self.earned = 0 end
+    -- (a level that will not fall can be passed over: NEXT is there either way)
+    if self.ui.CardNext then ui.setVisible(self.ui.CardNext, self.level ~= nil and self.level < LEVELS) end
     self.sounds:play(won and "win" or "lose", 0.8)
     if won then self.fx:confetti(self.cam.x, self.cam.y + 5) end
 end
 
 function Game:updateOver(dt)
     self.overT = self.overT + dt
+    if TOPPLE.bot and not self.botLeft then self.botLeft = true self:botDone() return end
     -- each shot not needed is worth a bonus, counted out one at a time
     if self.won and self.bonusLeft and self.bonusLeft > 0 then
         self.bonusT = self.bonusT - dt
@@ -818,14 +1038,13 @@ function Game:updateOver(dt)
         self.cardUp = true
         if self.ui.Card then ui.setVisible(self.ui.Card, true) end
         self.sounds:play("open", 0.6)
-        self.earned = 0
-        if self.won then
-            for i = 1, 3 do if self.score >= cfg.stars[i] then self.earned = i end end
-            self.earned = math.max(1, self.earned)
+        local P, n = TOPPLE.progress, self.level
+        local best = n and P.best[n] or 0
+        if self.won and n then
+            if self.score > best then P.best[n] = self.score end
+            if self.earned > (P.stars[n] or 0) then P.stars[n] = self.earned end
+            saveProgress(P)
         end
-        local best = TOPPLE.best[cfg.level] or 0
-        if self.won and self.score > best then TOPPLE.best[cfg.level] = self.score end
-        if self.won and self.earned > (TOPPLE.stars[cfg.level] or 0) then TOPPLE.stars[cfg.level] = self.earned end
         if self.ui.CardBest then ui.setText(self.ui.CardBest, "BEST  " .. math.max(best, self.won and self.score or 0)) end
         self.starT = 0.45
     end
@@ -858,13 +1077,14 @@ function Game:updateInterface(dt)
     local function clicked(name) return U[name] and ui.wasClicked(U[name]) end
     if clicked("BtnRetry") or clicked("CardRetry") or (self.rDown and not isKeyDown(Key.R)) then
         self.sounds:play("click", 0.7)
-        loadScene(cfg.scene)
+        if self.level then self:goTo(self.level) else loadScene(cfg.scene) end
     elseif clicked("BtnMenu") or clicked("CardMenu") then
         self.sounds:play("back", 0.7)
+        TOPPLE.grid = cfg.world
         loadScene("scenes/Title.json")
-    elseif clicked("CardNext") and cfg.next then
+    elseif clicked("CardNext") and self.level and self.level < LEVELS then
         self.sounds:play("confirm", 0.7)
-        loadScene(cfg.next)
+        self:goTo(self.level + 1)
     end
     self.rDown = isKeyDown(Key.R)
     -- K: break whatever is under the pointer. Not part of the game - it is
@@ -890,6 +1110,9 @@ end
 
 function Game:destroy()
     if self.fx then self.fx:destroy() end
+    -- (a level put into the scene by this script is taken out again by it:
+    -- Stop in the editor leaves the world's scene as it was saved)
+    if self.root then scene:remove(self.root) self.root = nil end
 end
 
 return Game

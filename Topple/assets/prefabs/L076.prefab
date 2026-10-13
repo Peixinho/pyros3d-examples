@@ -1,0 +1,2545 @@
+{
+    "materials": [],
+    "prefabVersion": 1,
+    "root": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 133,
+                                "frameName": "wood_pillar_0",
+                                "lit": true,
+                                "sortOrder": 3,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": false,
+                                "density": 0.550000011920929,
+                                "fixedRotation": false,
+                                "friction": 0.6499999761581421,
+                                "restitution": 0.05000000074505806,
+                                "shape": 0,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.9800000190734863
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "B_wood_pillar_1",
+                        "position": [
+                            6.900000095367432,
+                            1.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 133,
+                                "frameName": "wood_pillar_0",
+                                "lit": true,
+                                "sortOrder": 3,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": false,
+                                "density": 0.550000011920929,
+                                "fixedRotation": false,
+                                "friction": 0.6499999761581421,
+                                "restitution": 0.05000000074505806,
+                                "shape": 0,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.9800000190734863
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "B_wood_pillar_2",
+                        "position": [
+                            9.039999961853027,
+                            1.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 136,
+                                "frameName": "wood_plank_0",
+                                "lit": true,
+                                "sortOrder": 3,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": false,
+                                "density": 0.550000011920929,
+                                "fixedRotation": false,
+                                "friction": 0.6499999761581421,
+                                "restitution": 0.05000000074505806,
+                                "shape": 0,
+                                "size": [
+                                    1.5514285564422607,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "B_wood_plank_3",
+                        "position": [
+                            7.96999979019165,
+                            2.5,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 133,
+                                "frameName": "wood_pillar_0",
+                                "lit": true,
+                                "sortOrder": 3,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": false,
+                                "density": 0.550000011920929,
+                                "fixedRotation": false,
+                                "friction": 0.6499999761581421,
+                                "restitution": 0.05000000074505806,
+                                "shape": 0,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.9800000190734863
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "B_wood_pillar_4",
+                        "position": [
+                            7.099999904632568,
+                            4.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 133,
+                                "frameName": "wood_pillar_0",
+                                "lit": true,
+                                "sortOrder": 3,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": false,
+                                "density": 0.550000011920929,
+                                "fixedRotation": false,
+                                "friction": 0.6499999761581421,
+                                "restitution": 0.05000000074505806,
+                                "shape": 0,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.9800000190734863
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "B_wood_pillar_5",
+                        "position": [
+                            8.84000015258789,
+                            4.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 136,
+                                "frameName": "wood_plank_0",
+                                "lit": true,
+                                "sortOrder": 3,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": false,
+                                "density": 0.550000011920929,
+                                "fixedRotation": false,
+                                "friction": 0.6499999761581421,
+                                "restitution": 0.05000000074505806,
+                                "shape": 0,
+                                "size": [
+                                    1.5514285564422607,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "B_wood_plank_6",
+                        "position": [
+                            7.96999979019165,
+                            5.5,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 148,
+                                "frameName": "wood_tri_0",
+                                "lit": true,
+                                "sortOrder": 3,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": false,
+                                "density": 0.550000011920929,
+                                "fixedRotation": false,
+                                "friction": 0.6499999761581421,
+                                "polygon": [
+                                    -0.9700000286102295,
+                                    -0.5,
+                                    0.9700000286102295,
+                                    -0.5,
+                                    0.0,
+                                    0.4699999988079071
+                                ],
+                                "restitution": 0.05000000074505806,
+                                "shape": 3,
+                                "size": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "B_wood_tri_7",
+                        "position": [
+                            7.96999979019165,
+                            6.5,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 133,
+                                "frameName": "wood_pillar_0",
+                                "lit": true,
+                                "sortOrder": 3,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": false,
+                                "density": 0.550000011920929,
+                                "fixedRotation": false,
+                                "friction": 0.6499999761581421,
+                                "restitution": 0.05000000074505806,
+                                "shape": 0,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.9800000190734863
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "B_wood_pillar_8",
+                        "position": [
+                            11.550000190734863,
+                            1.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 133,
+                                "frameName": "wood_pillar_0",
+                                "lit": true,
+                                "sortOrder": 3,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": false,
+                                "density": 0.550000011920929,
+                                "fixedRotation": false,
+                                "friction": 0.6499999761581421,
+                                "restitution": 0.05000000074505806,
+                                "shape": 0,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.9800000190734863
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "B_wood_pillar_9",
+                        "position": [
+                            13.6899995803833,
+                            1.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 136,
+                                "frameName": "wood_plank_0",
+                                "lit": true,
+                                "sortOrder": 3,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": false,
+                                "density": 0.550000011920929,
+                                "fixedRotation": false,
+                                "friction": 0.6499999761581421,
+                                "restitution": 0.05000000074505806,
+                                "shape": 0,
+                                "size": [
+                                    1.5514285564422607,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "B_wood_plank_10",
+                        "position": [
+                            12.619999885559082,
+                            2.5,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 148,
+                                "frameName": "wood_tri_0",
+                                "lit": true,
+                                "sortOrder": 3,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": false,
+                                "density": 0.550000011920929,
+                                "fixedRotation": false,
+                                "friction": 0.6499999761581421,
+                                "polygon": [
+                                    -0.9700000286102295,
+                                    -0.5,
+                                    0.9700000286102295,
+                                    -0.5,
+                                    0.0,
+                                    0.4699999988079071
+                                ],
+                                "restitution": 0.05000000074505806,
+                                "shape": 3,
+                                "size": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "B_wood_tri_11",
+                        "position": [
+                            12.619999885559082,
+                            3.5,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 100,
+                                "frameName": "stone_pillar_0",
+                                "lit": true,
+                                "sortOrder": 3,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": false,
+                                "density": 1.2999999523162842,
+                                "fixedRotation": false,
+                                "friction": 0.800000011920929,
+                                "restitution": 0.019999999552965164,
+                                "shape": 0,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.9800000190734863
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "B_stone_pillar_12",
+                        "position": [
+                            15.539999961853027,
+                            1.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 100,
+                                "frameName": "stone_pillar_0",
+                                "lit": true,
+                                "sortOrder": 3,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": false,
+                                "density": 1.2999999523162842,
+                                "fixedRotation": false,
+                                "friction": 0.800000011920929,
+                                "restitution": 0.019999999552965164,
+                                "shape": 0,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.9800000190734863
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "B_stone_pillar_13",
+                        "position": [
+                            17.68000030517578,
+                            1.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 136,
+                                "frameName": "wood_plank_0",
+                                "lit": true,
+                                "sortOrder": 3,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": false,
+                                "density": 0.550000011920929,
+                                "fixedRotation": false,
+                                "friction": 0.6499999761581421,
+                                "restitution": 0.05000000074505806,
+                                "shape": 0,
+                                "size": [
+                                    1.5514285564422607,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "B_wood_plank_14",
+                        "position": [
+                            16.610000610351563,
+                            2.5,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 44,
+                                "frameName": "glass_pillar_0",
+                                "lit": true,
+                                "sortOrder": 3,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": false,
+                                "density": 0.4000000059604645,
+                                "fixedRotation": false,
+                                "friction": 0.44999998807907104,
+                                "restitution": 0.019999999552965164,
+                                "shape": 0,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.9800000190734863
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "B_glass_pillar_15",
+                        "position": [
+                            15.739999771118164,
+                            4.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 44,
+                                "frameName": "glass_pillar_0",
+                                "lit": true,
+                                "sortOrder": 3,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": false,
+                                "density": 0.4000000059604645,
+                                "fixedRotation": false,
+                                "friction": 0.44999998807907104,
+                                "restitution": 0.019999999552965164,
+                                "shape": 0,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.9800000190734863
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "B_glass_pillar_16",
+                        "position": [
+                            17.479999542236328,
+                            4.0,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 136,
+                                "frameName": "wood_plank_0",
+                                "lit": true,
+                                "sortOrder": 3,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": false,
+                                "density": 0.550000011920929,
+                                "fixedRotation": false,
+                                "friction": 0.6499999761581421,
+                                "restitution": 0.05000000074505806,
+                                "shape": 0,
+                                "size": [
+                                    1.5514285564422607,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "B_wood_plank_17",
+                        "position": [
+                            16.610000610351563,
+                            5.5,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 148,
+                                "frameName": "wood_tri_0",
+                                "lit": true,
+                                "sortOrder": 3,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": false,
+                                "density": 0.550000011920929,
+                                "fixedRotation": false,
+                                "friction": 0.6499999761581421,
+                                "polygon": [
+                                    -0.9700000286102295,
+                                    -0.5,
+                                    0.9700000286102295,
+                                    -0.5,
+                                    0.0,
+                                    0.4699999988079071
+                                ],
+                                "restitution": 0.05000000074505806,
+                                "shape": 3,
+                                "size": [
+                                    0.5,
+                                    0.5
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "B_wood_tri_18",
+                        "position": [
+                            16.610000610351563,
+                            6.5,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    }
+                ],
+                "components": [],
+                "name": "Blocks",
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 14,
+                                "frameName": "alien_yellow_suit",
+                                "lit": true,
+                                "sortOrder": 4,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": false,
+                                "density": 0.3499999940395355,
+                                "fixedRotation": false,
+                                "friction": 0.6000000238418579,
+                                "restitution": 0.10000000149011612,
+                                "shape": 0,
+                                "size": [
+                                    0.46000000834465027,
+                                    0.46000000834465027
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "T_yellow_1",
+                        "position": [
+                            7.96999979019165,
+                            0.5,
+                            0.05000000074505806
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 14,
+                                "frameName": "alien_yellow_suit",
+                                "lit": true,
+                                "sortOrder": 4,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": false,
+                                "density": 0.3499999940395355,
+                                "fixedRotation": false,
+                                "friction": 0.6000000238418579,
+                                "restitution": 0.10000000149011612,
+                                "shape": 0,
+                                "size": [
+                                    0.46000000834465027,
+                                    0.46000000834465027
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "T_yellow_2",
+                        "position": [
+                            7.96999979019165,
+                            3.5,
+                            0.05000000074505806
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 8,
+                                "frameName": "alien_green_suit",
+                                "lit": true,
+                                "sortOrder": 4,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": false,
+                                "density": 0.3499999940395355,
+                                "fixedRotation": false,
+                                "friction": 0.6000000238418579,
+                                "restitution": 0.10000000149011612,
+                                "shape": 0,
+                                "size": [
+                                    0.46000000834465027,
+                                    0.46000000834465027
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "T_green_3",
+                        "position": [
+                            12.619999885559082,
+                            0.5,
+                            0.05000000074505806
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 11,
+                                "frameName": "alien_pink_suit",
+                                "lit": true,
+                                "sortOrder": 4,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": false,
+                                "density": 0.3499999940395355,
+                                "fixedRotation": false,
+                                "friction": 0.6000000238418579,
+                                "restitution": 0.10000000149011612,
+                                "shape": 0,
+                                "size": [
+                                    0.46000000834465027,
+                                    0.46000000834465027
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "T_pink_4",
+                        "position": [
+                            16.610000610351563,
+                            0.5,
+                            0.05000000074505806
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 11,
+                                "frameName": "alien_pink_suit",
+                                "lit": true,
+                                "sortOrder": 4,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": false,
+                                "density": 0.3499999940395355,
+                                "fixedRotation": false,
+                                "friction": 0.6000000238418579,
+                                "restitution": 0.10000000149011612,
+                                "shape": 0,
+                                "size": [
+                                    0.46000000834465027,
+                                    0.46000000834465027
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "T_pink_5",
+                        "position": [
+                            16.610000610351563,
+                            3.5,
+                            0.05000000074505806
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    }
+                ],
+                "components": [],
+                "name": "Targets",
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "colorEnd": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                        ],
+                                        "colorStart": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.75
+                                        ],
+                                        "lifetime": 0.8999999761581421,
+                                        "minDistance": 0.18000000715255737,
+                                        "points": [],
+                                        "sortOrder": 2,
+                                        "trail": true,
+                                        "type": "Line2D",
+                                        "width": [
+                                            0.3400000035762787,
+                                            0.0
+                                        ]
+                                    }
+                                ],
+                                "name": "A_green_1_Trail",
+                                "position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 6,
+                                "frameName": "alien_green_round",
+                                "lit": true,
+                                "sortOrder": 5,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "angularDamping": 0.6000000238418579,
+                                "bodyType": 1,
+                                "bullet": true,
+                                "castsShadow": false,
+                                "density": 1.0,
+                                "fixedRotation": false,
+                                "friction": 0.5,
+                                "linearDamping": 0.019999999552965164,
+                                "restitution": 0.25,
+                                "shape": 1,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "A_green_1",
+                        "position": [
+                            -11.199999809265137,
+                            0.5,
+                            0.30000001192092896
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "colorEnd": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                        ],
+                                        "colorStart": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.75
+                                        ],
+                                        "lifetime": 0.8999999761581421,
+                                        "minDistance": 0.18000000715255737,
+                                        "points": [],
+                                        "sortOrder": 2,
+                                        "trail": true,
+                                        "type": "Line2D",
+                                        "width": [
+                                            0.3400000035762787,
+                                            0.0
+                                        ]
+                                    }
+                                ],
+                                "name": "A_green_2_Trail",
+                                "position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 6,
+                                "frameName": "alien_green_round",
+                                "lit": true,
+                                "sortOrder": 5,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "angularDamping": 0.6000000238418579,
+                                "bodyType": 1,
+                                "bullet": true,
+                                "castsShadow": false,
+                                "density": 1.0,
+                                "fixedRotation": false,
+                                "friction": 0.5,
+                                "linearDamping": 0.019999999552965164,
+                                "restitution": 0.25,
+                                "shape": 1,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "A_green_2",
+                        "position": [
+                            -12.350000381469727,
+                            0.5,
+                            0.30000001192092896
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "colorEnd": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                        ],
+                                        "colorStart": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.75
+                                        ],
+                                        "lifetime": 0.8999999761581421,
+                                        "minDistance": 0.18000000715255737,
+                                        "points": [],
+                                        "sortOrder": 2,
+                                        "trail": true,
+                                        "type": "Line2D",
+                                        "width": [
+                                            0.3400000035762787,
+                                            0.0
+                                        ]
+                                    }
+                                ],
+                                "name": "A_green_3_Trail",
+                                "position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 6,
+                                "frameName": "alien_green_round",
+                                "lit": true,
+                                "sortOrder": 5,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "angularDamping": 0.6000000238418579,
+                                "bodyType": 1,
+                                "bullet": true,
+                                "castsShadow": false,
+                                "density": 1.0,
+                                "fixedRotation": false,
+                                "friction": 0.5,
+                                "linearDamping": 0.019999999552965164,
+                                "restitution": 0.25,
+                                "shape": 1,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "A_green_3",
+                        "position": [
+                            -13.5,
+                            0.5,
+                            0.30000001192092896
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "colorEnd": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                        ],
+                                        "colorStart": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.75
+                                        ],
+                                        "lifetime": 0.8999999761581421,
+                                        "minDistance": 0.18000000715255737,
+                                        "points": [],
+                                        "sortOrder": 2,
+                                        "trail": true,
+                                        "type": "Line2D",
+                                        "width": [
+                                            0.3400000035762787,
+                                            0.0
+                                        ]
+                                    }
+                                ],
+                                "name": "A_yellow_4_Trail",
+                                "position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 12,
+                                "frameName": "alien_yellow_round",
+                                "lit": true,
+                                "sortOrder": 5,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "angularDamping": 0.6000000238418579,
+                                "bodyType": 1,
+                                "bullet": true,
+                                "castsShadow": false,
+                                "density": 1.0,
+                                "fixedRotation": false,
+                                "friction": 0.5,
+                                "linearDamping": 0.019999999552965164,
+                                "restitution": 0.25,
+                                "shape": 1,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "A_yellow_4",
+                        "position": [
+                            -14.649999618530273,
+                            0.5,
+                            0.30000001192092896
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "colorEnd": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                        ],
+                                        "colorStart": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.75
+                                        ],
+                                        "lifetime": 0.8999999761581421,
+                                        "minDistance": 0.18000000715255737,
+                                        "points": [],
+                                        "sortOrder": 2,
+                                        "trail": true,
+                                        "type": "Line2D",
+                                        "width": [
+                                            0.3400000035762787,
+                                            0.0
+                                        ]
+                                    }
+                                ],
+                                "name": "A_green_5_Trail",
+                                "position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 6,
+                                "frameName": "alien_green_round",
+                                "lit": true,
+                                "sortOrder": 5,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "angularDamping": 0.6000000238418579,
+                                "bodyType": 1,
+                                "bullet": true,
+                                "castsShadow": false,
+                                "density": 1.0,
+                                "fixedRotation": false,
+                                "friction": 0.5,
+                                "linearDamping": 0.019999999552965164,
+                                "restitution": 0.25,
+                                "shape": 1,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "A_green_5",
+                        "position": [
+                            -15.800000190734863,
+                            0.5,
+                            0.30000001192092896
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "colorEnd": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                        ],
+                                        "colorStart": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.75
+                                        ],
+                                        "lifetime": 0.8999999761581421,
+                                        "minDistance": 0.18000000715255737,
+                                        "points": [],
+                                        "sortOrder": 2,
+                                        "trail": true,
+                                        "type": "Line2D",
+                                        "width": [
+                                            0.3400000035762787,
+                                            0.0
+                                        ]
+                                    }
+                                ],
+                                "name": "A_pink_6_Trail",
+                                "position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 9,
+                                "frameName": "alien_pink_round",
+                                "lit": true,
+                                "sortOrder": 5,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "angularDamping": 0.6000000238418579,
+                                "bodyType": 1,
+                                "bullet": true,
+                                "castsShadow": false,
+                                "density": 1.0,
+                                "fixedRotation": false,
+                                "friction": 0.5,
+                                "linearDamping": 0.019999999552965164,
+                                "restitution": 0.25,
+                                "shape": 1,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "A_pink_6",
+                        "position": [
+                            -16.950000762939453,
+                            0.5,
+                            0.30000001192092896
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "colorEnd": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                        ],
+                                        "colorStart": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.75
+                                        ],
+                                        "lifetime": 0.8999999761581421,
+                                        "minDistance": 0.18000000715255737,
+                                        "points": [],
+                                        "sortOrder": 2,
+                                        "trail": true,
+                                        "type": "Line2D",
+                                        "width": [
+                                            0.3400000035762787,
+                                            0.0
+                                        ]
+                                    }
+                                ],
+                                "name": "A_green_7_Trail",
+                                "position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 6,
+                                "frameName": "alien_green_round",
+                                "lit": true,
+                                "sortOrder": 5,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "angularDamping": 0.6000000238418579,
+                                "bodyType": 1,
+                                "bullet": true,
+                                "castsShadow": false,
+                                "density": 1.0,
+                                "fixedRotation": false,
+                                "friction": 0.5,
+                                "linearDamping": 0.019999999552965164,
+                                "restitution": 0.25,
+                                "shape": 1,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "A_green_7",
+                        "position": [
+                            -18.100000381469727,
+                            0.5,
+                            0.30000001192092896
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "colorEnd": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                        ],
+                                        "colorStart": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.75
+                                        ],
+                                        "lifetime": 0.8999999761581421,
+                                        "minDistance": 0.18000000715255737,
+                                        "points": [],
+                                        "sortOrder": 2,
+                                        "trail": true,
+                                        "type": "Line2D",
+                                        "width": [
+                                            0.3400000035762787,
+                                            0.0
+                                        ]
+                                    }
+                                ],
+                                "name": "A_pink_8_Trail",
+                                "position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 9,
+                                "frameName": "alien_pink_round",
+                                "lit": true,
+                                "sortOrder": 5,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "angularDamping": 0.6000000238418579,
+                                "bodyType": 1,
+                                "bullet": true,
+                                "castsShadow": false,
+                                "density": 1.0,
+                                "fixedRotation": false,
+                                "friction": 0.5,
+                                "linearDamping": 0.019999999552965164,
+                                "restitution": 0.25,
+                                "shape": 1,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "A_pink_8",
+                        "position": [
+                            -19.25,
+                            0.5,
+                            0.30000001192092896
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "colorEnd": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                        ],
+                                        "colorStart": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.75
+                                        ],
+                                        "lifetime": 0.8999999761581421,
+                                        "minDistance": 0.18000000715255737,
+                                        "points": [],
+                                        "sortOrder": 2,
+                                        "trail": true,
+                                        "type": "Line2D",
+                                        "width": [
+                                            0.3400000035762787,
+                                            0.0
+                                        ]
+                                    }
+                                ],
+                                "name": "A_blue_9_Trail",
+                                "position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 3,
+                                "frameName": "alien_blue_round",
+                                "lit": true,
+                                "sortOrder": 5,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "angularDamping": 0.6000000238418579,
+                                "bodyType": 1,
+                                "bullet": true,
+                                "castsShadow": false,
+                                "density": 1.0,
+                                "fixedRotation": false,
+                                "friction": 0.5,
+                                "linearDamping": 0.019999999552965164,
+                                "restitution": 0.25,
+                                "shape": 1,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "A_blue_9",
+                        "position": [
+                            -20.399999618530273,
+                            0.5,
+                            0.30000001192092896
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "colorEnd": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                        ],
+                                        "colorStart": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.75
+                                        ],
+                                        "lifetime": 0.8999999761581421,
+                                        "minDistance": 0.18000000715255737,
+                                        "points": [],
+                                        "sortOrder": 2,
+                                        "trail": true,
+                                        "type": "Line2D",
+                                        "width": [
+                                            0.3400000035762787,
+                                            0.0
+                                        ]
+                                    }
+                                ],
+                                "name": "A_green_10_Trail",
+                                "position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 6,
+                                "frameName": "alien_green_round",
+                                "lit": true,
+                                "sortOrder": 5,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "angularDamping": 0.6000000238418579,
+                                "bodyType": 1,
+                                "bullet": true,
+                                "castsShadow": false,
+                                "density": 1.0,
+                                "fixedRotation": false,
+                                "friction": 0.5,
+                                "linearDamping": 0.019999999552965164,
+                                "restitution": 0.25,
+                                "shape": 1,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "A_green_10",
+                        "position": [
+                            -21.549999237060547,
+                            0.5,
+                            0.30000001192092896
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "colorEnd": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                        ],
+                                        "colorStart": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.75
+                                        ],
+                                        "lifetime": 0.8999999761581421,
+                                        "minDistance": 0.18000000715255737,
+                                        "points": [],
+                                        "sortOrder": 2,
+                                        "trail": true,
+                                        "type": "Line2D",
+                                        "width": [
+                                            0.3400000035762787,
+                                            0.0
+                                        ]
+                                    }
+                                ],
+                                "name": "A_yellow_11_Trail",
+                                "position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 12,
+                                "frameName": "alien_yellow_round",
+                                "lit": true,
+                                "sortOrder": 5,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "angularDamping": 0.6000000238418579,
+                                "bodyType": 1,
+                                "bullet": true,
+                                "castsShadow": false,
+                                "density": 1.0,
+                                "fixedRotation": false,
+                                "friction": 0.5,
+                                "linearDamping": 0.019999999552965164,
+                                "restitution": 0.25,
+                                "shape": 1,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "A_yellow_11",
+                        "position": [
+                            -22.700000762939453,
+                            0.5,
+                            0.30000001192092896
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "colorEnd": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                        ],
+                                        "colorStart": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.75
+                                        ],
+                                        "lifetime": 0.8999999761581421,
+                                        "minDistance": 0.18000000715255737,
+                                        "points": [],
+                                        "sortOrder": 2,
+                                        "trail": true,
+                                        "type": "Line2D",
+                                        "width": [
+                                            0.3400000035762787,
+                                            0.0
+                                        ]
+                                    }
+                                ],
+                                "name": "A_yellow_12_Trail",
+                                "position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 12,
+                                "frameName": "alien_yellow_round",
+                                "lit": true,
+                                "sortOrder": 5,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "angularDamping": 0.6000000238418579,
+                                "bodyType": 1,
+                                "bullet": true,
+                                "castsShadow": false,
+                                "density": 1.0,
+                                "fixedRotation": false,
+                                "friction": 0.5,
+                                "linearDamping": 0.019999999552965164,
+                                "restitution": 0.25,
+                                "shape": 1,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "A_yellow_12",
+                        "position": [
+                            -23.850000381469727,
+                            0.5,
+                            0.30000001192092896
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    }
+                ],
+                "components": [],
+                "name": "Ammo",
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "colorEnd": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                        ],
+                                        "colorStart": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.75
+                                        ],
+                                        "lifetime": 0.8999999761581421,
+                                        "minDistance": 0.18000000715255737,
+                                        "points": [],
+                                        "sortOrder": 2,
+                                        "trail": true,
+                                        "type": "Line2D",
+                                        "width": [
+                                            0.3400000035762787,
+                                            0.0
+                                        ]
+                                    }
+                                ],
+                                "name": "S_blue_9_1_Trail",
+                                "position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 3,
+                                "frameName": "alien_blue_round",
+                                "lit": true,
+                                "sortOrder": 5,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "angularDamping": 0.6000000238418579,
+                                "bodyType": 1,
+                                "bullet": true,
+                                "castsShadow": false,
+                                "density": 1.0,
+                                "fixedRotation": false,
+                                "friction": 0.5,
+                                "linearDamping": 0.019999999552965164,
+                                "restitution": 0.25,
+                                "shape": 1,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "S_blue_9_1",
+                        "position": [
+                            -31.0,
+                            -28.0,
+                            0.30000001192092896
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "colorEnd": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                        ],
+                                        "colorStart": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.75
+                                        ],
+                                        "lifetime": 0.8999999761581421,
+                                        "minDistance": 0.18000000715255737,
+                                        "points": [],
+                                        "sortOrder": 2,
+                                        "trail": true,
+                                        "type": "Line2D",
+                                        "width": [
+                                            0.3400000035762787,
+                                            0.0
+                                        ]
+                                    }
+                                ],
+                                "name": "S_blue_9_2_Trail",
+                                "position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 3,
+                                "frameName": "alien_blue_round",
+                                "lit": true,
+                                "sortOrder": 5,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "angularDamping": 0.6000000238418579,
+                                "bodyType": 1,
+                                "bullet": true,
+                                "castsShadow": false,
+                                "density": 1.0,
+                                "fixedRotation": false,
+                                "friction": 0.5,
+                                "linearDamping": 0.019999999552965164,
+                                "restitution": 0.25,
+                                "shape": 1,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "S_blue_9_2",
+                        "position": [
+                            -33.0,
+                            -28.0,
+                            0.30000001192092896
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    }
+                ],
+                "components": [],
+                "name": "Spares",
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            },
+            {
+                "children": [],
+                "components": [],
+                "name": "Ropes",
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            }
+        ],
+        "components": [],
+        "name": "Level",
+        "position": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "rotation": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "scale": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "static": false,
+        "tags": []
+    },
+    "version": 1
+}

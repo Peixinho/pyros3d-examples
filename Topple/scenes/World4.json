@@ -30,7 +30,7 @@
         0.0,
         -22.0
     ],
-    "mainScript": "scenes/Keep.lua",
+    "mainScript": "scenes/World4.lua",
     "materials": [],
     "roots": [
         {
@@ -142,8 +142,8 @@
                         0.0
                     ],
                     "scale": [
-                        2.2699999809265137,
-                        2.2699999809265137,
+                        2.7300000190734863,
+                        2.7300000190734863,
                         1.0
                     ],
                     "static": false,
@@ -159,8 +159,8 @@
                                 1.0,
                                 0.949999988079071
                             ],
-                            "frame": 9,
-                            "frameName": "cloud7",
+                            "frame": 5,
+                            "frameName": "cloud3",
                             "pivot": [
                                 0.5,
                                 0.0
@@ -181,8 +181,8 @@
                         0.0
                     ],
                     "scale": [
-                        1.8899999856948853,
-                        1.8899999856948853,
+                        2.1700000762939453,
+                        2.1700000762939453,
                         1.0
                     ],
                     "static": false,
@@ -198,7 +198,6 @@
                                 1.0,
                                 0.949999988079071
                             ],
-                            "flipX": true,
                             "frame": 5,
                             "frameName": "cloud3",
                             "pivot": [
@@ -221,8 +220,8 @@
                         0.0
                     ],
                     "scale": [
-                        2.819999933242798,
-                        2.819999933242798,
+                        2.6500000953674316,
+                        2.6500000953674316,
                         1.0
                     ],
                     "static": false,
@@ -260,8 +259,8 @@
                         0.0
                     ],
                     "scale": [
-                        2.5399999618530273,
-                        2.5399999618530273,
+                        1.850000023841858,
+                        1.850000023841858,
                         1.0
                     ],
                     "static": false,
@@ -277,8 +276,9 @@
                                 1.0,
                                 0.949999988079071
                             ],
-                            "frame": 5,
-                            "frameName": "cloud3",
+                            "flipX": true,
+                            "frame": 3,
+                            "frameName": "cloud1",
                             "pivot": [
                                 0.5,
                                 0.0
@@ -299,8 +299,8 @@
                         0.0
                     ],
                     "scale": [
-                        2.8499999046325684,
-                        2.8499999046325684,
+                        1.809999942779541,
+                        1.809999942779541,
                         1.0
                     ],
                     "static": false,
@@ -343,8 +343,8 @@
                     "children": [],
                     "components": [
                         {
-                            "frame": 75,
-                            "frameName": "far_tree33",
+                            "frame": 54,
+                            "frameName": "far_tree12",
                             "pivot": [
                                 0.5,
                                 0.0
@@ -365,8 +365,8 @@
                         0.0
                     ],
                     "scale": [
-                        1.1699999570846558,
-                        1.1699999570846558,
+                        1.399999976158142,
+                        1.399999976158142,
                         1.0
                     ],
                     "static": false,
@@ -376,7 +376,6 @@
                     "children": [],
                     "components": [
                         {
-                            "flipX": true,
                             "frame": 42,
                             "frameName": "far_tower_grey",
                             "pivot": [
@@ -399,8 +398,8 @@
                         0.0
                     ],
                     "scale": [
-                        1.6699999570846558,
-                        1.6699999570846558,
+                        1.559999942779541,
+                        1.559999942779541,
                         1.0
                     ],
                     "static": false,
@@ -410,9 +409,8 @@
                     "children": [],
                     "components": [
                         {
-                            "flipX": true,
-                            "frame": 64,
-                            "frameName": "far_tree22",
+                            "frame": 54,
+                            "frameName": "far_tree12",
                             "pivot": [
                                 0.5,
                                 0.0
@@ -433,8 +431,8 @@
                         0.0
                     ],
                     "scale": [
-                        1.2799999713897705,
-                        1.2799999713897705,
+                        1.840000033378601,
+                        1.840000033378601,
                         1.0
                     ],
                     "static": false,
@@ -444,9 +442,8 @@
                     "children": [],
                     "components": [
                         {
-                            "flipX": true,
-                            "frame": 13,
-                            "frameName": "far_castle_grey",
+                            "frame": 75,
+                            "frameName": "far_tree33",
                             "pivot": [
                                 0.5,
                                 0.0
@@ -467,8 +464,8 @@
                         0.0
                     ],
                     "scale": [
-                        1.2100000381469727,
-                        1.2100000381469727,
+                        1.350000023841858,
+                        1.350000023841858,
                         1.0
                     ],
                     "static": false,
@@ -500,8 +497,8 @@
                         0.0
                     ],
                     "scale": [
-                        1.3799999952316284,
-                        1.3799999952316284,
+                        1.4600000381469727,
+                        1.4600000381469727,
                         1.0
                     ],
                     "static": false,
@@ -534,8 +531,8 @@
                         0.0
                     ],
                     "scale": [
-                        1.4199999570846558,
-                        1.4199999570846558,
+                        1.850000023841858,
+                        1.850000023841858,
                         1.0
                     ],
                     "static": false,
@@ -567,8 +564,8 @@
                         0.0
                     ],
                     "scale": [
-                        1.2799999713897705,
-                        1.2799999713897705,
+                        1.149999976158142,
+                        1.149999976158142,
                         1.0
                     ],
                     "static": false,
@@ -578,9 +575,8 @@
                     "children": [],
                     "components": [
                         {
-                            "flipX": true,
-                            "frame": 64,
-                            "frameName": "far_tree22",
+                            "frame": 42,
+                            "frameName": "far_tower_grey",
                             "pivot": [
                                 0.5,
                                 0.0
@@ -601,8 +597,8 @@
                         0.0
                     ],
                     "scale": [
-                        1.559999942779541,
-                        1.559999942779541,
+                        1.7100000381469727,
+                        1.7100000381469727,
                         1.0
                     ],
                     "static": false,
@@ -612,9 +608,8 @@
                     "children": [],
                     "components": [
                         {
-                            "flipX": true,
-                            "frame": 13,
-                            "frameName": "far_castle_grey",
+                            "frame": 42,
+                            "frameName": "far_tower_grey",
                             "pivot": [
                                 0.5,
                                 0.0
@@ -635,8 +630,8 @@
                         0.0
                     ],
                     "scale": [
-                        1.840000033378601,
-                        1.840000033378601,
+                        1.309999942779541,
+                        1.309999942779541,
                         1.0
                     ],
                     "static": false,
@@ -646,8 +641,8 @@
                     "children": [],
                     "components": [
                         {
-                            "frame": 42,
-                            "frameName": "far_tower_grey",
+                            "frame": 54,
+                            "frameName": "far_tree12",
                             "pivot": [
                                 0.5,
                                 0.0
@@ -668,8 +663,8 @@
                         0.0
                     ],
                     "scale": [
-                        1.3899999856948853,
-                        1.3899999856948853,
+                        1.8200000524520874,
+                        1.8200000524520874,
                         1.0
                     ],
                     "static": false,
@@ -679,7 +674,6 @@
                     "children": [],
                     "components": [
                         {
-                            "flipX": true,
                             "frame": 42,
                             "frameName": "far_tower_grey",
                             "pivot": [
@@ -702,8 +696,8 @@
                         0.0
                     ],
                     "scale": [
-                        1.75,
-                        1.75,
+                        1.8700000047683716,
+                        1.8700000047683716,
                         1.0
                     ],
                     "static": false,
@@ -714,8 +708,8 @@
                     "components": [
                         {
                             "flipX": true,
-                            "frame": 64,
-                            "frameName": "far_tree22",
+                            "frame": 13,
+                            "frameName": "far_castle_grey",
                             "pivot": [
                                 0.5,
                                 0.0
@@ -736,8 +730,8 @@
                         0.0
                     ],
                     "scale": [
-                        1.149999976158142,
-                        1.149999976158142,
+                        1.159999966621399,
+                        1.159999966621399,
                         1.0
                     ],
                     "static": false,
@@ -787,8 +781,8 @@
                                 1.0
                             ],
                             "flipX": true,
-                            "frame": 129,
-                            "frameName": "tree33",
+                            "frame": 118,
+                            "frameName": "tree22",
                             "pivot": [
                                 0.5,
                                 0.0
@@ -809,8 +803,8 @@
                         0.0
                     ],
                     "scale": [
-                        1.7799999713897705,
-                        1.7799999713897705,
+                        1.7300000190734863,
+                        1.7300000190734863,
                         1.0
                     ],
                     "static": false,
@@ -826,8 +820,9 @@
                                 1.0,
                                 1.0
                             ],
-                            "frame": 108,
-                            "frameName": "tree12",
+                            "flipX": true,
+                            "frame": 118,
+                            "frameName": "tree22",
                             "pivot": [
                                 0.5,
                                 0.0
@@ -848,8 +843,8 @@
                         0.0
                     ],
                     "scale": [
-                        1.2799999713897705,
-                        1.2799999713897705,
+                        1.600000023841858,
+                        1.600000023841858,
                         1.0
                     ],
                     "static": false,
@@ -865,8 +860,8 @@
                                 1.0,
                                 1.0
                             ],
-                            "frame": 131,
-                            "frameName": "tree35",
+                            "frame": 108,
+                            "frameName": "tree12",
                             "pivot": [
                                 0.5,
                                 0.0
@@ -887,8 +882,8 @@
                         0.0
                     ],
                     "scale": [
-                        1.399999976158142,
-                        1.399999976158142,
+                        1.8700000047683716,
+                        1.8700000047683716,
                         1.0
                     ],
                     "static": false,
@@ -904,8 +899,9 @@
                                 1.0,
                                 1.0
                             ],
-                            "frame": 131,
-                            "frameName": "tree35",
+                            "flipX": true,
+                            "frame": 129,
+                            "frameName": "tree33",
                             "pivot": [
                                 0.5,
                                 0.0
@@ -926,8 +922,8 @@
                         0.0
                     ],
                     "scale": [
-                        1.7400000095367432,
-                        1.7400000095367432,
+                        1.2599999904632568,
+                        1.2599999904632568,
                         1.0
                     ],
                     "static": false,
@@ -943,8 +939,8 @@
                                 1.0,
                                 1.0
                             ],
-                            "frame": 100,
-                            "frameName": "tree04",
+                            "frame": 118,
+                            "frameName": "tree22",
                             "pivot": [
                                 0.5,
                                 0.0
@@ -965,8 +961,8 @@
                         0.0
                     ],
                     "scale": [
-                        1.3200000524520874,
-                        1.3200000524520874,
+                        1.149999976158142,
+                        1.149999976158142,
                         1.0
                     ],
                     "static": false,
@@ -982,8 +978,8 @@
                                 1.0,
                                 1.0
                             ],
-                            "frame": 111,
-                            "frameName": "tree15",
+                            "frame": 108,
+                            "frameName": "tree12",
                             "pivot": [
                                 0.5,
                                 0.0
@@ -1004,87 +1000,8 @@
                         0.0
                     ],
                     "scale": [
-                        1.5499999523162842,
-                        1.5499999523162842,
-                        1.0
-                    ],
-                    "static": false,
-                    "tags": []
-                },
-                {
-                    "children": [],
-                    "components": [
-                        {
-                            "color": [
-                                0.949999988079071,
-                                0.9700000286102295,
-                                1.0,
-                                1.0
-                            ],
-                            "frame": 131,
-                            "frameName": "tree35",
-                            "pivot": [
-                                0.5,
-                                0.0
-                            ],
-                            "source": "assets/textures/scenery.p3ds",
-                            "type": "Sprite2D"
-                        }
-                    ],
-                    "name": "Mid_6",
-                    "position": [
-                        17.600000381469727,
-                        -0.10000000149011612,
-                        -9.0
-                    ],
-                    "rotation": [
-                        0.0,
-                        0.0,
-                        0.0
-                    ],
-                    "scale": [
-                        1.6100000143051147,
-                        1.6100000143051147,
-                        1.0
-                    ],
-                    "static": false,
-                    "tags": []
-                },
-                {
-                    "children": [],
-                    "components": [
-                        {
-                            "color": [
-                                0.949999988079071,
-                                0.9700000286102295,
-                                1.0,
-                                1.0
-                            ],
-                            "flipX": true,
-                            "frame": 108,
-                            "frameName": "tree12",
-                            "pivot": [
-                                0.5,
-                                0.0
-                            ],
-                            "source": "assets/textures/scenery.p3ds",
-                            "type": "Sprite2D"
-                        }
-                    ],
-                    "name": "Mid_7",
-                    "position": [
-                        25.200000762939453,
-                        -0.10000000149011612,
-                        -9.0
-                    ],
-                    "rotation": [
-                        0.0,
-                        0.0,
-                        0.0
-                    ],
-                    "scale": [
-                        1.8600000143051147,
-                        1.8600000143051147,
+                        1.2799999713897705,
+                        1.2799999713897705,
                         1.0
                     ],
                     "static": false,
@@ -1110,9 +1027,9 @@
                             "type": "Sprite2D"
                         }
                     ],
-                    "name": "Mid_8",
+                    "name": "Mid_6",
                     "position": [
-                        32.79999923706055,
+                        17.600000381469727,
                         -0.10000000149011612,
                         -9.0
                     ],
@@ -1122,8 +1039,8 @@
                         0.0
                     ],
                     "scale": [
-                        1.7200000286102295,
-                        1.7200000286102295,
+                        1.1699999570846558,
+                        1.1699999570846558,
                         1.0
                     ],
                     "static": false,
@@ -1140,8 +1057,86 @@
                                 1.0
                             ],
                             "flipX": true,
+                            "frame": 100,
+                            "frameName": "tree04",
+                            "pivot": [
+                                0.5,
+                                0.0
+                            ],
+                            "source": "assets/textures/scenery.p3ds",
+                            "type": "Sprite2D"
+                        }
+                    ],
+                    "name": "Mid_7",
+                    "position": [
+                        25.200000762939453,
+                        -0.10000000149011612,
+                        -9.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.2200000286102295,
+                        1.2200000286102295,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "color": [
+                                0.949999988079071,
+                                0.9700000286102295,
+                                1.0,
+                                1.0
+                            ],
                             "frame": 108,
                             "frameName": "tree12",
+                            "pivot": [
+                                0.5,
+                                0.0
+                            ],
+                            "source": "assets/textures/scenery.p3ds",
+                            "type": "Sprite2D"
+                        }
+                    ],
+                    "name": "Mid_8",
+                    "position": [
+                        32.79999923706055,
+                        -0.10000000149011612,
+                        -9.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.2200000286102295,
+                        1.2200000286102295,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "color": [
+                                0.949999988079071,
+                                0.9700000286102295,
+                                1.0,
+                                1.0
+                            ],
+                            "frame": 129,
+                            "frameName": "tree33",
                             "pivot": [
                                 0.5,
                                 0.0
@@ -1162,8 +1157,8 @@
                         0.0
                     ],
                     "scale": [
-                        1.5399999618530273,
-                        1.5399999618530273,
+                        1.5499999523162842,
+                        1.5499999523162842,
                         1.0
                     ],
                     "static": false,
@@ -1202,1655 +1197,6 @@
         },
         {
             "children": [
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "components": [
-                                {
-                                    "frame": 71,
-                                    "frameName": "metal_plank_0",
-                                    "lit": true,
-                                    "sortOrder": 3,
-                                    "source": "assets/textures/pieces.p3ds",
-                                    "type": "Sprite2D"
-                                },
-                                {
-                                    "bodyType": 2,
-                                    "castsShadow": false,
-                                    "density": 4.0,
-                                    "fixedRotation": false,
-                                    "friction": 0.550000011920929,
-                                    "gravityScale": 0.0,
-                                    "restitution": 0.07999999821186066,
-                                    "shape": 0,
-                                    "size": [
-                                        2.357142925262451,
-                                        0.20000000298023224
-                                    ],
-                                    "type": "Physics2D"
-                                },
-                                {
-                                    "joint": "hinge",
-                                    "maxMotorForce": 1000000.0,
-                                    "motor": true,
-                                    "motorSpeed": -0.9599310755729675,
-                                    "type": "Joint2D"
-                                }
-                            ],
-                            "name": "B_metal_plank_1",
-                            "position": [
-                                2.0,
-                                6.0,
-                                0.0
-                            ],
-                            "rotation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "scale": [
-                                1.5,
-                                0.41999998688697815,
-                                1.0
-                            ],
-                            "static": false,
-                            "tags": []
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "components": [
-                                        {
-                                            "connected": "B_metal_plank_1",
-                                            "joint": "ignore",
-                                            "type": "Joint2D"
-                                        }
-                                    ],
-                                    "name": "MillLink",
-                                    "position": [
-                                        0.0,
-                                        0.0,
-                                        0.0
-                                    ],
-                                    "rotation": [
-                                        0.0,
-                                        0.0,
-                                        0.0
-                                    ],
-                                    "scale": [
-                                        1.0,
-                                        1.0,
-                                        1.0
-                                    ],
-                                    "static": false,
-                                    "tags": []
-                                }
-                            ],
-                            "components": [
-                                {
-                                    "frame": 71,
-                                    "frameName": "metal_plank_0",
-                                    "lit": true,
-                                    "sortOrder": 3,
-                                    "source": "assets/textures/pieces.p3ds",
-                                    "type": "Sprite2D"
-                                },
-                                {
-                                    "bodyType": 2,
-                                    "castsShadow": false,
-                                    "density": 4.0,
-                                    "fixedRotation": false,
-                                    "friction": 0.550000011920929,
-                                    "gravityScale": 0.0,
-                                    "restitution": 0.07999999821186066,
-                                    "shape": 0,
-                                    "size": [
-                                        2.357142925262451,
-                                        0.20000000298023224
-                                    ],
-                                    "type": "Physics2D"
-                                },
-                                {
-                                    "joint": "hinge",
-                                    "maxMotorForce": 1000000.0,
-                                    "motor": true,
-                                    "motorSpeed": -0.9599310755729675,
-                                    "type": "Joint2D"
-                                }
-                            ],
-                            "name": "B_metal_plank_2",
-                            "position": [
-                                2.0,
-                                6.0,
-                                0.0
-                            ],
-                            "rotation": [
-                                0.0,
-                                0.0,
-                                1.5707963705062866
-                            ],
-                            "scale": [
-                                1.5,
-                                0.41999998688697815,
-                                1.0
-                            ],
-                            "static": false,
-                            "tags": []
-                        },
-                        {
-                            "children": [],
-                            "components": [
-                                {
-                                    "frame": 100,
-                                    "frameName": "stone_pillar_0",
-                                    "lit": true,
-                                    "sortOrder": 3,
-                                    "source": "assets/textures/pieces.p3ds",
-                                    "type": "Sprite2D"
-                                },
-                                {
-                                    "bodyType": 2,
-                                    "castsShadow": false,
-                                    "density": 1.2999999523162842,
-                                    "fixedRotation": false,
-                                    "friction": 0.800000011920929,
-                                    "restitution": 0.019999999552965164,
-                                    "shape": 0,
-                                    "size": [
-                                        0.47999998927116394,
-                                        0.9800000190734863
-                                    ],
-                                    "type": "Physics2D"
-                                }
-                            ],
-                            "name": "B_stone_pillar_3",
-                            "position": [
-                                9.0,
-                                1.0,
-                                0.0
-                            ],
-                            "rotation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "scale": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ],
-                            "static": false,
-                            "tags": []
-                        },
-                        {
-                            "children": [],
-                            "components": [
-                                {
-                                    "frame": 100,
-                                    "frameName": "stone_pillar_0",
-                                    "lit": true,
-                                    "sortOrder": 3,
-                                    "source": "assets/textures/pieces.p3ds",
-                                    "type": "Sprite2D"
-                                },
-                                {
-                                    "bodyType": 2,
-                                    "castsShadow": false,
-                                    "density": 1.2999999523162842,
-                                    "fixedRotation": false,
-                                    "friction": 0.800000011920929,
-                                    "restitution": 0.019999999552965164,
-                                    "shape": 0,
-                                    "size": [
-                                        0.47999998927116394,
-                                        0.9800000190734863
-                                    ],
-                                    "type": "Physics2D"
-                                }
-                            ],
-                            "name": "B_stone_pillar_4",
-                            "position": [
-                                11.140000343322754,
-                                1.0,
-                                0.0
-                            ],
-                            "rotation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "scale": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ],
-                            "static": false,
-                            "tags": []
-                        },
-                        {
-                            "children": [],
-                            "components": [
-                                {
-                                    "frame": 103,
-                                    "frameName": "stone_plank_0",
-                                    "lit": true,
-                                    "sortOrder": 3,
-                                    "source": "assets/textures/pieces.p3ds",
-                                    "type": "Sprite2D"
-                                },
-                                {
-                                    "bodyType": 2,
-                                    "castsShadow": false,
-                                    "density": 1.2999999523162842,
-                                    "fixedRotation": false,
-                                    "friction": 0.800000011920929,
-                                    "restitution": 0.019999999552965164,
-                                    "shape": 0,
-                                    "size": [
-                                        1.5514285564422607,
-                                        0.47999998927116394
-                                    ],
-                                    "type": "Physics2D"
-                                }
-                            ],
-                            "name": "B_stone_plank_5",
-                            "position": [
-                                10.069999694824219,
-                                2.5,
-                                0.0
-                            ],
-                            "rotation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "scale": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ],
-                            "static": false,
-                            "tags": []
-                        },
-                        {
-                            "children": [],
-                            "components": [
-                                {
-                                    "frame": 133,
-                                    "frameName": "wood_pillar_0",
-                                    "lit": true,
-                                    "sortOrder": 3,
-                                    "source": "assets/textures/pieces.p3ds",
-                                    "type": "Sprite2D"
-                                },
-                                {
-                                    "bodyType": 2,
-                                    "castsShadow": false,
-                                    "density": 0.550000011920929,
-                                    "fixedRotation": false,
-                                    "friction": 0.6499999761581421,
-                                    "restitution": 0.05000000074505806,
-                                    "shape": 0,
-                                    "size": [
-                                        0.47999998927116394,
-                                        0.9800000190734863
-                                    ],
-                                    "type": "Physics2D"
-                                }
-                            ],
-                            "name": "B_wood_pillar_6",
-                            "position": [
-                                9.300000190734863,
-                                4.0,
-                                0.0
-                            ],
-                            "rotation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "scale": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ],
-                            "static": false,
-                            "tags": []
-                        },
-                        {
-                            "children": [],
-                            "components": [
-                                {
-                                    "frame": 133,
-                                    "frameName": "wood_pillar_0",
-                                    "lit": true,
-                                    "sortOrder": 3,
-                                    "source": "assets/textures/pieces.p3ds",
-                                    "type": "Sprite2D"
-                                },
-                                {
-                                    "bodyType": 2,
-                                    "castsShadow": false,
-                                    "density": 0.550000011920929,
-                                    "fixedRotation": false,
-                                    "friction": 0.6499999761581421,
-                                    "restitution": 0.05000000074505806,
-                                    "shape": 0,
-                                    "size": [
-                                        0.47999998927116394,
-                                        0.9800000190734863
-                                    ],
-                                    "type": "Physics2D"
-                                }
-                            ],
-                            "name": "B_wood_pillar_7",
-                            "position": [
-                                10.84000015258789,
-                                4.0,
-                                0.0
-                            ],
-                            "rotation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "scale": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ],
-                            "static": false,
-                            "tags": []
-                        },
-                        {
-                            "children": [],
-                            "components": [
-                                {
-                                    "frame": 103,
-                                    "frameName": "stone_plank_0",
-                                    "lit": true,
-                                    "sortOrder": 3,
-                                    "source": "assets/textures/pieces.p3ds",
-                                    "type": "Sprite2D"
-                                },
-                                {
-                                    "bodyType": 2,
-                                    "castsShadow": false,
-                                    "density": 1.2999999523162842,
-                                    "fixedRotation": false,
-                                    "friction": 0.800000011920929,
-                                    "restitution": 0.019999999552965164,
-                                    "shape": 0,
-                                    "size": [
-                                        1.5514285564422607,
-                                        0.47999998927116394
-                                    ],
-                                    "type": "Physics2D"
-                                }
-                            ],
-                            "name": "B_stone_plank_8",
-                            "position": [
-                                10.069999694824219,
-                                5.5,
-                                0.0
-                            ],
-                            "rotation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "scale": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ],
-                            "static": false,
-                            "tags": []
-                        },
-                        {
-                            "children": [],
-                            "components": [
-                                {
-                                    "frame": 115,
-                                    "frameName": "stone_tri_0",
-                                    "lit": true,
-                                    "sortOrder": 3,
-                                    "source": "assets/textures/pieces.p3ds",
-                                    "type": "Sprite2D"
-                                },
-                                {
-                                    "bodyType": 2,
-                                    "castsShadow": false,
-                                    "density": 1.2999999523162842,
-                                    "fixedRotation": false,
-                                    "friction": 0.800000011920929,
-                                    "polygon": [
-                                        -0.9700000286102295,
-                                        -0.5,
-                                        0.9700000286102295,
-                                        -0.5,
-                                        0.0,
-                                        0.4699999988079071
-                                    ],
-                                    "restitution": 0.019999999552965164,
-                                    "shape": 3,
-                                    "size": [
-                                        0.5,
-                                        0.5
-                                    ],
-                                    "type": "Physics2D"
-                                }
-                            ],
-                            "name": "B_stone_tri_9",
-                            "position": [
-                                10.069999694824219,
-                                6.5,
-                                0.0
-                            ],
-                            "rotation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "scale": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ],
-                            "static": false,
-                            "tags": []
-                        },
-                        {
-                            "children": [],
-                            "components": [
-                                {
-                                    "frame": 71,
-                                    "frameName": "metal_plank_0",
-                                    "lit": true,
-                                    "sortOrder": 3,
-                                    "source": "assets/textures/pieces.p3ds",
-                                    "type": "Sprite2D"
-                                },
-                                {
-                                    "bodyType": 2,
-                                    "castsShadow": false,
-                                    "density": 2.5999999046325684,
-                                    "fixedRotation": true,
-                                    "friction": 0.550000011920929,
-                                    "linearDamping": 0.10000000149011612,
-                                    "restitution": 0.07999999821186066,
-                                    "shape": 0,
-                                    "size": [
-                                        1.5514285564422607,
-                                        0.47999998927116394
-                                    ],
-                                    "type": "Physics2D"
-                                },
-                                {
-                                    "anchor": [
-                                        0.0,
-                                        0.5
-                                    ],
-                                    "connected": "Weight",
-                                    "connectedAnchor": [
-                                        0.0,
-                                        0.5
-                                    ],
-                                    "connectedGroundAnchor": [
-                                        20.0,
-                                        11.5
-                                    ],
-                                    "groundAnchor": [
-                                        15.600000381469727,
-                                        11.5
-                                    ],
-                                    "joint": "pulley",
-                                    "type": "Joint2D"
-                                }
-                            ],
-                            "name": "B_metal_plank_10",
-                            "position": [
-                                15.600000381469727,
-                                6.199999809265137,
-                                0.0
-                            ],
-                            "rotation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "scale": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ],
-                            "static": false,
-                            "tags": []
-                        },
-                        {
-                            "children": [],
-                            "components": [
-                                {
-                                    "frame": 62,
-                                    "frameName": "metal_big_0",
-                                    "lit": true,
-                                    "sortOrder": 3,
-                                    "source": "assets/textures/pieces.p3ds",
-                                    "type": "Sprite2D"
-                                },
-                                {
-                                    "bodyType": 2,
-                                    "castsShadow": false,
-                                    "density": 2.0,
-                                    "fixedRotation": false,
-                                    "friction": 0.550000011920929,
-                                    "restitution": 0.07999999821186066,
-                                    "shape": 0,
-                                    "size": [
-                                        0.9800000190734863,
-                                        0.9800000190734863
-                                    ],
-                                    "type": "Physics2D"
-                                }
-                            ],
-                            "name": "B_metal_big_11",
-                            "position": [
-                                20.0,
-                                2.0,
-                                0.0
-                            ],
-                            "rotation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "scale": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ],
-                            "static": false,
-                            "tags": []
-                        },
-                        {
-                            "children": [],
-                            "components": [
-                                {
-                                    "frame": 121,
-                                    "frameName": "tnt_sq_0",
-                                    "lit": true,
-                                    "sortOrder": 3,
-                                    "source": "assets/textures/pieces.p3ds",
-                                    "type": "Sprite2D"
-                                },
-                                {
-                                    "bodyType": 2,
-                                    "castsShadow": false,
-                                    "density": 0.6000000238418579,
-                                    "fixedRotation": false,
-                                    "friction": 0.699999988079071,
-                                    "restitution": 0.05000000074505806,
-                                    "shape": 0,
-                                    "size": [
-                                        0.47999998927116394,
-                                        0.47999998927116394
-                                    ],
-                                    "type": "Physics2D"
-                                }
-                            ],
-                            "name": "B_tnt_sq_12",
-                            "position": [
-                                21.600000381469727,
-                                0.5,
-                                0.0
-                            ],
-                            "rotation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "scale": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ],
-                            "static": false,
-                            "tags": []
-                        },
-                        {
-                            "children": [],
-                            "components": [
-                                {
-                                    "frame": 56,
-                                    "frameName": "glass_sq_0",
-                                    "lit": true,
-                                    "sortOrder": 3,
-                                    "source": "assets/textures/pieces.p3ds",
-                                    "type": "Sprite2D"
-                                },
-                                {
-                                    "bodyType": 2,
-                                    "castsShadow": false,
-                                    "density": 0.4000000059604645,
-                                    "fixedRotation": false,
-                                    "friction": 0.44999998807907104,
-                                    "restitution": 0.019999999552965164,
-                                    "shape": 0,
-                                    "size": [
-                                        0.47999998927116394,
-                                        0.47999998927116394
-                                    ],
-                                    "type": "Physics2D"
-                                }
-                            ],
-                            "name": "B_glass_sq_13",
-                            "position": [
-                                14.399999618530273,
-                                0.5,
-                                0.0
-                            ],
-                            "rotation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "scale": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ],
-                            "static": false,
-                            "tags": []
-                        },
-                        {
-                            "children": [],
-                            "components": [
-                                {
-                                    "frame": 56,
-                                    "frameName": "glass_sq_0",
-                                    "lit": true,
-                                    "sortOrder": 3,
-                                    "source": "assets/textures/pieces.p3ds",
-                                    "type": "Sprite2D"
-                                },
-                                {
-                                    "bodyType": 2,
-                                    "castsShadow": false,
-                                    "density": 0.4000000059604645,
-                                    "fixedRotation": false,
-                                    "friction": 0.44999998807907104,
-                                    "restitution": 0.019999999552965164,
-                                    "shape": 0,
-                                    "size": [
-                                        0.47999998927116394,
-                                        0.47999998927116394
-                                    ],
-                                    "type": "Physics2D"
-                                }
-                            ],
-                            "name": "B_glass_sq_14",
-                            "position": [
-                                16.799999237060547,
-                                0.5,
-                                0.0
-                            ],
-                            "rotation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "scale": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ],
-                            "static": false,
-                            "tags": []
-                        }
-                    ],
-                    "components": [],
-                    "name": "Blocks",
-                    "position": [
-                        0.0,
-                        0.0,
-                        0.0
-                    ],
-                    "rotation": [
-                        0.0,
-                        0.0,
-                        0.0
-                    ],
-                    "scale": [
-                        1.0,
-                        1.0,
-                        1.0
-                    ],
-                    "static": false,
-                    "tags": []
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "components": [
-                                {
-                                    "frame": 5,
-                                    "frameName": "alien_blue_suit",
-                                    "lit": true,
-                                    "sortOrder": 4,
-                                    "source": "assets/textures/pieces.p3ds",
-                                    "type": "Sprite2D"
-                                },
-                                {
-                                    "bodyType": 2,
-                                    "castsShadow": false,
-                                    "density": 0.3499999940395355,
-                                    "fixedRotation": false,
-                                    "friction": 0.6000000238418579,
-                                    "restitution": 0.10000000149011612,
-                                    "shape": 0,
-                                    "size": [
-                                        0.46000000834465027,
-                                        0.46000000834465027
-                                    ],
-                                    "type": "Physics2D"
-                                }
-                            ],
-                            "name": "T_blue_1",
-                            "position": [
-                                10.069999694824219,
-                                0.5,
-                                0.05000000074505806
-                            ],
-                            "rotation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "scale": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ],
-                            "static": false,
-                            "tags": []
-                        },
-                        {
-                            "children": [],
-                            "components": [
-                                {
-                                    "frame": 5,
-                                    "frameName": "alien_blue_suit",
-                                    "lit": true,
-                                    "sortOrder": 4,
-                                    "source": "assets/textures/pieces.p3ds",
-                                    "type": "Sprite2D"
-                                },
-                                {
-                                    "bodyType": 2,
-                                    "castsShadow": false,
-                                    "density": 0.3499999940395355,
-                                    "fixedRotation": false,
-                                    "friction": 0.6000000238418579,
-                                    "restitution": 0.10000000149011612,
-                                    "shape": 0,
-                                    "size": [
-                                        0.46000000834465027,
-                                        0.46000000834465027
-                                    ],
-                                    "type": "Physics2D"
-                                }
-                            ],
-                            "name": "T_blue_2",
-                            "position": [
-                                10.069999694824219,
-                                3.5,
-                                0.05000000074505806
-                            ],
-                            "rotation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "scale": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ],
-                            "static": false,
-                            "tags": []
-                        },
-                        {
-                            "children": [],
-                            "components": [
-                                {
-                                    "frame": 14,
-                                    "frameName": "alien_yellow_suit",
-                                    "lit": true,
-                                    "sortOrder": 4,
-                                    "source": "assets/textures/pieces.p3ds",
-                                    "type": "Sprite2D"
-                                },
-                                {
-                                    "bodyType": 2,
-                                    "castsShadow": false,
-                                    "density": 0.3499999940395355,
-                                    "fixedRotation": false,
-                                    "friction": 0.6000000238418579,
-                                    "restitution": 0.10000000149011612,
-                                    "shape": 0,
-                                    "size": [
-                                        0.46000000834465027,
-                                        0.46000000834465027
-                                    ],
-                                    "type": "Physics2D"
-                                }
-                            ],
-                            "name": "T_yellow_3",
-                            "position": [
-                                15.199999809265137,
-                                0.5,
-                                0.05000000074505806
-                            ],
-                            "rotation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "scale": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ],
-                            "static": false,
-                            "tags": []
-                        },
-                        {
-                            "children": [],
-                            "components": [
-                                {
-                                    "frame": 11,
-                                    "frameName": "alien_pink_suit",
-                                    "lit": true,
-                                    "sortOrder": 4,
-                                    "source": "assets/textures/pieces.p3ds",
-                                    "type": "Sprite2D"
-                                },
-                                {
-                                    "bodyType": 2,
-                                    "castsShadow": false,
-                                    "density": 0.3499999940395355,
-                                    "fixedRotation": false,
-                                    "friction": 0.6000000238418579,
-                                    "restitution": 0.10000000149011612,
-                                    "shape": 0,
-                                    "size": [
-                                        0.46000000834465027,
-                                        0.46000000834465027
-                                    ],
-                                    "type": "Physics2D"
-                                }
-                            ],
-                            "name": "T_pink_4",
-                            "position": [
-                                16.0,
-                                0.5,
-                                0.05000000074505806
-                            ],
-                            "rotation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "scale": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ],
-                            "static": false,
-                            "tags": []
-                        }
-                    ],
-                    "components": [],
-                    "name": "Targets",
-                    "position": [
-                        0.0,
-                        0.0,
-                        0.0
-                    ],
-                    "rotation": [
-                        0.0,
-                        0.0,
-                        0.0
-                    ],
-                    "scale": [
-                        1.0,
-                        1.0,
-                        1.0
-                    ],
-                    "static": false,
-                    "tags": []
-                },
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "components": [
-                                        {
-                                            "colorEnd": [
-                                                1.0,
-                                                1.0,
-                                                1.0,
-                                                0.0
-                                            ],
-                                            "colorStart": [
-                                                1.0,
-                                                1.0,
-                                                1.0,
-                                                0.75
-                                            ],
-                                            "lifetime": 0.8999999761581421,
-                                            "minDistance": 0.18000000715255737,
-                                            "points": [],
-                                            "sortOrder": 2,
-                                            "trail": true,
-                                            "type": "Line2D",
-                                            "width": [
-                                                0.3400000035762787,
-                                                0.0
-                                            ]
-                                        }
-                                    ],
-                                    "name": "A_green_1_Trail",
-                                    "position": [
-                                        0.0,
-                                        0.0,
-                                        0.0
-                                    ],
-                                    "rotation": [
-                                        0.0,
-                                        0.0,
-                                        0.0
-                                    ],
-                                    "scale": [
-                                        1.0,
-                                        1.0,
-                                        1.0
-                                    ],
-                                    "static": false,
-                                    "tags": []
-                                }
-                            ],
-                            "components": [
-                                {
-                                    "frame": 6,
-                                    "frameName": "alien_green_round",
-                                    "lit": true,
-                                    "sortOrder": 5,
-                                    "source": "assets/textures/pieces.p3ds",
-                                    "type": "Sprite2D"
-                                },
-                                {
-                                    "angularDamping": 0.6000000238418579,
-                                    "bodyType": 1,
-                                    "bullet": true,
-                                    "castsShadow": false,
-                                    "density": 1.0,
-                                    "fixedRotation": false,
-                                    "friction": 0.5,
-                                    "linearDamping": 0.019999999552965164,
-                                    "restitution": 0.25,
-                                    "shape": 1,
-                                    "size": [
-                                        0.47999998927116394,
-                                        0.47999998927116394
-                                    ],
-                                    "type": "Physics2D"
-                                }
-                            ],
-                            "name": "A_green_1",
-                            "position": [
-                                -11.199999809265137,
-                                0.5,
-                                0.30000001192092896
-                            ],
-                            "rotation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "scale": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ],
-                            "static": false,
-                            "tags": []
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "components": [
-                                        {
-                                            "colorEnd": [
-                                                1.0,
-                                                1.0,
-                                                1.0,
-                                                0.0
-                                            ],
-                                            "colorStart": [
-                                                1.0,
-                                                1.0,
-                                                1.0,
-                                                0.75
-                                            ],
-                                            "lifetime": 0.8999999761581421,
-                                            "minDistance": 0.18000000715255737,
-                                            "points": [],
-                                            "sortOrder": 2,
-                                            "trail": true,
-                                            "type": "Line2D",
-                                            "width": [
-                                                0.3400000035762787,
-                                                0.0
-                                            ]
-                                        }
-                                    ],
-                                    "name": "A_yellow_2_Trail",
-                                    "position": [
-                                        0.0,
-                                        0.0,
-                                        0.0
-                                    ],
-                                    "rotation": [
-                                        0.0,
-                                        0.0,
-                                        0.0
-                                    ],
-                                    "scale": [
-                                        1.0,
-                                        1.0,
-                                        1.0
-                                    ],
-                                    "static": false,
-                                    "tags": []
-                                }
-                            ],
-                            "components": [
-                                {
-                                    "frame": 12,
-                                    "frameName": "alien_yellow_round",
-                                    "lit": true,
-                                    "sortOrder": 5,
-                                    "source": "assets/textures/pieces.p3ds",
-                                    "type": "Sprite2D"
-                                },
-                                {
-                                    "angularDamping": 0.6000000238418579,
-                                    "bodyType": 1,
-                                    "bullet": true,
-                                    "castsShadow": false,
-                                    "density": 1.0,
-                                    "fixedRotation": false,
-                                    "friction": 0.5,
-                                    "linearDamping": 0.019999999552965164,
-                                    "restitution": 0.25,
-                                    "shape": 1,
-                                    "size": [
-                                        0.47999998927116394,
-                                        0.47999998927116394
-                                    ],
-                                    "type": "Physics2D"
-                                }
-                            ],
-                            "name": "A_yellow_2",
-                            "position": [
-                                -12.350000381469727,
-                                0.5,
-                                0.30000001192092896
-                            ],
-                            "rotation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "scale": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ],
-                            "static": false,
-                            "tags": []
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "components": [
-                                        {
-                                            "colorEnd": [
-                                                1.0,
-                                                1.0,
-                                                1.0,
-                                                0.0
-                                            ],
-                                            "colorStart": [
-                                                1.0,
-                                                1.0,
-                                                1.0,
-                                                0.75
-                                            ],
-                                            "lifetime": 0.8999999761581421,
-                                            "minDistance": 0.18000000715255737,
-                                            "points": [],
-                                            "sortOrder": 2,
-                                            "trail": true,
-                                            "type": "Line2D",
-                                            "width": [
-                                                0.3400000035762787,
-                                                0.0
-                                            ]
-                                        }
-                                    ],
-                                    "name": "A_blue_3_Trail",
-                                    "position": [
-                                        0.0,
-                                        0.0,
-                                        0.0
-                                    ],
-                                    "rotation": [
-                                        0.0,
-                                        0.0,
-                                        0.0
-                                    ],
-                                    "scale": [
-                                        1.0,
-                                        1.0,
-                                        1.0
-                                    ],
-                                    "static": false,
-                                    "tags": []
-                                }
-                            ],
-                            "components": [
-                                {
-                                    "frame": 3,
-                                    "frameName": "alien_blue_round",
-                                    "lit": true,
-                                    "sortOrder": 5,
-                                    "source": "assets/textures/pieces.p3ds",
-                                    "type": "Sprite2D"
-                                },
-                                {
-                                    "angularDamping": 0.6000000238418579,
-                                    "bodyType": 1,
-                                    "bullet": true,
-                                    "castsShadow": false,
-                                    "density": 1.0,
-                                    "fixedRotation": false,
-                                    "friction": 0.5,
-                                    "linearDamping": 0.019999999552965164,
-                                    "restitution": 0.25,
-                                    "shape": 1,
-                                    "size": [
-                                        0.47999998927116394,
-                                        0.47999998927116394
-                                    ],
-                                    "type": "Physics2D"
-                                }
-                            ],
-                            "name": "A_blue_3",
-                            "position": [
-                                -13.5,
-                                0.5,
-                                0.30000001192092896
-                            ],
-                            "rotation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "scale": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ],
-                            "static": false,
-                            "tags": []
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "components": [
-                                        {
-                                            "colorEnd": [
-                                                1.0,
-                                                1.0,
-                                                1.0,
-                                                0.0
-                                            ],
-                                            "colorStart": [
-                                                1.0,
-                                                1.0,
-                                                1.0,
-                                                0.75
-                                            ],
-                                            "lifetime": 0.8999999761581421,
-                                            "minDistance": 0.18000000715255737,
-                                            "points": [],
-                                            "sortOrder": 2,
-                                            "trail": true,
-                                            "type": "Line2D",
-                                            "width": [
-                                                0.3400000035762787,
-                                                0.0
-                                            ]
-                                        }
-                                    ],
-                                    "name": "A_pink_4_Trail",
-                                    "position": [
-                                        0.0,
-                                        0.0,
-                                        0.0
-                                    ],
-                                    "rotation": [
-                                        0.0,
-                                        0.0,
-                                        0.0
-                                    ],
-                                    "scale": [
-                                        1.0,
-                                        1.0,
-                                        1.0
-                                    ],
-                                    "static": false,
-                                    "tags": []
-                                }
-                            ],
-                            "components": [
-                                {
-                                    "frame": 9,
-                                    "frameName": "alien_pink_round",
-                                    "lit": true,
-                                    "sortOrder": 5,
-                                    "source": "assets/textures/pieces.p3ds",
-                                    "type": "Sprite2D"
-                                },
-                                {
-                                    "angularDamping": 0.6000000238418579,
-                                    "bodyType": 1,
-                                    "bullet": true,
-                                    "castsShadow": false,
-                                    "density": 1.0,
-                                    "fixedRotation": false,
-                                    "friction": 0.5,
-                                    "linearDamping": 0.019999999552965164,
-                                    "restitution": 0.25,
-                                    "shape": 1,
-                                    "size": [
-                                        0.47999998927116394,
-                                        0.47999998927116394
-                                    ],
-                                    "type": "Physics2D"
-                                }
-                            ],
-                            "name": "A_pink_4",
-                            "position": [
-                                -14.649999618530273,
-                                0.5,
-                                0.30000001192092896
-                            ],
-                            "rotation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "scale": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ],
-                            "static": false,
-                            "tags": []
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "components": [
-                                        {
-                                            "colorEnd": [
-                                                1.0,
-                                                1.0,
-                                                1.0,
-                                                0.0
-                                            ],
-                                            "colorStart": [
-                                                1.0,
-                                                1.0,
-                                                1.0,
-                                                0.75
-                                            ],
-                                            "lifetime": 0.8999999761581421,
-                                            "minDistance": 0.18000000715255737,
-                                            "points": [],
-                                            "sortOrder": 2,
-                                            "trail": true,
-                                            "type": "Line2D",
-                                            "width": [
-                                                0.3400000035762787,
-                                                0.0
-                                            ]
-                                        }
-                                    ],
-                                    "name": "A_green_5_Trail",
-                                    "position": [
-                                        0.0,
-                                        0.0,
-                                        0.0
-                                    ],
-                                    "rotation": [
-                                        0.0,
-                                        0.0,
-                                        0.0
-                                    ],
-                                    "scale": [
-                                        1.0,
-                                        1.0,
-                                        1.0
-                                    ],
-                                    "static": false,
-                                    "tags": []
-                                }
-                            ],
-                            "components": [
-                                {
-                                    "frame": 6,
-                                    "frameName": "alien_green_round",
-                                    "lit": true,
-                                    "sortOrder": 5,
-                                    "source": "assets/textures/pieces.p3ds",
-                                    "type": "Sprite2D"
-                                },
-                                {
-                                    "angularDamping": 0.6000000238418579,
-                                    "bodyType": 1,
-                                    "bullet": true,
-                                    "castsShadow": false,
-                                    "density": 1.0,
-                                    "fixedRotation": false,
-                                    "friction": 0.5,
-                                    "linearDamping": 0.019999999552965164,
-                                    "restitution": 0.25,
-                                    "shape": 1,
-                                    "size": [
-                                        0.47999998927116394,
-                                        0.47999998927116394
-                                    ],
-                                    "type": "Physics2D"
-                                }
-                            ],
-                            "name": "A_green_5",
-                            "position": [
-                                -15.800000190734863,
-                                0.5,
-                                0.30000001192092896
-                            ],
-                            "rotation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "scale": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ],
-                            "static": false,
-                            "tags": []
-                        }
-                    ],
-                    "components": [],
-                    "name": "Ammo",
-                    "position": [
-                        0.0,
-                        0.0,
-                        0.0
-                    ],
-                    "rotation": [
-                        0.0,
-                        0.0,
-                        0.0
-                    ],
-                    "scale": [
-                        1.0,
-                        1.0,
-                        1.0
-                    ],
-                    "static": false,
-                    "tags": []
-                },
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "components": [
-                                        {
-                                            "colorEnd": [
-                                                1.0,
-                                                1.0,
-                                                1.0,
-                                                0.0
-                                            ],
-                                            "colorStart": [
-                                                1.0,
-                                                1.0,
-                                                1.0,
-                                                0.75
-                                            ],
-                                            "lifetime": 0.8999999761581421,
-                                            "minDistance": 0.18000000715255737,
-                                            "points": [],
-                                            "sortOrder": 2,
-                                            "trail": true,
-                                            "type": "Line2D",
-                                            "width": [
-                                                0.3400000035762787,
-                                                0.0
-                                            ]
-                                        }
-                                    ],
-                                    "name": "S_blue_3_1_Trail",
-                                    "position": [
-                                        0.0,
-                                        0.0,
-                                        0.0
-                                    ],
-                                    "rotation": [
-                                        0.0,
-                                        0.0,
-                                        0.0
-                                    ],
-                                    "scale": [
-                                        1.0,
-                                        1.0,
-                                        1.0
-                                    ],
-                                    "static": false,
-                                    "tags": []
-                                }
-                            ],
-                            "components": [
-                                {
-                                    "frame": 3,
-                                    "frameName": "alien_blue_round",
-                                    "lit": true,
-                                    "sortOrder": 5,
-                                    "source": "assets/textures/pieces.p3ds",
-                                    "type": "Sprite2D"
-                                },
-                                {
-                                    "angularDamping": 0.6000000238418579,
-                                    "bodyType": 1,
-                                    "bullet": true,
-                                    "castsShadow": false,
-                                    "density": 1.0,
-                                    "fixedRotation": false,
-                                    "friction": 0.5,
-                                    "linearDamping": 0.019999999552965164,
-                                    "restitution": 0.25,
-                                    "shape": 1,
-                                    "size": [
-                                        0.47999998927116394,
-                                        0.47999998927116394
-                                    ],
-                                    "type": "Physics2D"
-                                }
-                            ],
-                            "name": "S_blue_3_1",
-                            "position": [
-                                -31.0,
-                                -16.0,
-                                0.30000001192092896
-                            ],
-                            "rotation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "scale": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ],
-                            "static": false,
-                            "tags": []
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "components": [
-                                        {
-                                            "colorEnd": [
-                                                1.0,
-                                                1.0,
-                                                1.0,
-                                                0.0
-                                            ],
-                                            "colorStart": [
-                                                1.0,
-                                                1.0,
-                                                1.0,
-                                                0.75
-                                            ],
-                                            "lifetime": 0.8999999761581421,
-                                            "minDistance": 0.18000000715255737,
-                                            "points": [],
-                                            "sortOrder": 2,
-                                            "trail": true,
-                                            "type": "Line2D",
-                                            "width": [
-                                                0.3400000035762787,
-                                                0.0
-                                            ]
-                                        }
-                                    ],
-                                    "name": "S_blue_3_2_Trail",
-                                    "position": [
-                                        0.0,
-                                        0.0,
-                                        0.0
-                                    ],
-                                    "rotation": [
-                                        0.0,
-                                        0.0,
-                                        0.0
-                                    ],
-                                    "scale": [
-                                        1.0,
-                                        1.0,
-                                        1.0
-                                    ],
-                                    "static": false,
-                                    "tags": []
-                                }
-                            ],
-                            "components": [
-                                {
-                                    "frame": 3,
-                                    "frameName": "alien_blue_round",
-                                    "lit": true,
-                                    "sortOrder": 5,
-                                    "source": "assets/textures/pieces.p3ds",
-                                    "type": "Sprite2D"
-                                },
-                                {
-                                    "angularDamping": 0.6000000238418579,
-                                    "bodyType": 1,
-                                    "bullet": true,
-                                    "castsShadow": false,
-                                    "density": 1.0,
-                                    "fixedRotation": false,
-                                    "friction": 0.5,
-                                    "linearDamping": 0.019999999552965164,
-                                    "restitution": 0.25,
-                                    "shape": 1,
-                                    "size": [
-                                        0.47999998927116394,
-                                        0.47999998927116394
-                                    ],
-                                    "type": "Physics2D"
-                                }
-                            ],
-                            "name": "S_blue_3_2",
-                            "position": [
-                                -33.0,
-                                -16.0,
-                                0.30000001192092896
-                            ],
-                            "rotation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "scale": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ],
-                            "static": false,
-                            "tags": []
-                        }
-                    ],
-                    "components": [],
-                    "name": "Spares",
-                    "position": [
-                        0.0,
-                        0.0,
-                        0.0
-                    ],
-                    "rotation": [
-                        0.0,
-                        0.0,
-                        0.0
-                    ],
-                    "scale": [
-                        1.0,
-                        1.0,
-                        1.0
-                    ],
-                    "static": false,
-                    "tags": []
-                },
                 {
                     "children": [
                         {
@@ -3908,7 +2254,7 @@
                             ],
                             "name": "Decor_1",
                             "position": [
-                                -12.0,
+                                -12.199999809265137,
                                 0.41999998688697815,
                                 -0.20000000298023224
                             ],
@@ -3937,7 +2283,7 @@
                             ],
                             "name": "Decor_2",
                             "position": [
-                                -3.5,
+                                -4.0,
                                 0.41999998688697815,
                                 -0.20000000298023224
                             ],
@@ -3967,7 +2313,7 @@
                             ],
                             "name": "Decor_3",
                             "position": [
-                                5.5,
+                                2.5,
                                 0.41999998688697815,
                                 -0.20000000298023224
                             ],
@@ -3996,7 +2342,7 @@
                             ],
                             "name": "Decor_4",
                             "position": [
-                                23.5,
+                                24.0,
                                 0.41999998688697815,
                                 -0.20000000298023224
                             ],
@@ -4026,7 +2372,7 @@
                             ],
                             "name": "Decor_5",
                             "position": [
-                                25.5,
+                                25.799999237060547,
                                 0.41999998688697815,
                                 -0.20000000298023224
                             ],
@@ -4046,82 +2392,6 @@
                     ],
                     "components": [],
                     "name": "Decor",
-                    "position": [
-                        0.0,
-                        0.0,
-                        0.0
-                    ],
-                    "rotation": [
-                        0.0,
-                        0.0,
-                        0.0
-                    ],
-                    "scale": [
-                        1.0,
-                        1.0,
-                        1.0
-                    ],
-                    "static": false,
-                    "tags": []
-                },
-                {
-                    "children": [
-                        {
-                            "children": [],
-                            "components": [
-                                {
-                                    "colorEnd": [
-                                        0.44999998807907104,
-                                        0.36000001430511475,
-                                        0.2800000011920929,
-                                        1.0
-                                    ],
-                                    "colorStart": [
-                                        0.44999998807907104,
-                                        0.36000001430511475,
-                                        0.2800000011920929,
-                                        1.0
-                                    ],
-                                    "points": [
-                                        15.600000381469727,
-                                        6.699999809265137,
-                                        15.600000381469727,
-                                        11.5,
-                                        20.0,
-                                        11.5,
-                                        20.0,
-                                        1.0
-                                    ],
-                                    "sortOrder": 2,
-                                    "type": "Line2D",
-                                    "width": [
-                                        0.10000000149011612,
-                                        0.10000000149011612
-                                    ]
-                                }
-                            ],
-                            "name": "RR_B_metal_plank_10__Weight",
-                            "position": [
-                                0.0,
-                                0.0,
-                                0.07999999821186066
-                            ],
-                            "rotation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "scale": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ],
-                            "static": false,
-                            "tags": []
-                        }
-                    ],
-                    "components": [],
-                    "name": "Ropes",
                     "position": [
                         0.0,
                         0.0,
@@ -5149,6 +3419,450 @@
                             ],
                             "static": false,
                             "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "color": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        0.8999999761581421
+                                    ],
+                                    "frame": 0,
+                                    "frameName": "frame0",
+                                    "pixelsPerUnit": 420.0,
+                                    "sortOrder": 6,
+                                    "source": "assets/textures/fx/soft.png",
+                                    "type": "Sprite2D"
+                                }
+                            ],
+                            "name": "Dot_17",
+                            "position": [
+                                -31.0,
+                                -16.0,
+                                0.25
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "color": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        0.8999999761581421
+                                    ],
+                                    "frame": 0,
+                                    "frameName": "frame0",
+                                    "pixelsPerUnit": 420.0,
+                                    "sortOrder": 6,
+                                    "source": "assets/textures/fx/soft.png",
+                                    "type": "Sprite2D"
+                                }
+                            ],
+                            "name": "Dot_18",
+                            "position": [
+                                -31.0,
+                                -16.0,
+                                0.25
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "color": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        0.8999999761581421
+                                    ],
+                                    "frame": 0,
+                                    "frameName": "frame0",
+                                    "pixelsPerUnit": 420.0,
+                                    "sortOrder": 6,
+                                    "source": "assets/textures/fx/soft.png",
+                                    "type": "Sprite2D"
+                                }
+                            ],
+                            "name": "Dot_19",
+                            "position": [
+                                -31.0,
+                                -16.0,
+                                0.25
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "color": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        0.8999999761581421
+                                    ],
+                                    "frame": 0,
+                                    "frameName": "frame0",
+                                    "pixelsPerUnit": 420.0,
+                                    "sortOrder": 6,
+                                    "source": "assets/textures/fx/soft.png",
+                                    "type": "Sprite2D"
+                                }
+                            ],
+                            "name": "Dot_20",
+                            "position": [
+                                -31.0,
+                                -16.0,
+                                0.25
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "color": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        0.8999999761581421
+                                    ],
+                                    "frame": 0,
+                                    "frameName": "frame0",
+                                    "pixelsPerUnit": 420.0,
+                                    "sortOrder": 6,
+                                    "source": "assets/textures/fx/soft.png",
+                                    "type": "Sprite2D"
+                                }
+                            ],
+                            "name": "Dot_21",
+                            "position": [
+                                -31.0,
+                                -16.0,
+                                0.25
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "color": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        0.8999999761581421
+                                    ],
+                                    "frame": 0,
+                                    "frameName": "frame0",
+                                    "pixelsPerUnit": 420.0,
+                                    "sortOrder": 6,
+                                    "source": "assets/textures/fx/soft.png",
+                                    "type": "Sprite2D"
+                                }
+                            ],
+                            "name": "Dot_22",
+                            "position": [
+                                -31.0,
+                                -16.0,
+                                0.25
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "color": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        0.8999999761581421
+                                    ],
+                                    "frame": 0,
+                                    "frameName": "frame0",
+                                    "pixelsPerUnit": 420.0,
+                                    "sortOrder": 6,
+                                    "source": "assets/textures/fx/soft.png",
+                                    "type": "Sprite2D"
+                                }
+                            ],
+                            "name": "Dot_23",
+                            "position": [
+                                -31.0,
+                                -16.0,
+                                0.25
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "color": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        0.8999999761581421
+                                    ],
+                                    "frame": 0,
+                                    "frameName": "frame0",
+                                    "pixelsPerUnit": 420.0,
+                                    "sortOrder": 6,
+                                    "source": "assets/textures/fx/soft.png",
+                                    "type": "Sprite2D"
+                                }
+                            ],
+                            "name": "Dot_24",
+                            "position": [
+                                -31.0,
+                                -16.0,
+                                0.25
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "color": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        0.8999999761581421
+                                    ],
+                                    "frame": 0,
+                                    "frameName": "frame0",
+                                    "pixelsPerUnit": 420.0,
+                                    "sortOrder": 6,
+                                    "source": "assets/textures/fx/soft.png",
+                                    "type": "Sprite2D"
+                                }
+                            ],
+                            "name": "Dot_25",
+                            "position": [
+                                -31.0,
+                                -16.0,
+                                0.25
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "color": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        0.8999999761581421
+                                    ],
+                                    "frame": 0,
+                                    "frameName": "frame0",
+                                    "pixelsPerUnit": 420.0,
+                                    "sortOrder": 6,
+                                    "source": "assets/textures/fx/soft.png",
+                                    "type": "Sprite2D"
+                                }
+                            ],
+                            "name": "Dot_26",
+                            "position": [
+                                -31.0,
+                                -16.0,
+                                0.25
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "color": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        0.8999999761581421
+                                    ],
+                                    "frame": 0,
+                                    "frameName": "frame0",
+                                    "pixelsPerUnit": 420.0,
+                                    "sortOrder": 6,
+                                    "source": "assets/textures/fx/soft.png",
+                                    "type": "Sprite2D"
+                                }
+                            ],
+                            "name": "Dot_27",
+                            "position": [
+                                -31.0,
+                                -16.0,
+                                0.25
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
+                        },
+                        {
+                            "children": [],
+                            "components": [
+                                {
+                                    "color": [
+                                        1.0,
+                                        1.0,
+                                        1.0,
+                                        0.8999999761581421
+                                    ],
+                                    "frame": 0,
+                                    "frameName": "frame0",
+                                    "pixelsPerUnit": 420.0,
+                                    "sortOrder": 6,
+                                    "source": "assets/textures/fx/soft.png",
+                                    "type": "Sprite2D"
+                                }
+                            ],
+                            "name": "Dot_28",
+                            "position": [
+                                -31.0,
+                                -16.0,
+                                0.25
+                            ],
+                            "rotation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "static": false,
+                            "tags": []
                         }
                     ],
                     "components": [
@@ -5244,181 +3958,6 @@
                     ],
                     "static": false,
                     "tags": []
-                },
-                {
-                    "children": [],
-                    "components": [
-                        {
-                            "frame": 59,
-                            "frameName": "metal_ball_0",
-                            "lit": true,
-                            "sortOrder": 5,
-                            "source": "assets/textures/pieces.p3ds",
-                            "type": "Sprite2D"
-                        }
-                    ],
-                    "name": "MillHub",
-                    "position": [
-                        2.0,
-                        6.0,
-                        0.30000001192092896
-                    ],
-                    "rotation": [
-                        0.0,
-                        0.0,
-                        0.0
-                    ],
-                    "scale": [
-                        0.800000011920929,
-                        0.800000011920929,
-                        1.0
-                    ],
-                    "static": false,
-                    "tags": []
-                },
-                {
-                    "children": [],
-                    "components": [
-                        {
-                            "frame": 106,
-                            "frameName": "stone_post_0",
-                            "lit": true,
-                            "sortOrder": 1,
-                            "source": "assets/textures/pieces.p3ds",
-                            "type": "Sprite2D"
-                        }
-                    ],
-                    "name": "MillMast",
-                    "position": [
-                        2.0,
-                        2.9000000953674316,
-                        -0.30000001192092896
-                    ],
-                    "rotation": [
-                        0.0,
-                        0.0,
-                        0.0
-                    ],
-                    "scale": [
-                        0.6000000238418579,
-                        1.9500000476837158,
-                        1.0
-                    ],
-                    "static": false,
-                    "tags": []
-                },
-                {
-                    "children": [],
-                    "components": [
-                        {
-                            "color": [
-                                0.800000011920929,
-                                0.8500000238418579,
-                                1.0,
-                                1.0
-                            ],
-                            "frame": 112,
-                            "frameName": "stone_sq_0",
-                            "lit": true,
-                            "sortOrder": 3,
-                            "source": "assets/textures/pieces.p3ds",
-                            "type": "Sprite2D"
-                        },
-                        {
-                            "bodyType": 2,
-                            "castsShadow": false,
-                            "density": 0.6000000238418579,
-                            "fixedRotation": true,
-                            "friction": 0.800000011920929,
-                            "restitution": 0.0,
-                            "shape": 0,
-                            "size": [
-                                0.47999998927116394,
-                                0.47999998927116394
-                            ],
-                            "type": "Physics2D"
-                        }
-                    ],
-                    "name": "Weight",
-                    "position": [
-                        20.0,
-                        0.5,
-                        0.0
-                    ],
-                    "rotation": [
-                        0.0,
-                        0.0,
-                        0.0
-                    ],
-                    "scale": [
-                        1.0,
-                        1.0,
-                        1.0
-                    ],
-                    "static": false,
-                    "tags": []
-                },
-                {
-                    "children": [],
-                    "components": [
-                        {
-                            "frame": 59,
-                            "frameName": "metal_ball_0",
-                            "lit": true,
-                            "sortOrder": 5,
-                            "source": "assets/textures/pieces.p3ds",
-                            "type": "Sprite2D"
-                        }
-                    ],
-                    "name": "WheelA",
-                    "position": [
-                        15.600000381469727,
-                        11.5,
-                        0.20000000298023224
-                    ],
-                    "rotation": [
-                        0.0,
-                        0.0,
-                        0.0
-                    ],
-                    "scale": [
-                        0.699999988079071,
-                        0.699999988079071,
-                        1.0
-                    ],
-                    "static": false,
-                    "tags": []
-                },
-                {
-                    "children": [],
-                    "components": [
-                        {
-                            "frame": 59,
-                            "frameName": "metal_ball_0",
-                            "lit": true,
-                            "sortOrder": 5,
-                            "source": "assets/textures/pieces.p3ds",
-                            "type": "Sprite2D"
-                        }
-                    ],
-                    "name": "WheelB",
-                    "position": [
-                        20.0,
-                        11.5,
-                        0.20000000298023224
-                    ],
-                    "rotation": [
-                        0.0,
-                        0.0,
-                        0.0
-                    ],
-                    "scale": [
-                        0.699999988079071,
-                        0.699999988079071,
-                        1.0
-                    ],
-                    "static": false,
-                    "tags": []
                 }
             ],
             "components": [
@@ -5474,8 +4013,8 @@
                     ],
                     "name": "Front_0",
                     "position": [
-                        -22.950000762939453,
-                        -0.6000000238418579,
+                        -22.8700008392334,
+                        -1.0,
                         2.0
                     ],
                     "rotation": [
@@ -5484,8 +4023,47 @@
                         0.0
                     ],
                     "scale": [
-                        1.9700000286102295,
-                        1.9700000286102295,
+                        3.119999885559082,
+                        3.119999885559082,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "color": [
+                                0.8600000143051147,
+                                0.9200000166893005,
+                                1.0,
+                                1.0
+                            ],
+                            "frame": 85,
+                            "frameName": "grass6",
+                            "pivot": [
+                                0.5,
+                                0.0
+                            ],
+                            "source": "assets/textures/scenery.p3ds",
+                            "type": "Sprite2D"
+                        }
+                    ],
+                    "name": "Front_1",
+                    "position": [
+                        -21.049999237060547,
+                        -1.0,
+                        2.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        2.4600000381469727,
+                        2.4600000381469727,
                         1.0
                     ],
                     "static": false,
@@ -5502,47 +4080,8 @@
                                 1.0
                             ],
                             "flipX": true,
-                            "frame": 85,
-                            "frameName": "grass6",
-                            "pivot": [
-                                0.5,
-                                0.0
-                            ],
-                            "source": "assets/textures/scenery.p3ds",
-                            "type": "Sprite2D"
-                        }
-                    ],
-                    "name": "Front_1",
-                    "position": [
-                        -20.389999389648438,
-                        -0.6000000238418579,
-                        2.0
-                    ],
-                    "rotation": [
-                        0.0,
-                        0.0,
-                        0.0
-                    ],
-                    "scale": [
-                        2.430000066757202,
-                        2.430000066757202,
-                        1.0
-                    ],
-                    "static": false,
-                    "tags": []
-                },
-                {
-                    "children": [],
-                    "components": [
-                        {
-                            "color": [
-                                0.8600000143051147,
-                                0.9200000166893005,
-                                1.0,
-                                1.0
-                            ],
-                            "frame": 85,
-                            "frameName": "grass6",
+                            "frame": 84,
+                            "frameName": "grass5",
                             "pivot": [
                                 0.5,
                                 0.0
@@ -5553,8 +4092,8 @@
                     ],
                     "name": "Front_2",
                     "position": [
-                        -18.690000534057617,
-                        -0.6000000238418579,
+                        -19.170000076293945,
+                        -1.0,
                         2.0
                     ],
                     "rotation": [
@@ -5563,8 +4102,8 @@
                         0.0
                     ],
                     "scale": [
-                        2.1600000858306885,
-                        2.1600000858306885,
+                        1.9500000476837158,
+                        1.9500000476837158,
                         1.0
                     ],
                     "static": false,
@@ -5593,8 +4132,8 @@
                     ],
                     "name": "Front_3",
                     "position": [
-                        -16.170000076293945,
-                        -0.6000000238418579,
+                        -17.079999923706055,
+                        -1.0,
                         2.0
                     ],
                     "rotation": [
@@ -5603,8 +4142,8 @@
                         0.0
                     ],
                     "scale": [
-                        1.9800000190734863,
-                        1.9800000190734863,
+                        2.9200000762939453,
+                        2.9200000762939453,
                         1.0
                     ],
                     "static": false,
@@ -5621,8 +4160,8 @@
                                 1.0
                             ],
                             "flipX": true,
-                            "frame": 85,
-                            "frameName": "grass6",
+                            "frame": 84,
+                            "frameName": "grass5",
                             "pivot": [
                                 0.5,
                                 0.0
@@ -5633,8 +4172,8 @@
                     ],
                     "name": "Front_4",
                     "position": [
-                        -12.890000343322754,
-                        -0.6000000238418579,
+                        -15.59000015258789,
+                        -1.0,
                         2.0
                     ],
                     "rotation": [
@@ -5643,8 +4182,8 @@
                         0.0
                     ],
                     "scale": [
-                        2.569999933242798,
-                        2.569999933242798,
+                        2.740000009536743,
+                        2.740000009536743,
                         1.0
                     ],
                     "static": false,
@@ -5673,8 +4212,8 @@
                     ],
                     "name": "Front_5",
                     "position": [
-                        -10.880000114440918,
-                        -0.6000000238418579,
+                        -13.15999984741211,
+                        -1.0,
                         2.0
                     ],
                     "rotation": [
@@ -5683,125 +4222,8 @@
                         0.0
                     ],
                     "scale": [
-                        1.7100000381469727,
-                        1.7100000381469727,
-                        1.0
-                    ],
-                    "static": false,
-                    "tags": []
-                },
-                {
-                    "children": [],
-                    "components": [
-                        {
-                            "color": [
-                                0.8600000143051147,
-                                0.9200000166893005,
-                                1.0,
-                                1.0
-                            ],
-                            "frame": 85,
-                            "frameName": "grass6",
-                            "pivot": [
-                                0.5,
-                                0.0
-                            ],
-                            "source": "assets/textures/scenery.p3ds",
-                            "type": "Sprite2D"
-                        }
-                    ],
-                    "name": "Front_6",
-                    "position": [
-                        -8.369999885559082,
-                        -0.6000000238418579,
-                        2.0
-                    ],
-                    "rotation": [
-                        0.0,
-                        0.0,
-                        0.0
-                    ],
-                    "scale": [
-                        1.8200000524520874,
-                        1.8200000524520874,
-                        1.0
-                    ],
-                    "static": false,
-                    "tags": []
-                },
-                {
-                    "children": [],
-                    "components": [
-                        {
-                            "color": [
-                                0.8600000143051147,
-                                0.9200000166893005,
-                                1.0,
-                                1.0
-                            ],
-                            "frame": 84,
-                            "frameName": "grass5",
-                            "pivot": [
-                                0.5,
-                                0.0
-                            ],
-                            "source": "assets/textures/scenery.p3ds",
-                            "type": "Sprite2D"
-                        }
-                    ],
-                    "name": "Front_7",
-                    "position": [
-                        -6.690000057220459,
-                        -0.6000000238418579,
-                        2.0
-                    ],
-                    "rotation": [
-                        0.0,
-                        0.0,
-                        0.0
-                    ],
-                    "scale": [
-                        1.850000023841858,
-                        1.850000023841858,
-                        1.0
-                    ],
-                    "static": false,
-                    "tags": []
-                },
-                {
-                    "children": [],
-                    "components": [
-                        {
-                            "color": [
-                                0.8600000143051147,
-                                0.9200000166893005,
-                                1.0,
-                                1.0
-                            ],
-                            "frame": 85,
-                            "frameName": "grass6",
-                            "pivot": [
-                                0.5,
-                                0.0
-                            ],
-                            "source": "assets/textures/scenery.p3ds",
-                            "type": "Sprite2D"
-                        }
-                    ],
-                    "name": "Front_8",
-                    "position": [
-                        -3.9200000762939453,
-                        -0.6000000238418579,
-                        2.0
-                    ],
-                    "rotation": [
-                        0.0,
-                        0.0,
-                        0.0
-                    ],
-                    "scale": [
-                        1.6100000143051147,
-                        1.6100000143051147,
+                        2.240000009536743,
+                        2.240000009536743,
                         1.0
                     ],
                     "static": false,
@@ -5828,10 +4250,10 @@
                             "type": "Sprite2D"
                         }
                     ],
-                    "name": "Front_9",
+                    "name": "Front_6",
                     "position": [
-                        -0.9100000262260437,
-                        -0.6000000238418579,
+                        -11.40999984741211,
+                        -1.0,
                         2.0
                     ],
                     "rotation": [
@@ -5840,8 +4262,127 @@
                         0.0
                     ],
                     "scale": [
-                        1.5499999523162842,
-                        1.5499999523162842,
+                        2.4100000858306885,
+                        2.4100000858306885,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "color": [
+                                0.8600000143051147,
+                                0.9200000166893005,
+                                1.0,
+                                1.0
+                            ],
+                            "flipX": true,
+                            "frame": 84,
+                            "frameName": "grass5",
+                            "pivot": [
+                                0.5,
+                                0.0
+                            ],
+                            "source": "assets/textures/scenery.p3ds",
+                            "type": "Sprite2D"
+                        }
+                    ],
+                    "name": "Front_7",
+                    "position": [
+                        -9.34000015258789,
+                        -1.0,
+                        2.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        2.369999885559082,
+                        2.369999885559082,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "color": [
+                                0.8600000143051147,
+                                0.9200000166893005,
+                                1.0,
+                                1.0
+                            ],
+                            "flipX": true,
+                            "frame": 85,
+                            "frameName": "grass6",
+                            "pivot": [
+                                0.5,
+                                0.0
+                            ],
+                            "source": "assets/textures/scenery.p3ds",
+                            "type": "Sprite2D"
+                        }
+                    ],
+                    "name": "Front_8",
+                    "position": [
+                        -7.409999847412109,
+                        -1.0,
+                        2.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.690000057220459,
+                        1.690000057220459,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "color": [
+                                0.8600000143051147,
+                                0.9200000166893005,
+                                1.0,
+                                1.0
+                            ],
+                            "frame": 85,
+                            "frameName": "grass6",
+                            "pivot": [
+                                0.5,
+                                0.0
+                            ],
+                            "source": "assets/textures/scenery.p3ds",
+                            "type": "Sprite2D"
+                        }
+                    ],
+                    "name": "Front_9",
+                    "position": [
+                        -5.559999942779541,
+                        -1.0,
+                        2.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        2.490000009536743,
+                        2.490000009536743,
                         1.0
                     ],
                     "static": false,
@@ -5870,8 +4411,8 @@
                     ],
                     "name": "Front_10",
                     "position": [
-                        1.1799999475479126,
-                        -0.6000000238418579,
+                        -3.9800000190734863,
+                        -1.0,
                         2.0
                     ],
                     "rotation": [
@@ -5880,8 +4421,47 @@
                         0.0
                     ],
                     "scale": [
-                        2.509999990463257,
-                        2.509999990463257,
+                        2.4700000286102295,
+                        2.4700000286102295,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "color": [
+                                0.8600000143051147,
+                                0.9200000166893005,
+                                1.0,
+                                1.0
+                            ],
+                            "frame": 84,
+                            "frameName": "grass5",
+                            "pivot": [
+                                0.5,
+                                0.0
+                            ],
+                            "source": "assets/textures/scenery.p3ds",
+                            "type": "Sprite2D"
+                        }
+                    ],
+                    "name": "Front_11",
+                    "position": [
+                        -2.0799999237060547,
+                        -1.0,
+                        2.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        2.390000104904175,
+                        2.390000104904175,
                         1.0
                     ],
                     "static": false,
@@ -5908,50 +4488,10 @@
                             "type": "Sprite2D"
                         }
                     ],
-                    "name": "Front_11",
-                    "position": [
-                        3.990000009536743,
-                        -0.6000000238418579,
-                        2.0
-                    ],
-                    "rotation": [
-                        0.0,
-                        0.0,
-                        0.0
-                    ],
-                    "scale": [
-                        2.3499999046325684,
-                        2.3499999046325684,
-                        1.0
-                    ],
-                    "static": false,
-                    "tags": []
-                },
-                {
-                    "children": [],
-                    "components": [
-                        {
-                            "color": [
-                                0.8600000143051147,
-                                0.9200000166893005,
-                                1.0,
-                                1.0
-                            ],
-                            "flipX": true,
-                            "frame": 85,
-                            "frameName": "grass6",
-                            "pivot": [
-                                0.5,
-                                0.0
-                            ],
-                            "source": "assets/textures/scenery.p3ds",
-                            "type": "Sprite2D"
-                        }
-                    ],
                     "name": "Front_12",
                     "position": [
-                        5.440000057220459,
-                        -0.6000000238418579,
+                        0.029999999329447746,
+                        -1.0,
                         2.0
                     ],
                     "rotation": [
@@ -5960,8 +4500,8 @@
                         0.0
                     ],
                     "scale": [
-                        2.2300000190734863,
-                        2.2300000190734863,
+                        3.009999990463257,
+                        3.009999990463257,
                         1.0
                     ],
                     "static": false,
@@ -5990,8 +4530,8 @@
                     ],
                     "name": "Front_13",
                     "position": [
-                        8.149999618530273,
-                        -0.6000000238418579,
+                        1.7799999713897705,
+                        -1.0,
                         2.0
                     ],
                     "rotation": [
@@ -6000,8 +4540,8 @@
                         0.0
                     ],
                     "scale": [
-                        2.069999933242798,
-                        2.069999933242798,
+                        2.0799999237060547,
+                        2.0799999237060547,
                         1.0
                     ],
                     "static": false,
@@ -6017,8 +4557,8 @@
                                 1.0,
                                 1.0
                             ],
-                            "frame": 85,
-                            "frameName": "grass6",
+                            "frame": 84,
+                            "frameName": "grass5",
                             "pivot": [
                                 0.5,
                                 0.0
@@ -6029,8 +4569,8 @@
                     ],
                     "name": "Front_14",
                     "position": [
-                        10.960000038146973,
-                        -0.6000000238418579,
+                        3.130000114440918,
+                        -1.0,
                         2.0
                     ],
                     "rotation": [
@@ -6039,8 +4579,86 @@
                         0.0
                     ],
                     "scale": [
-                        1.6699999570846558,
-                        1.6699999570846558,
+                        2.4100000858306885,
+                        2.4100000858306885,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "color": [
+                                0.8600000143051147,
+                                0.9200000166893005,
+                                1.0,
+                                1.0
+                            ],
+                            "frame": 84,
+                            "frameName": "grass5",
+                            "pivot": [
+                                0.5,
+                                0.0
+                            ],
+                            "source": "assets/textures/scenery.p3ds",
+                            "type": "Sprite2D"
+                        }
+                    ],
+                    "name": "Front_15",
+                    "position": [
+                        5.920000076293945,
+                        -1.0,
+                        2.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        2.3399999141693115,
+                        2.3399999141693115,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "color": [
+                                0.8600000143051147,
+                                0.9200000166893005,
+                                1.0,
+                                1.0
+                            ],
+                            "frame": 84,
+                            "frameName": "grass5",
+                            "pivot": [
+                                0.5,
+                                0.0
+                            ],
+                            "source": "assets/textures/scenery.p3ds",
+                            "type": "Sprite2D"
+                        }
+                    ],
+                    "name": "Front_16",
+                    "position": [
+                        7.099999904632568,
+                        -1.0,
+                        2.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        2.490000009536743,
+                        2.490000009536743,
                         1.0
                     ],
                     "static": false,
@@ -6057,84 +4675,6 @@
                                 1.0
                             ],
                             "flipX": true,
-                            "frame": 85,
-                            "frameName": "grass6",
-                            "pivot": [
-                                0.5,
-                                0.0
-                            ],
-                            "source": "assets/textures/scenery.p3ds",
-                            "type": "Sprite2D"
-                        }
-                    ],
-                    "name": "Front_15",
-                    "position": [
-                        12.930000305175781,
-                        -0.6000000238418579,
-                        2.0
-                    ],
-                    "rotation": [
-                        0.0,
-                        0.0,
-                        0.0
-                    ],
-                    "scale": [
-                        1.7699999809265137,
-                        1.7699999809265137,
-                        1.0
-                    ],
-                    "static": false,
-                    "tags": []
-                },
-                {
-                    "children": [],
-                    "components": [
-                        {
-                            "color": [
-                                0.8600000143051147,
-                                0.9200000166893005,
-                                1.0,
-                                1.0
-                            ],
-                            "frame": 85,
-                            "frameName": "grass6",
-                            "pivot": [
-                                0.5,
-                                0.0
-                            ],
-                            "source": "assets/textures/scenery.p3ds",
-                            "type": "Sprite2D"
-                        }
-                    ],
-                    "name": "Front_16",
-                    "position": [
-                        15.75,
-                        -0.6000000238418579,
-                        2.0
-                    ],
-                    "rotation": [
-                        0.0,
-                        0.0,
-                        0.0
-                    ],
-                    "scale": [
-                        1.7899999618530273,
-                        1.7899999618530273,
-                        1.0
-                    ],
-                    "static": false,
-                    "tags": []
-                },
-                {
-                    "children": [],
-                    "components": [
-                        {
-                            "color": [
-                                0.8600000143051147,
-                                0.9200000166893005,
-                                1.0,
-                                1.0
-                            ],
                             "frame": 84,
                             "frameName": "grass5",
                             "pivot": [
@@ -6147,8 +4687,8 @@
                     ],
                     "name": "Front_17",
                     "position": [
-                        17.8700008392334,
-                        -0.6000000238418579,
+                        9.279999732971191,
+                        -1.0,
                         2.0
                     ],
                     "rotation": [
@@ -6157,8 +4697,47 @@
                         0.0
                     ],
                     "scale": [
-                        2.0299999713897705,
-                        2.0299999713897705,
+                        2.059999942779541,
+                        2.059999942779541,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "color": [
+                                0.8600000143051147,
+                                0.9200000166893005,
+                                1.0,
+                                1.0
+                            ],
+                            "frame": 85,
+                            "frameName": "grass6",
+                            "pivot": [
+                                0.5,
+                                0.0
+                            ],
+                            "source": "assets/textures/scenery.p3ds",
+                            "type": "Sprite2D"
+                        }
+                    ],
+                    "name": "Front_18",
+                    "position": [
+                        11.149999618530273,
+                        -1.0,
+                        2.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        1.7300000190734863,
+                        1.7300000190734863,
                         1.0
                     ],
                     "static": false,
@@ -6185,10 +4764,10 @@
                             "type": "Sprite2D"
                         }
                     ],
-                    "name": "Front_18",
+                    "name": "Front_19",
                     "position": [
-                        19.739999771118164,
-                        -0.6000000238418579,
+                        12.6899995803833,
+                        -1.0,
                         2.0
                     ],
                     "rotation": [
@@ -6197,8 +4776,8 @@
                         0.0
                     ],
                     "scale": [
-                        2.5299999713897705,
-                        2.5299999713897705,
+                        1.9199999570846558,
+                        1.9199999570846558,
                         1.0
                     ],
                     "static": false,
@@ -6214,8 +4793,9 @@
                                 1.0,
                                 1.0
                             ],
-                            "frame": 85,
-                            "frameName": "grass6",
+                            "flipX": true,
+                            "frame": 84,
+                            "frameName": "grass5",
                             "pivot": [
                                 0.5,
                                 0.0
@@ -6224,10 +4804,10 @@
                             "type": "Sprite2D"
                         }
                     ],
-                    "name": "Front_19",
+                    "name": "Front_20",
                     "position": [
-                        22.1200008392334,
-                        -0.6000000238418579,
+                        15.079999923706055,
+                        -1.0,
                         2.0
                     ],
                     "rotation": [
@@ -6236,8 +4816,8 @@
                         0.0
                     ],
                     "scale": [
-                        2.0999999046325684,
-                        2.0999999046325684,
+                        2.119999885559082,
+                        2.119999885559082,
                         1.0
                     ],
                     "static": false,
@@ -6263,49 +4843,10 @@
                             "type": "Sprite2D"
                         }
                     ],
-                    "name": "Front_20",
-                    "position": [
-                        25.579999923706055,
-                        -0.6000000238418579,
-                        2.0
-                    ],
-                    "rotation": [
-                        0.0,
-                        0.0,
-                        0.0
-                    ],
-                    "scale": [
-                        2.4200000762939453,
-                        2.4200000762939453,
-                        1.0
-                    ],
-                    "static": false,
-                    "tags": []
-                },
-                {
-                    "children": [],
-                    "components": [
-                        {
-                            "color": [
-                                0.8600000143051147,
-                                0.9200000166893005,
-                                1.0,
-                                1.0
-                            ],
-                            "frame": 85,
-                            "frameName": "grass6",
-                            "pivot": [
-                                0.5,
-                                0.0
-                            ],
-                            "source": "assets/textures/scenery.p3ds",
-                            "type": "Sprite2D"
-                        }
-                    ],
                     "name": "Front_21",
                     "position": [
-                        26.940000534057617,
-                        -0.6000000238418579,
+                        16.989999771118164,
+                        -1.0,
                         2.0
                     ],
                     "rotation": [
@@ -6314,8 +4855,8 @@
                         0.0
                     ],
                     "scale": [
-                        1.649999976158142,
-                        1.649999976158142,
+                        2.6500000953674316,
+                        2.6500000953674316,
                         1.0
                     ],
                     "static": false,
@@ -6331,8 +4872,8 @@
                                 1.0,
                                 1.0
                             ],
-                            "frame": 85,
-                            "frameName": "grass6",
+                            "frame": 84,
+                            "frameName": "grass5",
                             "pivot": [
                                 0.5,
                                 0.0
@@ -6343,8 +4884,8 @@
                     ],
                     "name": "Front_22",
                     "position": [
-                        29.43000030517578,
-                        -0.6000000238418579,
+                        19.110000610351563,
+                        -1.0,
                         2.0
                     ],
                     "rotation": [
@@ -6353,8 +4894,127 @@
                         0.0
                     ],
                     "scale": [
-                        2.4600000381469727,
-                        2.4600000381469727,
+                        2.309999942779541,
+                        2.309999942779541,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "color": [
+                                0.8600000143051147,
+                                0.9200000166893005,
+                                1.0,
+                                1.0
+                            ],
+                            "frame": 84,
+                            "frameName": "grass5",
+                            "pivot": [
+                                0.5,
+                                0.0
+                            ],
+                            "source": "assets/textures/scenery.p3ds",
+                            "type": "Sprite2D"
+                        }
+                    ],
+                    "name": "Front_23",
+                    "position": [
+                        20.809999465942383,
+                        -1.0,
+                        2.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        2.8299999237060547,
+                        2.8299999237060547,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "color": [
+                                0.8600000143051147,
+                                0.9200000166893005,
+                                1.0,
+                                1.0
+                            ],
+                            "flipX": true,
+                            "frame": 84,
+                            "frameName": "grass5",
+                            "pivot": [
+                                0.5,
+                                0.0
+                            ],
+                            "source": "assets/textures/scenery.p3ds",
+                            "type": "Sprite2D"
+                        }
+                    ],
+                    "name": "Front_24",
+                    "position": [
+                        22.40999984741211,
+                        -1.0,
+                        2.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        2.2100000381469727,
+                        2.2100000381469727,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "color": [
+                                0.8600000143051147,
+                                0.9200000166893005,
+                                1.0,
+                                1.0
+                            ],
+                            "flipX": true,
+                            "frame": 84,
+                            "frameName": "grass5",
+                            "pivot": [
+                                0.5,
+                                0.0
+                            ],
+                            "source": "assets/textures/scenery.p3ds",
+                            "type": "Sprite2D"
+                        }
+                    ],
+                    "name": "Front_25",
+                    "position": [
+                        24.559999465942383,
+                        -1.0,
+                        2.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        2.069999933242798,
+                        2.069999933242798,
                         1.0
                     ],
                     "static": false,
@@ -6380,10 +5040,10 @@
                             "type": "Sprite2D"
                         }
                     ],
-                    "name": "Front_23",
+                    "name": "Front_26",
                     "position": [
-                        32.0,
-                        -0.6000000238418579,
+                        26.860000610351563,
+                        -1.0,
                         2.0
                     ],
                     "rotation": [
@@ -6392,8 +5052,126 @@
                         0.0
                     ],
                     "scale": [
-                        2.4700000286102295,
-                        2.4700000286102295,
+                        2.8399999141693115,
+                        2.8399999141693115,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "color": [
+                                0.8600000143051147,
+                                0.9200000166893005,
+                                1.0,
+                                1.0
+                            ],
+                            "flipX": true,
+                            "frame": 85,
+                            "frameName": "grass6",
+                            "pivot": [
+                                0.5,
+                                0.0
+                            ],
+                            "source": "assets/textures/scenery.p3ds",
+                            "type": "Sprite2D"
+                        }
+                    ],
+                    "name": "Front_27",
+                    "position": [
+                        28.440000534057617,
+                        -1.0,
+                        2.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        2.950000047683716,
+                        2.950000047683716,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "color": [
+                                0.8600000143051147,
+                                0.9200000166893005,
+                                1.0,
+                                1.0
+                            ],
+                            "frame": 84,
+                            "frameName": "grass5",
+                            "pivot": [
+                                0.5,
+                                0.0
+                            ],
+                            "source": "assets/textures/scenery.p3ds",
+                            "type": "Sprite2D"
+                        }
+                    ],
+                    "name": "Front_28",
+                    "position": [
+                        30.540000915527344,
+                        -1.0,
+                        2.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        2.569999933242798,
+                        2.569999933242798,
+                        1.0
+                    ],
+                    "static": false,
+                    "tags": []
+                },
+                {
+                    "children": [],
+                    "components": [
+                        {
+                            "color": [
+                                0.8600000143051147,
+                                0.9200000166893005,
+                                1.0,
+                                1.0
+                            ],
+                            "frame": 84,
+                            "frameName": "grass5",
+                            "pivot": [
+                                0.5,
+                                0.0
+                            ],
+                            "source": "assets/textures/scenery.p3ds",
+                            "type": "Sprite2D"
+                        }
+                    ],
+                    "name": "Front_29",
+                    "position": [
+                        31.610000610351563,
+                        -1.0,
+                        2.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scale": [
+                        2.5,
+                        2.5,
                         1.0
                     ],
                     "static": false,
@@ -6472,7 +5250,7 @@
                                     "fontSDF": true,
                                     "fontSize": 32.0,
                                     "size": 24.0,
-                                    "text": "4  KEEP",
+                                    "text": "KEEP",
                                     "type": "UIText",
                                     "verticalAlign": "Middle"
                                 }
@@ -8170,7 +6948,7 @@
                 {
                     "referenceHeight": 720.0,
                     "referenceWidth": 1280.0,
-                    "scaleMode": "MatchWidth",
+                    "scaleMode": "Fit",
                     "sortOrder": 0,
                     "type": "UICanvas"
                 }

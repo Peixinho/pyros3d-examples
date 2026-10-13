@@ -1,0 +1,1871 @@
+{
+    "materials": [],
+    "prefabVersion": 1,
+    "root": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 112,
+                                "frameName": "stone_sq_0",
+                                "lit": true,
+                                "sortOrder": 3,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": true,
+                                "density": 1.2999999523162842,
+                                "fixedRotation": false,
+                                "friction": 0.800000011920929,
+                                "restitution": 0.019999999552965164,
+                                "shape": 0,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "B_stone_sq_1",
+                        "position": [
+                            5.860000133514404,
+                            0.5,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 112,
+                                "frameName": "stone_sq_0",
+                                "lit": true,
+                                "sortOrder": 3,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": true,
+                                "density": 1.2999999523162842,
+                                "fixedRotation": false,
+                                "friction": 0.800000011920929,
+                                "restitution": 0.019999999552965164,
+                                "shape": 0,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "B_stone_sq_2",
+                        "position": [
+                            8.0,
+                            0.5,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 136,
+                                "frameName": "wood_plank_0",
+                                "lit": true,
+                                "sortOrder": 3,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": true,
+                                "density": 0.550000011920929,
+                                "fixedRotation": false,
+                                "friction": 0.6499999761581421,
+                                "restitution": 0.05000000074505806,
+                                "shape": 0,
+                                "size": [
+                                    1.5514285564422607,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "B_wood_plank_3",
+                        "position": [
+                            6.929999828338623,
+                            1.5,
+                            0.0
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    }
+                ],
+                "components": [],
+                "name": "Blocks",
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "frame": 5,
+                                "frameName": "alien_blue_suit",
+                                "lit": true,
+                                "sortOrder": 4,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "bodyType": 2,
+                                "castsShadow": false,
+                                "density": 0.3499999940395355,
+                                "fixedRotation": false,
+                                "friction": 0.6000000238418579,
+                                "restitution": 0.10000000149011612,
+                                "shape": 0,
+                                "size": [
+                                    0.46000000834465027,
+                                    0.46000000834465027
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "T_blue_1",
+                        "position": [
+                            6.929999828338623,
+                            2.5,
+                            0.05000000074505806
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    }
+                ],
+                "components": [],
+                "name": "Targets",
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "colorEnd": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                        ],
+                                        "colorStart": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.75
+                                        ],
+                                        "lifetime": 0.8999999761581421,
+                                        "minDistance": 0.18000000715255737,
+                                        "points": [],
+                                        "sortOrder": 2,
+                                        "trail": true,
+                                        "type": "Line2D",
+                                        "width": [
+                                            0.3400000035762787,
+                                            0.0
+                                        ]
+                                    }
+                                ],
+                                "name": "A_green_1_Trail",
+                                "position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 6,
+                                "frameName": "alien_green_round",
+                                "lit": true,
+                                "sortOrder": 5,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "angularDamping": 0.6000000238418579,
+                                "bodyType": 1,
+                                "bullet": true,
+                                "castsShadow": false,
+                                "density": 1.0,
+                                "fixedRotation": false,
+                                "friction": 0.5,
+                                "linearDamping": 0.019999999552965164,
+                                "restitution": 0.25,
+                                "shape": 1,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "A_green_1",
+                        "position": [
+                            -11.199999809265137,
+                            0.5,
+                            0.30000001192092896
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "colorEnd": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                        ],
+                                        "colorStart": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.75
+                                        ],
+                                        "lifetime": 0.8999999761581421,
+                                        "minDistance": 0.18000000715255737,
+                                        "points": [],
+                                        "sortOrder": 2,
+                                        "trail": true,
+                                        "type": "Line2D",
+                                        "width": [
+                                            0.3400000035762787,
+                                            0.0
+                                        ]
+                                    }
+                                ],
+                                "name": "A_blue_2_Trail",
+                                "position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 3,
+                                "frameName": "alien_blue_round",
+                                "lit": true,
+                                "sortOrder": 5,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "angularDamping": 0.6000000238418579,
+                                "bodyType": 1,
+                                "bullet": true,
+                                "castsShadow": false,
+                                "density": 1.0,
+                                "fixedRotation": false,
+                                "friction": 0.5,
+                                "linearDamping": 0.019999999552965164,
+                                "restitution": 0.25,
+                                "shape": 1,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "A_blue_2",
+                        "position": [
+                            -12.350000381469727,
+                            0.5,
+                            0.30000001192092896
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "colorEnd": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                        ],
+                                        "colorStart": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.75
+                                        ],
+                                        "lifetime": 0.8999999761581421,
+                                        "minDistance": 0.18000000715255737,
+                                        "points": [],
+                                        "sortOrder": 2,
+                                        "trail": true,
+                                        "type": "Line2D",
+                                        "width": [
+                                            0.3400000035762787,
+                                            0.0
+                                        ]
+                                    }
+                                ],
+                                "name": "A_green_3_Trail",
+                                "position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 6,
+                                "frameName": "alien_green_round",
+                                "lit": true,
+                                "sortOrder": 5,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "angularDamping": 0.6000000238418579,
+                                "bodyType": 1,
+                                "bullet": true,
+                                "castsShadow": false,
+                                "density": 1.0,
+                                "fixedRotation": false,
+                                "friction": 0.5,
+                                "linearDamping": 0.019999999552965164,
+                                "restitution": 0.25,
+                                "shape": 1,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "A_green_3",
+                        "position": [
+                            -13.5,
+                            0.5,
+                            0.30000001192092896
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "colorEnd": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                        ],
+                                        "colorStart": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.75
+                                        ],
+                                        "lifetime": 0.8999999761581421,
+                                        "minDistance": 0.18000000715255737,
+                                        "points": [],
+                                        "sortOrder": 2,
+                                        "trail": true,
+                                        "type": "Line2D",
+                                        "width": [
+                                            0.3400000035762787,
+                                            0.0
+                                        ]
+                                    }
+                                ],
+                                "name": "A_pink_4_Trail",
+                                "position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 9,
+                                "frameName": "alien_pink_round",
+                                "lit": true,
+                                "sortOrder": 5,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "angularDamping": 0.6000000238418579,
+                                "bodyType": 1,
+                                "bullet": true,
+                                "castsShadow": false,
+                                "density": 1.0,
+                                "fixedRotation": false,
+                                "friction": 0.5,
+                                "linearDamping": 0.019999999552965164,
+                                "restitution": 0.25,
+                                "shape": 1,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "A_pink_4",
+                        "position": [
+                            -14.649999618530273,
+                            0.5,
+                            0.30000001192092896
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "colorEnd": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                        ],
+                                        "colorStart": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.75
+                                        ],
+                                        "lifetime": 0.8999999761581421,
+                                        "minDistance": 0.18000000715255737,
+                                        "points": [],
+                                        "sortOrder": 2,
+                                        "trail": true,
+                                        "type": "Line2D",
+                                        "width": [
+                                            0.3400000035762787,
+                                            0.0
+                                        ]
+                                    }
+                                ],
+                                "name": "A_blue_5_Trail",
+                                "position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 3,
+                                "frameName": "alien_blue_round",
+                                "lit": true,
+                                "sortOrder": 5,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "angularDamping": 0.6000000238418579,
+                                "bodyType": 1,
+                                "bullet": true,
+                                "castsShadow": false,
+                                "density": 1.0,
+                                "fixedRotation": false,
+                                "friction": 0.5,
+                                "linearDamping": 0.019999999552965164,
+                                "restitution": 0.25,
+                                "shape": 1,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "A_blue_5",
+                        "position": [
+                            -15.800000190734863,
+                            0.5,
+                            0.30000001192092896
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    }
+                ],
+                "components": [],
+                "name": "Ammo",
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "colorEnd": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                        ],
+                                        "colorStart": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.75
+                                        ],
+                                        "lifetime": 0.8999999761581421,
+                                        "minDistance": 0.18000000715255737,
+                                        "points": [],
+                                        "sortOrder": 2,
+                                        "trail": true,
+                                        "type": "Line2D",
+                                        "width": [
+                                            0.3400000035762787,
+                                            0.0
+                                        ]
+                                    }
+                                ],
+                                "name": "S_blue_2_1_Trail",
+                                "position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 3,
+                                "frameName": "alien_blue_round",
+                                "lit": true,
+                                "sortOrder": 5,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "angularDamping": 0.6000000238418579,
+                                "bodyType": 1,
+                                "bullet": true,
+                                "castsShadow": false,
+                                "density": 1.0,
+                                "fixedRotation": false,
+                                "friction": 0.5,
+                                "linearDamping": 0.019999999552965164,
+                                "restitution": 0.25,
+                                "shape": 1,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "S_blue_2_1",
+                        "position": [
+                            -31.0,
+                            -14.0,
+                            0.30000001192092896
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "colorEnd": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                        ],
+                                        "colorStart": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.75
+                                        ],
+                                        "lifetime": 0.8999999761581421,
+                                        "minDistance": 0.18000000715255737,
+                                        "points": [],
+                                        "sortOrder": 2,
+                                        "trail": true,
+                                        "type": "Line2D",
+                                        "width": [
+                                            0.3400000035762787,
+                                            0.0
+                                        ]
+                                    }
+                                ],
+                                "name": "S_blue_2_2_Trail",
+                                "position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 3,
+                                "frameName": "alien_blue_round",
+                                "lit": true,
+                                "sortOrder": 5,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "angularDamping": 0.6000000238418579,
+                                "bodyType": 1,
+                                "bullet": true,
+                                "castsShadow": false,
+                                "density": 1.0,
+                                "fixedRotation": false,
+                                "friction": 0.5,
+                                "linearDamping": 0.019999999552965164,
+                                "restitution": 0.25,
+                                "shape": 1,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "S_blue_2_2",
+                        "position": [
+                            -33.0,
+                            -14.0,
+                            0.30000001192092896
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "colorEnd": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                        ],
+                                        "colorStart": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.75
+                                        ],
+                                        "lifetime": 0.8999999761581421,
+                                        "minDistance": 0.18000000715255737,
+                                        "points": [],
+                                        "sortOrder": 2,
+                                        "trail": true,
+                                        "type": "Line2D",
+                                        "width": [
+                                            0.3400000035762787,
+                                            0.0
+                                        ]
+                                    }
+                                ],
+                                "name": "S_blue_5_1_Trail",
+                                "position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 3,
+                                "frameName": "alien_blue_round",
+                                "lit": true,
+                                "sortOrder": 5,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "angularDamping": 0.6000000238418579,
+                                "bodyType": 1,
+                                "bullet": true,
+                                "castsShadow": false,
+                                "density": 1.0,
+                                "fixedRotation": false,
+                                "friction": 0.5,
+                                "linearDamping": 0.019999999552965164,
+                                "restitution": 0.25,
+                                "shape": 1,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "S_blue_5_1",
+                        "position": [
+                            -31.0,
+                            -20.0,
+                            0.30000001192092896
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "components": [
+                                    {
+                                        "colorEnd": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.0
+                                        ],
+                                        "colorStart": [
+                                            1.0,
+                                            1.0,
+                                            1.0,
+                                            0.75
+                                        ],
+                                        "lifetime": 0.8999999761581421,
+                                        "minDistance": 0.18000000715255737,
+                                        "points": [],
+                                        "sortOrder": 2,
+                                        "trail": true,
+                                        "type": "Line2D",
+                                        "width": [
+                                            0.3400000035762787,
+                                            0.0
+                                        ]
+                                    }
+                                ],
+                                "name": "S_blue_5_2_Trail",
+                                "position": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "rotation": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "scale": [
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ],
+                                "static": false,
+                                "tags": []
+                            }
+                        ],
+                        "components": [
+                            {
+                                "frame": 3,
+                                "frameName": "alien_blue_round",
+                                "lit": true,
+                                "sortOrder": 5,
+                                "source": "assets/textures/pieces.p3ds",
+                                "type": "Sprite2D"
+                            },
+                            {
+                                "angularDamping": 0.6000000238418579,
+                                "bodyType": 1,
+                                "bullet": true,
+                                "castsShadow": false,
+                                "density": 1.0,
+                                "fixedRotation": false,
+                                "friction": 0.5,
+                                "linearDamping": 0.019999999552965164,
+                                "restitution": 0.25,
+                                "shape": 1,
+                                "size": [
+                                    0.47999998927116394,
+                                    0.47999998927116394
+                                ],
+                                "type": "Physics2D"
+                            }
+                        ],
+                        "name": "S_blue_5_2",
+                        "position": [
+                            -33.0,
+                            -20.0,
+                            0.30000001192092896
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    }
+                ],
+                "components": [],
+                "name": "Spares",
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "colorEnd": [
+                                    0.20000000298023224,
+                                    0.18000000715255737,
+                                    0.20000000298023224,
+                                    1.0
+                                ],
+                                "colorStart": [
+                                    0.20000000298023224,
+                                    0.18000000715255737,
+                                    0.20000000298023224,
+                                    1.0
+                                ],
+                                "points": [
+                                    -5.5,
+                                    8.640000343322754,
+                                    -5.5,
+                                    4.980000019073486
+                                ],
+                                "sortOrder": 2,
+                                "type": "Line2D",
+                                "width": [
+                                    0.07000000029802322,
+                                    0.07000000029802322
+                                ]
+                            }
+                        ],
+                        "name": "R_Lamp_1",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.07999999821186066
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "colorEnd": [
+                                    0.20000000298023224,
+                                    0.18000000715255737,
+                                    0.20000000298023224,
+                                    1.0
+                                ],
+                                "colorStart": [
+                                    0.20000000298023224,
+                                    0.18000000715255737,
+                                    0.20000000298023224,
+                                    1.0
+                                ],
+                                "points": [
+                                    5.0,
+                                    9.039999961853027,
+                                    5.0,
+                                    5.769999980926514
+                                ],
+                                "sortOrder": 2,
+                                "type": "Line2D",
+                                "width": [
+                                    0.07000000029802322,
+                                    0.07000000029802322
+                                ]
+                            }
+                        ],
+                        "name": "R_Lamp_2",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.07999999821186066
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "colorEnd": [
+                                    0.20000000298023224,
+                                    0.18000000715255737,
+                                    0.20000000298023224,
+                                    1.0
+                                ],
+                                "colorStart": [
+                                    0.20000000298023224,
+                                    0.18000000715255737,
+                                    0.20000000298023224,
+                                    1.0
+                                ],
+                                "points": [
+                                    14.0,
+                                    8.739999771118164,
+                                    14.0,
+                                    5.739999771118164
+                                ],
+                                "sortOrder": 2,
+                                "type": "Line2D",
+                                "width": [
+                                    0.07000000029802322,
+                                    0.07000000029802322
+                                ]
+                            }
+                        ],
+                        "name": "R_Lamp_3",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.07999999821186066
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    }
+                ],
+                "components": [],
+                "name": "Ropes",
+                "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "castingShadows": false,
+                                "color": [
+                                    1.0,
+                                    0.6000000238418579,
+                                    0.75,
+                                    1.0
+                                ],
+                                "intensity": 1.25,
+                                "radius": 11.5,
+                                "type": "PointLight",
+                                "volumetricAnisotropy": 0.6000000238418579,
+                                "volumetricScattering": 0.0,
+                                "volumetricSteps": 32
+                            }
+                        ],
+                        "name": "Lamp_1_Light",
+                        "position": [
+                            0.0,
+                            -0.20000000298023224,
+                            1.2000000476837158
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "blend": "additive",
+                                "color": [
+                                    1.0,
+                                    0.6000000238418579,
+                                    0.75,
+                                    0.550000011920929
+                                ],
+                                "frame": 0,
+                                "frameName": "frame0",
+                                "pixelsPerUnit": 9.0,
+                                "sortOrder": 7,
+                                "source": "assets/textures/fx/glow.png",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Lamp_1_Glow",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.05000000074505806
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    }
+                ],
+                "components": [
+                    {
+                        "color": [
+                            1.0,
+                            0.8600000143051147,
+                            0.6000000238418579,
+                            1.0
+                        ],
+                        "frame": 80,
+                        "frameName": "metal_sq_0",
+                        "sortOrder": 6,
+                        "source": "assets/textures/pieces.p3ds",
+                        "type": "Sprite2D"
+                    },
+                    {
+                        "angularDamping": 1.0,
+                        "bodyType": 2,
+                        "castsShadow": false,
+                        "density": 0.800000011920929,
+                        "fixedRotation": false,
+                        "friction": 0.30000001192092896,
+                        "linearDamping": 0.25,
+                        "restitution": 0.0,
+                        "shape": 0,
+                        "size": [
+                            0.20999999344348907,
+                            0.25
+                        ],
+                        "type": "Physics2D"
+                    },
+                    {
+                        "anchor": [
+                            0.0,
+                            0.25
+                        ],
+                        "connected": "Lamp_1_Pin",
+                        "joint": "distance",
+                        "limit": true,
+                        "lower": 0.0,
+                        "type": "Joint2D",
+                        "upper": 3.6600000858306885
+                    }
+                ],
+                "name": "Lamp_1",
+                "position": [
+                    -5.5,
+                    4.730000019073486,
+                    0.20000000298023224
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.41999998688697815,
+                    0.5,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            },
+            {
+                "children": [],
+                "components": [
+                    {
+                        "bodyType": 0,
+                        "castsShadow": false,
+                        "density": 1.0,
+                        "fixedRotation": false,
+                        "friction": 0.30000001192092896,
+                        "restitution": 0.0,
+                        "sensor": true,
+                        "shape": 1,
+                        "size": [
+                            0.05000000074505806,
+                            0.05000000074505806
+                        ],
+                        "type": "Physics2D"
+                    }
+                ],
+                "name": "Lamp_1_Pin",
+                "position": [
+                    -5.5,
+                    8.640000343322754,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "castingShadows": false,
+                                "color": [
+                                    1.0,
+                                    0.7200000286102295,
+                                    0.3799999952316284,
+                                    1.0
+                                ],
+                                "intensity": 1.25,
+                                "radius": 11.5,
+                                "type": "PointLight",
+                                "volumetricAnisotropy": 0.6000000238418579,
+                                "volumetricScattering": 0.0,
+                                "volumetricSteps": 32
+                            }
+                        ],
+                        "name": "Lamp_2_Light",
+                        "position": [
+                            0.0,
+                            -0.20000000298023224,
+                            1.2000000476837158
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "blend": "additive",
+                                "color": [
+                                    1.0,
+                                    0.7200000286102295,
+                                    0.3799999952316284,
+                                    0.550000011920929
+                                ],
+                                "frame": 0,
+                                "frameName": "frame0",
+                                "pixelsPerUnit": 9.0,
+                                "sortOrder": 7,
+                                "source": "assets/textures/fx/glow.png",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Lamp_2_Glow",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.05000000074505806
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    }
+                ],
+                "components": [
+                    {
+                        "color": [
+                            1.0,
+                            0.8600000143051147,
+                            0.6000000238418579,
+                            1.0
+                        ],
+                        "frame": 80,
+                        "frameName": "metal_sq_0",
+                        "sortOrder": 6,
+                        "source": "assets/textures/pieces.p3ds",
+                        "type": "Sprite2D"
+                    },
+                    {
+                        "angularDamping": 1.0,
+                        "bodyType": 2,
+                        "castsShadow": false,
+                        "density": 0.800000011920929,
+                        "fixedRotation": false,
+                        "friction": 0.30000001192092896,
+                        "linearDamping": 0.25,
+                        "restitution": 0.0,
+                        "shape": 0,
+                        "size": [
+                            0.20999999344348907,
+                            0.25
+                        ],
+                        "type": "Physics2D"
+                    },
+                    {
+                        "anchor": [
+                            0.0,
+                            0.25
+                        ],
+                        "connected": "Lamp_2_Pin",
+                        "joint": "distance",
+                        "limit": true,
+                        "lower": 0.0,
+                        "type": "Joint2D",
+                        "upper": 3.2699999809265137
+                    }
+                ],
+                "name": "Lamp_2",
+                "position": [
+                    5.0,
+                    5.519999980926514,
+                    0.20000000298023224
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.41999998688697815,
+                    0.5,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            },
+            {
+                "children": [],
+                "components": [
+                    {
+                        "bodyType": 0,
+                        "castsShadow": false,
+                        "density": 1.0,
+                        "fixedRotation": false,
+                        "friction": 0.30000001192092896,
+                        "restitution": 0.0,
+                        "sensor": true,
+                        "shape": 1,
+                        "size": [
+                            0.05000000074505806,
+                            0.05000000074505806
+                        ],
+                        "type": "Physics2D"
+                    }
+                ],
+                "name": "Lamp_2_Pin",
+                "position": [
+                    5.0,
+                    9.039999961853027,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "castingShadows": false,
+                                "color": [
+                                    1.0,
+                                    0.7200000286102295,
+                                    0.3799999952316284,
+                                    1.0
+                                ],
+                                "intensity": 1.25,
+                                "radius": 11.5,
+                                "type": "PointLight",
+                                "volumetricAnisotropy": 0.6000000238418579,
+                                "volumetricScattering": 0.0,
+                                "volumetricSteps": 32
+                            }
+                        ],
+                        "name": "Lamp_3_Light",
+                        "position": [
+                            0.0,
+                            -0.20000000298023224,
+                            1.2000000476837158
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    },
+                    {
+                        "children": [],
+                        "components": [
+                            {
+                                "blend": "additive",
+                                "color": [
+                                    1.0,
+                                    0.7200000286102295,
+                                    0.3799999952316284,
+                                    0.550000011920929
+                                ],
+                                "frame": 0,
+                                "frameName": "frame0",
+                                "pixelsPerUnit": 9.0,
+                                "sortOrder": 7,
+                                "source": "assets/textures/fx/glow.png",
+                                "type": "Sprite2D"
+                            }
+                        ],
+                        "name": "Lamp_3_Glow",
+                        "position": [
+                            0.0,
+                            0.0,
+                            0.05000000074505806
+                        ],
+                        "rotation": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "scale": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "static": false,
+                        "tags": []
+                    }
+                ],
+                "components": [
+                    {
+                        "color": [
+                            1.0,
+                            0.8600000143051147,
+                            0.6000000238418579,
+                            1.0
+                        ],
+                        "frame": 80,
+                        "frameName": "metal_sq_0",
+                        "sortOrder": 6,
+                        "source": "assets/textures/pieces.p3ds",
+                        "type": "Sprite2D"
+                    },
+                    {
+                        "angularDamping": 1.0,
+                        "bodyType": 2,
+                        "castsShadow": false,
+                        "density": 0.800000011920929,
+                        "fixedRotation": false,
+                        "friction": 0.30000001192092896,
+                        "linearDamping": 0.25,
+                        "restitution": 0.0,
+                        "shape": 0,
+                        "size": [
+                            0.20999999344348907,
+                            0.25
+                        ],
+                        "type": "Physics2D"
+                    },
+                    {
+                        "anchor": [
+                            0.0,
+                            0.25
+                        ],
+                        "connected": "Lamp_3_Pin",
+                        "joint": "distance",
+                        "limit": true,
+                        "lower": 0.0,
+                        "type": "Joint2D",
+                        "upper": 3.0
+                    }
+                ],
+                "name": "Lamp_3",
+                "position": [
+                    14.0,
+                    5.489999771118164,
+                    0.20000000298023224
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    0.41999998688697815,
+                    0.5,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            },
+            {
+                "children": [],
+                "components": [
+                    {
+                        "bodyType": 0,
+                        "castsShadow": false,
+                        "density": 1.0,
+                        "fixedRotation": false,
+                        "friction": 0.30000001192092896,
+                        "restitution": 0.0,
+                        "sensor": true,
+                        "shape": 1,
+                        "size": [
+                            0.05000000074505806,
+                            0.05000000074505806
+                        ],
+                        "type": "Physics2D"
+                    }
+                ],
+                "name": "Lamp_3_Pin",
+                "position": [
+                    14.0,
+                    8.739999771118164,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "static": false,
+                "tags": []
+            }
+        ],
+        "components": [],
+        "name": "Level",
+        "position": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "rotation": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "scale": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "static": false,
+        "tags": []
+    },
+    "version": 1
+}
