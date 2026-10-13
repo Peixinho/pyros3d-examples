@@ -9,7 +9,8 @@
 --   Bike<n>               the chassis body         Bike<n>_WR / _WF       the wheel bodies
 --   Bike<n>_ForkLower, _Swingarm, _Rider_*         parts this script moves
 --   Bike<n>_Roost         the dirt off the rear wheel   Bike<n>_Engine    its sound
---   Ground_<k>            the track's outline      Cam                    the camera
+--   Track                 the dirt: an Extrusion2D Start, Finish          where the race runs from and to
+--   Cam                   the camera
 --
 -- What it leans on in the engine:
 --   Physics2D in a 3D scene    bodies in the plane of the screen, models as their children
@@ -36,7 +37,11 @@ end
 
 return function(cfg)
 
-local TRACK = cfg.track and assert(loadfile(ASSETS_PATH .. "lua/kickstart/track" .. cfg.track .. ".lua"))()
+-- The track is in the scene: "Track" is an Extrusion2D (its outline is the ground, and the
+-- collider), and the race runs from the object "Start" to the object "Finish". Reshape the one
+-- or move the others in the editor and this needs no telling.
+local TRACK = { length = 400, start = 0 }
+local GROUND, GROUND_X, GROUND_Y = nil, 0, 0
 
 -- The bike, as tools/make_bike.py drew it (x forward, y up, from the bike's own origin).
 local RA, FA = { -0.72, 0.33 }, { 0.76, 0.35 }
@@ -59,14 +64,10 @@ local TRICKS = {
     { key = "cancan", hipX = -0.46, hipY = 1.10, lean = 0.22, feet = { 0.62, 1.46 }, points = 260 },
 }
 
--- The ground's height at x, from the track's own table.
+-- The ground's height at x: asked of the track's outline.
 local function groundAt(x)
-    local f = (x - TRACK.x0) / TRACK.step
-    local i = math.floor(f)
-    local n = #TRACK.h
-    if i < 0 then return TRACK.h[1] end
-    if i >= n - 1 then return TRACK.h[n] end
-    return lerp(TRACK.h[i + 1], TRACK.h[i + 2], f - i)
+    if not GROUND then return 0 end
+    return GROUND:heightAt(x - GROUND_X) + GROUND_Y
 end
 local function slopeAt(x) return math.atan(groundAt(x + 0.6) - groundAt(x - 0.6), 1.2) end
 
@@ -115,6 +116,11 @@ function Game:init(owner)
                              "PadBack", "PadFwd", "PadBrake", "PadGas", "PadTrick", "Score", "Card", "CardTitle", "CardTime", "CardBest", "CardScore",
                              "CardMenu", "CardRetry", "CardNext" }) do U(n) end
         physics2d:setGravity(0, GRAVITY)
+        local track, start, finish = scene:find("Track"), scene:find("Start"), scene:find("Finish")
+        GROUND = track and track:getComponent("Extrusion2D")
+        if track then local tp = track:getPosition() GROUND_X, GROUND_Y = tp.x, tp.y end
+        TRACK.start = start and start:getPosition().x or 0
+        TRACK.length = finish and finish:getPosition().x or 400
         self:findBikes()
         self:startRace()
     end
@@ -205,7 +211,7 @@ function Game:startRace()
         bike.pose, bike.trick, bike.points, bike.done, bike.showoff = 0, 0, 0, {}, nil
         bike.skill = bike.rival and (base + (k - 2) * 0.045) or 1.0
         bike.boost = 0
-        self:reset(bike, -1.6)
+        self:reset(bike, TRACK.start - 1.6)
     end
     self.state, self.count, self.time, self.finishers = "grid", 3.6, 0, 0
     self.score, self.jumps = 0, 0
@@ -540,7 +546,7 @@ function Game:updateRace(dt)
         local down = headY < groundAt(headX) + 0.12 or p.y < groundAt(p.x) - 3
         if down and bike.upside == 0 and not bike.ai then self:play("crash", 0.7) end
         bike.upside = down and bike.upside + dt or 0
-        if bike.upside > 0.6 then self:reset(bike, clamp(p.x - 3, -1.6, TRACK.length + 20)) end
+        if bike.upside > 0.6 then self:reset(bike, clamp(p.x - 3, TRACK.start - 1.6, TRACK.length + 20)) end
         -- a rival going nowhere (wedged against a face it came up short of) is set down again where it is
         if bike.ai and self.state == "race" and not bike.finished then
             bike.stall = (math.abs(bike.body:getLinearVelocity().x) < 1.0) and (bike.stall or 0) + dt or 0
@@ -566,7 +572,7 @@ function Game:updateRace(dt)
     for _, bike in ipairs(self.bikes) do
         local dot = U["Dot" .. bike.index]
         if dot then
-            local f = clamp(bike.go:getPosition().x / TRACK.length, 0, 1) * 520
+            local f = clamp((bike.go:getPosition().x - TRACK.start) / math.max(1, TRACK.length - TRACK.start), 0, 1) * 520
             local r = (bike == self.player) and 11 or 8
             ui.setOffsets(dot, f - r, -r, f + r, r)
         end

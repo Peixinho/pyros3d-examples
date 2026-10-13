@@ -9,8 +9,9 @@
 <work> is the folder the two Blender scripts wrote into (parts/, tracks/,
 bike.json, rest.json).
 
-A track is a scene: its dirt (a model, with its outline as static chain
-bodies), four bikes, a camera, the interface. A bike is three 2D bodies -
+A track is a scene: its dirt (an Extrusion2D - an outline given depth, with
+its collider; drag its points in the editor to reshape the track), a Start
+and a Finish object, four bikes, a camera, the interface. A bike is three 2D bodies -
 a chassis and two wheels on sprung wheel joints - with the 3D parts hung on
 them; the script (assets/lua/kickstart/game.lua) does the rest: it turns the
 rear wheel, leans the rider, and moves the fork, the swingarm and the rider's
@@ -201,6 +202,14 @@ def bike(index, lane_z, start_x, ground_y):
     return b
 
 
+def height_at(pts, x):
+    for i in range(len(pts) - 1):
+        a, b = pts[i], pts[i + 1]
+        if a[0] <= x <= b[0]:
+            return a[1] + (b[1] - a[1]) * (x - a[0]) / max(1e-6, b[0] - a[0])
+    return pts[-1][1]
+
+
 def title():
     """The menu: the first track's stadium behind it, and a button a track."""
     t = json.load(open(os.path.join(WORK, "tracks", "track1.json")))
@@ -210,8 +219,9 @@ def title():
     call("add_light", name="Floods", type="directional", direction=[-0.30, -1.0, -0.62], color=[1.0, 0.97, 0.90], intensity=1.05,
          castingShadows=True, shadowMapSize=2048, shadowFar=60.0)
     call("add_camera", name="Cam", fov=36.0, near=0.5, far=600.0, active=True, position=[66, 4.0, 15])
-    model("Track", os.path.join(WORK, "tracks", "Track1.glb"), (0, 0, 0))
-    model("Lines", os.path.join(WORK, "tracks", "Lines1.glb"), (0, 0, 0))
+    call("add_object", name="Track", position=[0, 0, 0])
+    call("add_extrusion2d", object="Track", points=[p for p in t["points"] if p[0] < 190], smooth=3, depth=t["depth"], floor=t["base"], tile=3.0,
+         skin="assets/textures/dirt_top.jpg", face="assets/textures/dirt_side.jpg", skinColor=[1, 1, 1, 1], faceColor=[1, 1, 1, 1])
     model("Stadium", os.path.join(WORK, "tracks", "Stadium1.glb"), (0, 0, 0))
     st = json.load(open(os.path.join(WORK, "tracks", "stadium1.json")))
     call("add_object", name="Crowd")
@@ -251,8 +261,20 @@ def track(number):
     call("add_light", name="Floods", type="directional", direction=[-0.30, -1.0, -0.62], color=[1.0, 0.97, 0.90], intensity=1.05,
          castingShadows=True, shadowMapSize=2048, shadowFar=60.0)
     call("add_camera", name="Cam", fov=36.0, near=0.5, far=600.0, active=True, position=[0, 3, 16])
-    model("Track", os.path.join(WORK, "tracks", "Track%d.glb" % number), (0, 0, 0))
-    model("Lines", os.path.join(WORK, "tracks", "Lines%d.glb" % number), (0, 0, 0))
+    # The dirt: an outline given depth. Its points are what the track is - drag them in the
+    # view (Edit Outline) and the mesh and the collider both follow. A static body of its own,
+    # on layer 0, which is all the bikes collide with.
+    call("add_object", name="Track", position=[0, 0, 0])
+    call("add_physics2d", name="Track", bodyType="static", shape="chain", polygon=[[0, 0], [1, 0]], loop=False, friction=1.0, layer=0,
+         castsShadow=False)
+    call("add_extrusion2d", object="Track", points=pts, smooth=3, depth=t["depth"], floor=t["base"], tile=3.0,
+         skin="assets/textures/dirt_top.jpg", face="assets/textures/dirt_side.jpg", skinColor=[1, 1, 1, 1], faceColor=[1, 1, 1, 1])
+    # Where the race starts and ends: two objects, each with its board. Move one and the race moves with it.
+    half = t["depth"] / 2.0
+    for name, x, board in (("Start", 0.0, "BoardStart"), ("Finish", float(t["length"]), "BoardFinish")):
+        y = height_at(pts, x)
+        call("add_object", name=name, position=[x, y, 0])
+        model(name + "_Board", os.path.join(WORK, "tracks", board + ".glb"), (0, 0, -half - 0.35), parent=name)
     model("Stadium", os.path.join(WORK, "tracks", "Stadium%d.glb" % number), (0, 0, 0))
     # The crowd, a bay at a time: three bays' worth of people, set side by side along the stand.
     st = json.load(open(os.path.join(WORK, "tracks", "stadium%d.json" % number)))
@@ -262,39 +284,15 @@ def track(number):
         model("Crowd_%d" % k, os.path.join(WORK, "tracks", "CrowdBay%d.glb" % (k % 3)), (x, 0, 0), parent="Crowd")
         x += st["bay"]
         k += 1
-    # The ground the wheels run on: the track's outline, as chains of a couple of hundred points.
-    # Each begins where the last ended.
-    call("add_object", name="Ground")
-    chunk, k = 180, 0
-    for start in range(0, len(pts) - 1, chunk):
-        part = pts[start:start + chunk + 1]
-        g = "Ground_%d" % k
-        call("add_object", name=g, parent="Ground", position=[0, 0, 0])
-        call("add_physics2d", name=g, bodyType="static", shape="chain", polygon=part, loop=False, friction=1.0, layer=0, castsShadow=False)
-        k += 1
     half = t["depth"] / 2.0
     for i in range(len(RIDERS)):
         lane_z = half - (i + 0.5) * t["depth"] / t["lanes"]          # the player nearest the camera
         bike(i, lane_z, -1.6, 0.0)
     call("add_audio", name="CrowdAmb", file="assets/sounds/crowd.wav", looping=True, volume=0.22)
     hud(t["name"].upper())
-    # What the script reads the ground from: heights every half metre.
-    lua = ["-- Written by tools/build_game.py: track %d, heights every half metre from x0." % number,
-           "return { name = %s, length = %d, x0 = %s, step = %s, depth = %s, lanes = %d, h = {" % (json.dumps(t["name"]), t["length"], pts[0][0], pts[1][0] - pts[0][0], t["depth"], t["lanes"])]
-    row = []
-    for p in pts:
-        row.append("%g" % p[1])
-        if len(row) == 24:
-            lua.append("    " + ", ".join(row) + ",")
-            row = []
-    if row:
-        lua.append("    " + ", ".join(row) + ",")
-    lua.append("} }")
-    os.makedirs(os.path.join(PROJECT, "assets", "lua", "kickstart"), exist_ok=True)
-    open(os.path.join(PROJECT, "assets", "lua", "kickstart", "track%d.lua" % number), "w").write("\n".join(lua) + "\n")
     script = os.path.join(PROJECT, "scenes", "Track%d.lua" % number)
     open(script, "w").write("-- A track: its scene is the stage; the rules are in assets/lua/kickstart/game.lua.\n"
-                            "return assert(loadfile(ASSETS_PATH .. \"lua/kickstart/game.lua\"))()({ track = %d })\n" % number)
+                            "return assert(loadfile(ASSETS_PATH .. \"lua/kickstart/game.lua\"))()({ track = %d, name = %s })\n" % (number, json.dumps(t["name"])))
     call("set_scene_main_script", path="scenes/Track%d.lua" % number)
     call("save_scene_as", path="scenes/Track%d.json" % number)
     print("built scenes/Track%d.json  (%s, %d m)" % (number, t["name"], t["length"]))

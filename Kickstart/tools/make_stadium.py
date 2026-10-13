@@ -71,11 +71,8 @@ def export(obj, stem):
 def build(number):
     bpy.ops.wm.read_factory_settings(use_empty=True)
     t = json.load(open(os.path.join(WORK, "tracks", "track%d.json" % number)))
-    pts, length, half = t["points"], t["length"], t["depth"] / 2.0
-    def h(x):
-        f = (x - pts[0][0]) / (pts[1][0] - pts[0][0]); i = max(0, min(len(pts) - 2, int(f)))
-        return pts[i][1] + (pts[i + 1][1] - pts[i][1]) * (f - i)
-    x0, x1 = pts[0][0], pts[-1][0]
+    length, half = t["length"], t["depth"] / 2.0
+    x0, x1 = t["x0"], t["x1"]
     rnd = random.Random(40 + number)
 
     concrete = flat("Concrete", (0.36, 0.37, 0.40))
@@ -91,11 +88,10 @@ def build(number):
     # the floor behind the dirt
     s.quad([(x0, half, -0.02), (x1, half, -0.02), (x1, 70.0, -0.02), (x0, 70.0, -0.02)], floor,
            [(x0 / 6, 0), (x1 / 6, 0), (x1 / 6, 11), (x0 / 6, 11)])
-    # tuff blocks along the back of the dirt, on it
-    x = 2.0
-    while x < length - 2:
-        z = h(x) - 0.05
-        s.box((x - 0.55, half - 0.55, z), (x + 0.55, half - 0.05, z + 0.5), blocks[int(x / 2.4) % 4])
+    # tuff blocks in a row on the floor behind the dirt (not on it: the dirt is the scene's to reshape)
+    x = x0 + 2.0
+    while x < x1 - 2:
+        s.box((x - 0.55, half + 0.9, 0.0), (x + 0.55, half + 1.4, 0.5), blocks[int(x / 2.4) % 4])
         x += 2.4
     # the barrier, with a board to each stretch
     by = 9.0
@@ -134,21 +130,6 @@ def build(number):
     s.box((mid - 9, top_y - 1.0, top_z + 4.2), (mid + 9, top_y - 0.4, top_z + 10.2), dark)
     s.quad([(mid - 8.5, top_y - 1.02, top_z + 4.7), (mid + 8.5, top_y - 1.02, top_z + 4.7), (mid + 8.5, top_y - 1.02, top_z + 9.7), (mid - 8.5, top_y - 1.02, top_z + 9.7)],
            image("Scoreboard", "scoreboard.png"))
-    # the start and the finish: a board on two posts at the back of the dirt, facing the camera
-    for at, pic in ((0.0, "start.png"), (float(length), "finish.png")):
-        z = h(at)
-        y = half + 0.35
-        for px in (at - 4.0, at + 4.0):
-            s.box((px - 0.12, y - 0.12, z - 0.5), (px + 0.12, y + 0.12, z + 5.0), steel)
-        s.box((at - 4.1, y - 0.05, z + 3.9), (at + 4.1, y + 0.05, z + 5.0), dark)
-        s.quad([(at - 4.0, y - 0.07, z + 3.95), (at + 4.0, y - 0.07, z + 3.95), (at + 4.0, y - 0.07, z + 4.95), (at - 4.0, y - 0.07, z + 4.95)], image("Banner_" + pic, pic))
-    # flags on the dirt at the top of every jump
-    for o in t["obstacles"]:
-        if o[0] in ("table", "kicker"):
-            fx = o[1] + (o[2] if o[0] == "kicker" else o[2] + o[3] * 0.5)
-            z = h(fx)
-            s.box((fx - 0.03, half - 0.9, z), (fx + 0.03, half - 0.84, z + 2.2), steel)
-            s.quad([(fx + 0.03, half - 0.87, z + 1.6), (fx + 0.75, half - 0.87, z + 1.85), (fx + 0.03, half - 0.87, z + 2.15), (fx + 0.03, half - 0.87, z + 2.15)], blocks[1])
     stadium = s.finish()
     export(stadium, "Stadium%d" % number)
     print("STADIUM", number, len(stadium.data.polygons), "faces")
@@ -179,7 +160,21 @@ def crowd(variant):
     export(o, "CrowdBay%d" % variant)
     print("CROWD", variant, len(o.data.polygons), "faces")
 
+def board(name, pic):
+    """The start's and the finish's board, on two posts: a model of its own, so the scene can stand it where the line is."""
+    bpy.ops.wm.read_factory_settings(use_empty=True)
+    b = Mesh(name)
+    steel = flat("Steel", (0.55, 0.57, 0.62), 0.4, 0.8)
+    dark = flat("Dark", (0.08, 0.09, 0.11))
+    for px in (-4.0, 4.0):
+        b.box((px - 0.12, -0.12, -8.0), (px + 0.12, 0.12, 5.0), steel)
+    b.box((-4.1, -0.05, 3.9), (4.1, 0.05, 5.0), dark)
+    b.quad([(-4.0, -0.07, 3.95), (4.0, -0.07, 3.95), (4.0, -0.07, 4.95), (-4.0, -0.07, 4.95)], image("Banner_" + pic, pic))
+    export(b.finish(), name)
+
 for n in WHICH:
     build(n)
+board("BoardStart", "start.png")
+board("BoardFinish", "finish.png")
 for v in range(3):
     crowd(v)

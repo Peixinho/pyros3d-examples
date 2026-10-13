@@ -1,5 +1,5 @@
 {
-    "activeScene": "scenes/Track3.json",
+    "activeScene": "scenes/Track1.json",
     "name": "Kickstart",
     "scenes": [
         "scenes/Title.json",

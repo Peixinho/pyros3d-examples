@@ -1,19 +1,23 @@
-# A motocross track from a list of obstacles: the dirt as a mesh (its top, the
-# cut face towards the camera, lane lines), and its outline for the 2D physics.
-#
-#   blender --background --python make_track.py -- <out_dir> <textures_dir> [track numbers...]
-#
-# The game is side on: +X along the track, +Z up here (Y up once exported),
-# and the track is DEPTH wide across. Lengths are metres.
-import bpy, bmesh, math, sys, os, json
+#!/usr/bin/env python3
+"""A motocross track from a list of obstacles, as the points its ground is drawn from.
 
-argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
-OUT, TEX = argv[0], argv[1]
-WHICH = [int(a) for a in argv[2:]]
+    python3 tools/make_track.py <work> [track numbers...]
+
+Writes <work>/tracks/track<n>.json: the outline's points (what the scene's
+Extrusion2D is given - few enough to drag about in the editor afterwards) and
+where things are along it. A track is a starting point: once it is in a scene
+it is edited there, point by point. Lengths are metres.
+"""
+import json
+import math
+import os
+import sys
+
+WORK = sys.argv[1] if len(sys.argv) > 1 else sys.exit(__doc__)
+WHICH = [int(a) for a in sys.argv[2:]]
 
 DEPTH = 7.0            # how wide the dirt is, across
-BASE = -6.0            # how far down the cut face goes
-STEP = 0.25            # a slice of mesh
+BASE = -6.0            # how far down its cut face goes
 LANES = 4
 
 # ----- obstacles: each adds height over a stretch -------------------------------------
@@ -100,88 +104,35 @@ def height(obstacles, x):
             for i in range(o[2]): h += roller(x, o[1] + i * o[3], o[3], o[4])
     return h
 
-def image_material(name, file, scale):
-    m = bpy.data.materials.new(name)
-    m.use_nodes = True
-    nt = m.node_tree
-    tex = nt.nodes.new("ShaderNodeTexImage")
-    tex.image = bpy.data.images.load(os.path.join(TEX, file))
-    b = nt.nodes["Principled BSDF"]
-    nt.links.new(tex.outputs["Color"], b.inputs["Base Color"])
-    b.inputs["Roughness"].default_value = 0.95
-    return m
 
-def flat(name, rgb, rough=0.8):
-    m = bpy.data.materials.new(name); m.use_nodes = True
-    b = m.node_tree.nodes["Principled BSDF"]
-    b.inputs["Base Color"].default_value = (rgb[0], rgb[1], rgb[2], 1); b.inputs["Roughness"].default_value = rough
-    return m
+def outline(obstacles, x0, x1):
+    """The profile as points an editor can hold: one every metre and a half where it
+    curves, and only the two ends of anything flat."""
+    step = 1.5
+    xs = [x0 + i * step for i in range(int((x1 - x0) / step) + 1)]
+    if xs[-1] < x1: xs.append(x1)
+    pts = [[x, height(obstacles, x)] for x in xs]
+    keep = [pts[0]]
+    for i in range(1, len(pts) - 1):
+        a, b, c = keep[-1], pts[i], pts[i + 1]
+        # (on the line from the last kept point to the next: it adds nothing)
+        t = (b[0] - a[0]) / (c[0] - a[0])
+        if abs(a[1] + (c[1] - a[1]) * t - b[1]) > 0.004 or b[0] - a[0] > 12.0:
+            keep.append(b)
+    keep.append(pts[-1])
+    return [[round(x, 3), round(y, 3)] for x, y in keep]
+
 
 def build(number):
     name, length, obstacles = TRACKS[number]
-    bpy.ops.wm.read_factory_settings(use_empty=True)
-    top = image_material("DirtTop", "brown_mud_dry_diff.jpg", 3.0)
-    side = image_material("DirtSide", "dirt_diff.jpg", 3.0)
-    chalk = flat("Chalk", (0.92, 0.90, 0.84))
     x0, x1 = -30.0, length + 40.0
-    n = int((x1 - x0) / STEP) + 1
-    xs = [x0 + i * STEP for i in range(n)]
-    hs = [height(obstacles, x) for x in xs]
-
-    me = bpy.data.meshes.new("Track")
-    bm = bmesh.new()
-    uv = bm.loops.layers.uv.new("UVMap")
-    half = DEPTH / 2
-    def quad(a, b, c, d, mat, uvs):
-        f = bm.faces.new((a, b, c, d)); f.material_index = mat; f.smooth = (mat == 0)
-        for loop, t in zip(f.loops, uvs): loop[uv].uv = t
-    prev = None
-    for i in range(n):
-        x, h = xs[i], hs[i]
-        row = (bm.verts.new((x, half, h)), bm.verts.new((x, -half, h)), bm.verts.new((x, -half, BASE)))      # back top, front top, front base
-        if prev:
-            xa, xb = xs[i - 1], x
-            # the top, seen from above: +Z
-            quad(prev[1], row[1], row[0], prev[0], 0, [(xa / 3, 0), (xb / 3, 0), (xb / 3, DEPTH / 3), (xa / 3, DEPTH / 3)])
-            # the cut face, towards the camera: -Y
-            quad(prev[2], row[2], row[1], prev[1], 1, [(xa / 4, BASE / 4), (xb / 4, BASE / 4), (xb / 4, hs[i] / 4), (xa / 4, hs[i - 1] / 4)])
-        prev = row
-    bm.normal_update()
-    bm.to_mesh(me); bm.free()
-    me.materials.append(top); me.materials.append(side)
-    track = bpy.data.objects.new("Track", me); bpy.context.scene.collection.objects.link(track)
-
-    # lane lines: thin strips of chalk a finger above the dirt
-    bm = bmesh.new()
-    for lane in range(1, LANES):
-        y = -half + DEPTH * lane / LANES
-        prev = None
-        for i in range(n):
-            if xs[i] < 0 or xs[i] > length: prev = None; continue
-            dashed = int(xs[i] / 2.0) % 2 == 0
-            row = (bm.verts.new((xs[i], y + 0.04, hs[i] + 0.012)), bm.verts.new((xs[i], y - 0.04, hs[i] + 0.012)))
-            if prev and dashed: bm.faces.new((prev[1], row[1], row[0], prev[0]))
-            prev = row
-    # start and finish lines, solid, right across
-    for at in (0.0, float(length)):
-        hh = height(obstacles, at)
-        a = [bm.verts.new((at - 0.15, half, hh + 0.014)), bm.verts.new((at - 0.15, -half, hh + 0.014)), bm.verts.new((at + 0.15, -half, hh + 0.014)), bm.verts.new((at + 0.15, half, hh + 0.014))]
-        bm.faces.new((a[1], a[2], a[3], a[0]))
-    lm = bpy.data.meshes.new("Lines"); bm.normal_update(); bm.to_mesh(lm); bm.free(); lm.materials.append(chalk)
-    lines = bpy.data.objects.new("Lines", lm); bpy.context.scene.collection.objects.link(lines)
-
-    os.makedirs(os.path.join(OUT, "tracks"), exist_ok=True)
-    for o, stem in ((track, "Track%d" % number), (lines, "Lines%d" % number)):
-        for x in bpy.context.scene.objects: x.select_set(False)
-        o.select_set(True); bpy.context.view_layer.objects.active = o
-        bpy.ops.export_scene.gltf(filepath=os.path.join(OUT, "tracks", stem + ".glb"), use_selection=True, export_format='GLB',
-                                  export_apply=True, export_yup=True, export_materials='EXPORT')
-    # the outline the wheels run on: a point every half metre, and what the game needs to know
-    pts = [[round(xs[i], 3), round(hs[i], 3)] for i in range(0, n, 2)]
+    pts = outline(obstacles, x0, x1)
+    os.makedirs(os.path.join(WORK, "tracks"), exist_ok=True)
     json.dump({"name": name, "length": length, "depth": DEPTH, "lanes": LANES, "base": BASE, "points": pts,
-               "obstacles": [list(o) for o in obstacles]},
-              open(os.path.join(OUT, "tracks", "track%d.json" % number), "w"))
+               "x0": x0, "x1": x1, "obstacles": [list(o) for o in obstacles]},
+              open(os.path.join(WORK, "tracks", "track%d.json" % number), "w"))
     print("TRACK", number, name, len(pts), "points")
+
 
 for number in (WHICH or sorted(TRACKS)):
     build(number)
