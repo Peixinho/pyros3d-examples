@@ -16581,7 +16581,7 @@
                     "type": "SpotLight",
                     "volumetricAnisotropy": 0.6000000238418579,
                     "volumetricScattering": 0.1599999964237213,
-                    "volumetricSteps": 32
+                    "volumetricSteps": 16
                 }
             ],
             "name": "KeySpot_W",
@@ -16631,7 +16631,7 @@
                     "type": "SpotLight",
                     "volumetricAnisotropy": 0.7200000286102295,
                     "volumetricScattering": 0.18000000715255737,
-                    "volumetricSteps": 32
+                    "volumetricSteps": 16
                 }
             ],
             "name": "KeySpot_C",
@@ -16676,7 +16676,7 @@
                     "type": "SpotLight",
                     "volumetricAnisotropy": 0.6000000238418579,
                     "volumetricScattering": 0.1599999964237213,
-                    "volumetricSteps": 32
+                    "volumetricSteps": 16
                 }
             ],
             "name": "KeySpot_E",
@@ -16726,7 +16726,7 @@
                     "type": "SpotLight",
                     "volumetricAnisotropy": 0.7200000286102295,
                     "volumetricScattering": 0.20000000298023224,
-                    "volumetricSteps": 32
+                    "volumetricSteps": 16
                 }
             ],
             "name": "TrainSpot",
